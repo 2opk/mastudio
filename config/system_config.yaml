@@ -1,0 +1,28 @@
+evaluation_threshold: 78
+max_loops: 10
+recursion_limit: 1000
+
+# Role → alias. Swap these to redirect per-role model selection.
+models:
+  director: qwen2.5-vl-7b-instruct
+  generator: qwen2.5-vl-7b-instruct
+  evaluator: qwen2.5-vl-7b-instruct
+  open_source: qwen2.5-vl-7b-instruct
+
+# Alias → LiteLLM model string. Add or adjust as needed (Gemini, OpenAI, Anthropic, Qwen).
+aliases:
+  gemini-1.5-pro: gemini/gemini-1.5-pro
+  gemini-1.5-flash: gemini/gemini-1.5-flash
+  gpt-4o: openai/gpt-4o
+  gpt-4o-mini: openai/gpt-4o-mini
+  claude-3.5-sonnet: anthropic/claude-3.5-sonnet
+  # Match the model id exposed by your vLLM server (case-sensitive).
+  qwen2.5-vl-7b-instruct: qwen/Qwen2.5-VL-7B-Instruct
+
+vllm:
+  # Override via VLLM_API_BASE if your server is on a different host/port.
+  api_base: http://127.0.0.1:8000/v1
+  tensor_parallel_size: 4
+sdxl:
+  mode: stability # set to "stability" to hit the Stability API
+  output_dir: output

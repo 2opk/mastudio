@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments / tools
+.env
+.env.*
+.venv
+.idea/
+.vscode/
+
+# Outputs / caches
+output/
+.DS_Store

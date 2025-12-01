@@ -1,0 +1,12 @@
+[
+  {
+    "id": "director_vision",
+    "name": "Visual Director",
+    "prompt": "prompts/directors/visual.md"
+  },
+  {
+    "id": "director_story",
+    "name": "Narrative Director",
+    "prompt": "prompts/directors/story.md"
+  }
+]

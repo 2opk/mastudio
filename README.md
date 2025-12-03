@@ -29,7 +29,7 @@ Director–Generator MAS for image prompt iteration. Uses LiteLLM for chat model
 ## Configuration
 - `config/system_config.yaml` controls model aliases, vLLM endpoint, SDXL mode, loop limits, and recursion limit (defaults: `max_loops=10`, `recursion_limit=1000`, SDXL `mode=mock`).
 - `config/directors.json` and `config/generators.json` define agent personas; prompts live under `prompts/`.
-- For real SDXL calls, set `sdxl.mode: stability` and `STABILITY_API_KEY` in your environment.
+- For SDXL: `sdxl.mode` can be `mock` (placeholder PNGs), `api` (Stability API; requires `STABILITY_API_KEY`), or `local` (loads the SDXL base pipeline to `sdxl.device`).
 
 ## Notes
 - Local vLLM must advertise a model id matching the alias in `config/system_config.yaml` (case-sensitive).

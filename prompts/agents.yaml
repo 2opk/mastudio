@@ -1,0 +1,15 @@
+agents:
+  - id: director_vision
+    display_name: Concept Designer
+  - id: director_story
+    display_name: Narrative Director
+  - id: director_aggregate
+    display_name: Creative Director
+  - id: generator_texture
+    display_name: Texture Specialist
+  - id: generator_light
+    display_name: Lighting Designer
+  - id: generator_concept
+    display_name: Concept Illustrator
+  - id: evaluator
+    display_name: Evaluator

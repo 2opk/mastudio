@@ -1,62 +1,102 @@
-import base64
 import json
+import os
 import struct
 import uuid
 import zlib
+from io import BytesIO
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Callable, Dict, List
 
-import httpx
+import requests
+import torch
+from diffusers import DiffusionPipeline
 
 from .utils import SDXLConfig, ensure_output_dir
 
 
 class SDXLWrapper:
-    def __init__(self, config: SDXLConfig, stability_key: Optional[str] = None) -> None:
+    def __init__(self, config: SDXLConfig) -> None:
         self.config = config
-        self.stability_key = stability_key
         self.output_dir = ensure_output_dir(config.output_dir)
+        self.pipe = None
+        if self.config.mode == "local":
+            self.load_model()
 
-    def generate(self, prompts: List[str]) -> List[str]:
-        if self.config.mode == "stability" and self.stability_key:
-            return self._generate_via_api(prompts)
-        return self._generate_mock(prompts)
+    def load_model(self):
+        if self.pipe is not None:
+            return
+        self.pipe = DiffusionPipeline.from_pretrained(
+            "stabilityai/stable-diffusion-xl-base-1.0",
+            torch_dtype=torch.float16,
+            use_safetensors=True,
+            variant="fp16",
+        )
+        self.pipe.to(self.config.device)
 
-    def _generate_via_api(self, prompts: List[str]) -> List[str]:
+    def generate(self, prompts: List[str], iteration: int) -> List[str]:
         images: List[str] = []
-        url = "https://api.stability.ai/v1/generation/sdxl-1024x1024/text-to-image"
+        if self.config.mode == "local":
+            if self.pipe is None:
+                self.load_model()
+            if len(prompts) > 1:
+                batch_bytes = self._generate_sdxl_batch(prompts)
+                for idx, (prompt, image_bytes) in enumerate(zip(prompts, batch_bytes)):
+                    filename = self.get_image_path(iteration=iteration, prompt_index=idx, suffix=".png")
+                    filename.write_bytes(image_bytes)
+                    images.append(str(filename))
+                return images
+            generator: Callable[[str], bytes] = self._generate_sdxl
+        elif self.config.mode == "api":
+            generator = self._generate_via_api
+        else:
+            generator = self._generate_mock
+
+        for idx, prompt in enumerate(prompts):
+            image_bytes = generator(prompt)
+            filename = self.get_image_path(iteration=iteration, prompt_index=idx, suffix=".png")
+            filename.write_bytes(image_bytes)
+            if generator is self._generate_mock:
+                metadata_path = filename.with_suffix(".txt")
+                metadata_path.write_text(f"MOCK IMAGE FOR PROMPT:\n{prompt}\n", encoding="utf-8")
+            images.append(str(filename))
+        return images
+
+    def _generate_sdxl(self, prompt: str) -> bytes:
+        image = self.pipe(prompt=prompt).images[0]
+        buffer = BytesIO()
+        image.save(buffer, format="PNG")
+        return buffer.getvalue()
+
+    def _generate_sdxl_batch(self, prompts: List[str]) -> List[bytes]:
+        result = self.pipe(prompt=prompts).images
+        outputs: List[bytes] = []
+        for img in result:
+            buffer = BytesIO()
+            img.save(buffer, format="PNG")
+            outputs.append(buffer.getvalue())
+        return outputs
+
+    def _generate_via_api(self, prompt: str) -> bytes:
+        stability_key = os.getenv("STABILITY_API_KEY", "")
+        if not stability_key:
+            raise RuntimeError("STABILITY_API_KEY is required for SDXL mode 'api'")
+        url = "https://api.stability.ai/v2beta/stable-image/generate/core"
         headers = {
-            "Authorization": f"Bearer {self.stability_key}",
-            "Accept": "application/json",
-            "Content-Type": "application/json",
+            "authorization": f"Bearer {stability_key}",
+            "accept": "image/*"
         }
-        for prompt in prompts:
-            payload = {
-                "text_prompts": [{"text": prompt, "weight": 1}],
-                "cfg_scale": 7,
-                "clip_guidance_preset": "FAST_BLUE",
-                "samples": 1,
-                "steps": 30,
-            }
-            response = httpx.post(url, headers=headers, json=payload, timeout=180)
-            response.raise_for_status()
-            data = response.json()
-            artifact = data["artifacts"][0]
-            image_bytes = base64.b64decode(artifact["base64"])
-            filename = self._write_image_bytes(image_bytes, suffix=".png")
-            images.append(str(filename))
-        return images
+        files = { "none": "" }
 
-    def _generate_mock(self, prompts: List[str]) -> List[str]:
+        data = {
+            "prompt": prompt,
+            "output_format": "png"
+        }
+        response = requests.post(url, headers=headers, files=files, data=data)
+        return response.content
+
+    def _generate_mock(self, prompt: str) -> bytes:
         """Fallback when API key is missing. Writes simple placeholder PNGs and prompt metadata."""
-        placeholder_png = self._solid_png_bytes(128, 128, (210, 210, 210, 255))
-        images: List[str] = []
-        for prompt in prompts:
-            filename = self._write_image_bytes(placeholder_png, suffix=".png")
-            metadata_path = filename.with_suffix(".txt")
-            metadata_path.write_text(f"MOCK IMAGE FOR PROMPT:\n{prompt}\n", encoding="utf-8")
-            images.append(str(filename))
-        return images
+        return self._solid_png_bytes(128, 128, (210, 210, 210, 255))
 
     def _solid_png_bytes(self, width: int, height: int, rgba: tuple[int, int, int, int]) -> bytes:
         """Create a solid-color PNG without external deps."""
@@ -76,10 +116,9 @@ class SDXLWrapper:
         png += _chunk(b"IEND", b"")
         return png
 
-    def _write_image_bytes(self, data: bytes, suffix: str) -> Path:
-        name = f"image_{uuid.uuid4().hex}{suffix}"
+    def get_image_path(self, *, iteration: int, prompt_index: int, suffix: str) -> Path:
+        name = f"r{iteration}_p{prompt_index+1}_{uuid.uuid4().hex}{suffix}"
         path = self.output_dir / name
-        path.write_bytes(data)
         return path
 
 

@@ -1,7 +1,8 @@
 import json
 import os
+from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 import yaml
 from dotenv import load_dotenv
@@ -12,6 +13,7 @@ class AgentMeta(BaseModel):
     id: str
     name: str
     prompt: str
+    display_name: Optional[str] = None
 
 
 class VLLMConfig(BaseModel):
@@ -20,14 +22,15 @@ class VLLMConfig(BaseModel):
 
 
 class SDXLConfig(BaseModel):
-    mode: str = "mock"  # mock | stability
+    mode: str = "mock"  # mock | api | local
     output_dir: str = "output"
+    device: str = "cuda:0"
 
 
 class SystemConfig(BaseModel):
     evaluation_threshold: int
     max_loops: int
-    recursion_limit: int = 1000
+    recursion_limit: int = 2500
     models: Dict[str, str] = Field(default_factory=dict)
     aliases: Dict[str, str] = Field(default_factory=dict)
     vllm: VLLMConfig
@@ -61,10 +64,31 @@ def load_env() -> None:
     load_dotenv()
 
 
-def load_agents(path: str) -> List[AgentMeta]:
+def load_agent_aliases(path: str = "prompts/agents.yaml") -> Dict[str, str]:
+    target = Path(path)
+    if not target.exists():
+        return {}
+    raw = yaml.safe_load(target.read_text(encoding="utf-8")) or {}
+    agents = raw.get("agents", [])
+    aliases: Dict[str, str] = {}
+    for item in agents:
+        agent_id = item.get("id")
+        display = item.get("display_name") or item.get("name")
+        if agent_id and display:
+            aliases[agent_id] = display
+    return aliases
+
+
+def load_agents(path: str, aliases: Optional[Dict[str, str]] = None) -> List[AgentMeta]:
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    return [AgentMeta(**item) for item in data]
+    alias_map = aliases or {}
+    processed: List[AgentMeta] = []
+    for item in data:
+        agent_id = item.get("id", "")
+        display_name = alias_map.get(agent_id) or item.get("display_name") or item.get("name")
+        processed.append(AgentMeta(**item, display_name=display_name))
+    return processed
 
 
 def load_prompt(path: str) -> str:
@@ -87,3 +111,15 @@ def ensure_output_dir(path: str) -> Path:
     target = Path(path)
     target.mkdir(parents=True, exist_ok=True)
     return target
+
+
+def prepare_run_dirs(base_output_dir: str) -> Tuple[Path, Path, str]:
+    """Create a timestamped run dir and intms subdir under the base output dir, without clearing prior runs."""
+    base = Path(base_output_dir)
+    base.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    run_dir = base / f"output_{timestamp}"
+    run_dir.mkdir(parents=True, exist_ok=True)
+    intms_dir = run_dir / "intms"
+    intms_dir.mkdir(parents=True, exist_ok=True)
+    return run_dir, intms_dir, timestamp

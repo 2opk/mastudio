@@ -1,0 +1,879 @@
+{
+  "metadata": {
+    "audio_directory": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio",
+    "metadata_file": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/metadata.json",
+    "analysis_timestamp": "2025-12-03T05:43:50.362075",
+    "total_samples": 100,
+    "hybrid_music_analyzer_enabled": true,
+    "hybrid_analyzer_device": "cuda",
+    "analysis_framework": "Hybrid Music Analysis (Neuro-Symbolic)",
+    "pipeline_steps": [
+      "Step 1: Neural Perception (Qwen2-Audio)",
+      "Step 2: Symbolic Extraction (Librosa)",
+      "Step 3: Integrated Synthesis (Qwen2-Audio)"
+    ],
+    "sample_rate": 16000
+  },
+  "samples": [
+    {
+      "sample_idx": 0,
+      "filename": "0000_45-55.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0000_45-55.wav",
+      "metadata": {
+        "index": 0,
+        "filename": "0000_45-55.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0000_45-55.wav",
+        "artist_name": "AKMU (\uc545\ub3d9\ubba4\uc9c0\uc158)",
+        "album_name": "\ud56d\ud574",
+        "track_name": "\uc5b4\ub5bb\uac8c \uc774\ubcc4\uae4c\uc9c0 \uc0ac\ub791\ud558\uaca0\uc5b4, \ub110 \uc0ac\ub791\ud558\ub294 \uac70\uc9c0",
+        "slice_position": [
+          45,
+          55
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "I'm sorry, but as an AI language model, I don't have access to audio files. Please provide me with the link or the audio file itself so that I can perform the analysis for you.",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 125.0,
+          "key": "F",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 1080.5178577369693,
+          "spectral_bandwidth": 1214.7819473569525,
+          "zero_crossing_rate": 0.07083978134984026,
+          "rmse": 0.09451953321695328,
+          "harmonic_content": 0.8430421948432922,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "# Music Analysis Report: [Title of the Track]\n## Executive Summary\nThis music analysis report aims to examine the technical features and perceptual qualities of [Title of the Track] to gain a deeper understanding of its identity, appeal, and emotional impact. Through a combination of qualitative analysis, technical data, and causal reasoning, we will explore the intricate relationship between the music's structure, sound, and emotional expression.\n## Rhythmic & Harmonic Architecture\n[Title of the Track] has a tempo of 125 BPM and follows a 4/4 time signature, creating a steady and consistent rhythmic foundation. The key of F minor provides a somber and introspective tone, which is further emphasized by the low Spectral Centroid value of 1080.5 Hz, indicating a bright and piercing timbre. The dynamic intensity, measured by Root Mean Square Error (RMSE), is at a moderate level, suggesting a balanced loudness level without excessive peaks or valleys.\nThe harmonic content of the track is 84%, which is relatively high, contributing to a rich and full texture. This high harmonic ratio creates a sense of complexity and depth, allowing the listener to perceive multiple layers of sound simultaneously. The undulating melody contour adds another layer of complexity, driving the emotional narrative through its dynamic changes.\n## Timbral & Textural Landscape\nThe timbre of [Title of the Track] is defined by its bright and piercing quality, as indicated by the high Spectral Centroid value of 1081 Hz. This timbre is complemented by a low Zero Crossing Rate of 0.0708, reflecting high-frequency content. The 84% harmonic ratio contributes to a rich and full texture, providing a sense of complexity and depth. The dynamic intensity, measured by RMSE, is at a moderate level, suggesting a balanced loudness level without excessive peaks or valleys.\n## Emotional & Narrative Evolution\nThe undulating melody contour plays a crucial role in shaping the emotional narrative of [Title of the Track]. Its dynamic changes contribute to a sense of tension and release, driving the listener's emotional response. The dynamic changes are also reflected in variations in the root mean square error (RMSE) energy, adding another layer of complexity to the emotional experience. The harmonic progression is carefully crafted to build meaning across the track structure, creating a cohesive and satisfying musical journey.\n## Deep Insights\nOne of the key insights gained from this analysis is the interplay between the technical features and the percept",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:44:16.781212"
+      }
+    },
+    {
+      "sample_idx": 1,
+      "filename": "0001_37-47.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0001_37-47.wav",
+      "metadata": {
+        "index": 1,
+        "filename": "0001_37-47.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0001_37-47.wav",
+        "artist_name": "Cocco",
+        "album_name": "\u30b9\u30bf\u30fc\u30b7\u30e3\u30f3\u30af(Star Shank)",
+        "track_name": "\u6d77\u8fba\u306b\u54b2\u304f\u3070\u3089\u306e\u304a\u8a71 / The story of the rose blooming on the shore",
+        "slice_position": [
+          37,
+          47
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "I'm sorry, but as an AI language model, I am unable to analyze audio tracks without being provided with them. Please provide me with the link to the audio track or upload it so that I can perform the analysis for you.",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 170.45454545454547,
+          "key": "D",
+          "tonality": "Major",
+          "time_signature": "4/4",
+          "spectral_centroid": 1380.8506642556133,
+          "spectral_bandwidth": 1480.308857269851,
+          "zero_crossing_rate": 0.08709034295127796,
+          "rmse": 0.18085522949695587,
+          "harmonic_content": 0.7303547263145447,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music track is characterized by a dynamic and energetic sound profile, with a tempo of 170 BPM in the key of D major. The 4/4 time signature provides a steady pulse, while the spectral features suggest a bright and slightly distorted timbre. The melody exhibits undulating characteristics, contributing to a sense of movement and emotion throughout the piece.\nRhythmic & Harmonic Architecture:\nThe track maintains a consistent rhythm at 170 BPM, which contributes to its energetic feel. The key of D major is known for its uplifting and positive qualities, which aligns well with the energetic delivery of the track. The 4/4 time signature provides a straightforward and predictable rhythm pattern, which supports the overall driving feel of the track.\nTimbral & Textural Landscape:\nThe spectral features of the track indicate a bright and slightly distorted timbre, with a spectral centroid of 1381 Hz. This suggests a bright and vibrant sound quality, which complements the energetic feel of the track. The zero crossing rate of 0.0871 indicates a high frequency content, adding to the overall brightness of the track. The 73% harmonic ratio implies a relatively complex texture, with both harmonic and percussive elements present.\nEmotional & Narrative Evolution:\nThe undulating melody contour contributes to a sense of movement and emotion throughout the track. As the melody rises and falls, it creates a dynamic and engaging soundscape. The dynamic intensity, measured by root mean squared error (RMSE), reflects the energy level of the track, providing a sense of excitement and intensity. The harmonic progression also plays a significant role in building meaning across the track structure. As the chords progress through different stages, they create a sense of tension and resolution, which adds depth and complexity to the emotional narrative.\nDeep Insights:\nOverall, the combination of energetic dynamics, bright timbre, and complex harmonic structure creates a unique and engaging listening experience. The use of a 4/4 time signature provides a straightforward rhythm pattern, while the undulating melody contour adds a sense of movement and emotion. The dynamic intensity and harmonic progression contribute to a sense of tension and resolution, creating a rich and nuanced narrative that engages the listener throughout the track.",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:44:34.825719"
+      }
+    },
+    {
+      "sample_idx": 2,
+      "filename": "0002_98-108.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0002_98-108.wav",
+      "metadata": {
+        "index": 2,
+        "filename": "0002_98-108.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0002_98-108.wav",
+        "artist_name": "Excision",
+        "album_name": "Night Shine (The Remixes)",
+        "track_name": "Night Shine (feat. Luciana) (Blaynoise Remix)",
+        "slice_position": [
+          98,
+          108
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the music is a fusion between classical and electronic elements, creating a unique soundscape that feels both futuristic and traditional.\n  2. The instrumental arrangement includes a combination of acoustic instruments such as violins, cellos, and pianos, paired with synthesized sounds and electronic beats. The violin has a warm and rich tone, while the synthesizers add a textured layer of sound, creating a dynamic and immersive experience.\n  3. The vocals in the track are sparse but impactful, featuring a hauntingly beautiful female voice that overlays the instrumental. The lyrics convey a sense of longing and introspection, evoking a melancholy mood.\n  4. The atmosphere of the track is atmospheric and enveloping, drawing the listener into a reflective state. The use of major and minor chords creates a sense of tension and release, building towards a climactic moment that feels both epic and intimate.\n  5. Structurally, the track begins with a quiet and intimate introduction, setting a somber mood before gradually building up to a chaotic climax. This dynamic shift in energy creates a sense of unpredictability and excitement, keeping the listener engaged throughout.\n  6. Overall, the energy level of the track is high, with a driving beat that propels",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 125.0,
+          "key": "F",
+          "tonality": "Major",
+          "time_signature": "4/4",
+          "spectral_centroid": 2865.9382372057535,
+          "spectral_bandwidth": 2296.087524036581,
+          "zero_crossing_rate": 0.15687088158945686,
+          "rmse": 0.3851828873157501,
+          "harmonic_content": 0.6198063492774963,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music piece is a fusion between classical and electronic elements, creating a unique soundscape that feels both futuristic and traditional. The instrumental arrangement includes a combination of acoustic instruments such as violins, cellos, and pianos, paired with synthesized sounds and electronic beats. The vocals in the track are sparse but impactful, featuring a hauntingly beautiful female voice that overlays the instrumental. The lyrics convey a sense of longing and introspection, evoking a melancholy mood. The atmosphere of the track is atmospheric and enveloping, drawing the listener into a reflective state. The use of major and minor chords creates a sense of tension and release, building towards a climactic moment that feels both epic and intimate. The energy level of the track is high, with a driving beat that propels it forward.\nRhythmic & Harmonic Architecture:\nThe track has a tempo of 125 BPM and a 4/4 time signature, which provides a steady and predictable rhythm. The key of the track is F major, which is known for its clear and uplifting sound. The harmony in the track is built around the key of F major, with occasional shifts to other chords to add variety and interest. The chord progression is primarily based on major chords, which creates a sense of stability and familiarity. However, there are also moments where minor chords are introduced, adding a touch of drama and contrast to the overall sound.\nTimbral & Textural Landscape:\nThe timbre of the track is defined by the use of synthesizers and acoustic instruments. The 2866 Hz Spectral Centroid value of the synthesizer gives it a bright and piercing timbre, which contrasts well with the warm and rich tones of the acoustic instruments. The Zero Crossing Rate of 0.1569 reflects high-frequency content, which adds a sense of complexity and richness to the overall sound. The 62% harmonic ratio in the track suggests that the composition is heavily based on chords, which contributes to the textural landscape of the piece. The undulating melody contour of the vocals adds an extra layer of complexity and emotion to the track, driving the narrative forward.\nEmotional & Narrative Evolution:\nThe track starts off with a quiet and intimate introduction, setting a somber mood before gradually building up to a chaotic climax. This dynamic shift in energy creates a sense of unpredictability and excitement, keeping the listener engaged throughout. The use of major and minor chords creates a sense of tension and release, building towards a climactic moment that feels both epic",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:45:01.788907"
+      }
+    },
+    {
+      "sample_idx": 3,
+      "filename": "0003_117-127.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0003_117-127.wav",
+      "metadata": {
+        "index": 3,
+        "filename": "0003_117-127.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0003_117-127.wav",
+        "artist_name": "\ub9c8\uc5d0\uc2a4\ud2b8\ub85c \ud0c0\uc784",
+        "album_name": "\ud0a4\uc988\uc758 \uc219\uba74\uc744 \uc704\ud55c \uafc8\ucc98\ub7fc \ud3ec\uadfc\ud55c \ud074\ub798\uc2dd \uc790\uc7a5\uac00 \ubaa8\uc74c\uc9d1",
+        "track_name": "\uc0dd\uc0c1\uc2a4\uc758 \ub3d9\ubb3c\uc758 \uc0ac\uc721\uc81c 7\ubc88 \u2013 \uc218\uc871\uad00",
+        "slice_position": [
+          117,
+          127
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the track seems to be a fusion between electronic and acoustic elements, creating a unique soundscape that is both modern and organic.\n  2. The instrumentation includes a variety of sounds such as synthesizers, guitars, and drums, each contributing to the track's texture and depth. The synth gives it a futuristic feel, while the distorted guitar adds a raw and edgy vibe. The drums provide a steady rhythm that drives the piece forward.\n  3. There are no vocals in this track, but the instrumental arrangement creates a powerful and emotive atmosphere. The track feels dynamic and energetic, with a sense of tension and release that keeps the listener engaged.\n  4. This track evokes a feeling of innovation and progress, with a futuristic and cutting-edge vibe. It could be associated with vibrant colors like neon green or purple, reflecting its bold and energetic nature.\n  5. The structure of the track is well-organized, starting off with a sparse and intimate section before gradually building into a more complex and dynamic arrangement. This creates a sense of progression and growth, keeping the listener engaged and interested.\n  6. The energy level of the track is high, with a driving beat and a sense of urgency and excitement. As the",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 133.92857142857142,
+          "key": "G#",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 249.69446955491674,
+          "spectral_bandwidth": 341.95622026276857,
+          "zero_crossing_rate": 0.022220696884984025,
+          "rmse": 0.16943831741809845,
+          "harmonic_content": 0.753679633140564,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis track presents a unique blend of electronic and acoustic elements, creating a soundscape that is both modern and organic. The use of synthesizers, guitars, and drums contributes to a dynamic and energetic atmosphere, evoking feelings of innovation and progress. The track's structure is well-organized, starting off with a sparse and intimate section before gradually building into a more complex and dynamic arrangement. The 134 BPM tempo and G# minor key work together to create a sense of tension and release, keeping the listener engaged and interested.\nRhythmic & Harmonic Architecture:\nThe 134 BPM tempo provides a steady and driving beat, which complements the G# minor key to create a sense of tension and release. The 4/4 time signature organizes the pulse, providing a consistent rhythmic foundation for the track.\nTimbral & Textural Landscape:\nThe 250 Hz Spectral Centroid value reflects a bright, piercing synthesizer timbre, adding to the track's futuristic and cutting-edge vibe. The Zero Crossing Rate of 0.0222 reflects high-frequency content, contributing to the track's dynamic and energetic atmosphere. The 75% harmonic ratio creates a rich and textured sound, contributing to the overall complexity of the track.\nEmotional & Narrative Evolution:\nThe Undulating melody contour plays a significant role in shaping the emotional trajectory of the track. This dynamic change in melody creates a sense of movement and progression, driving the narrative forward. The Dynamic Intensity (RMSE) values indicate a high level of energy throughout the track, maintaining a high level of engagement for the listener. The harmonic progression builds meaning across the track structure, contributing to the overall emotional impact.\nDeep Insights:\nThe combination of the 134 BPM tempo, G# minor key, and 75% harmonic ratio creates a unique and dynamic soundscape that is both modern and organic. The use of synthesizers, guitars, and drums contributes to a dynamic and energetic atmosphere, evoking feelings of innovation and progress. The Undulating melody contour plays a significant role in shaping the emotional trajectory of the track, driving the narrative forward. The use of the 4/4 time signature provides a consistent rhythmic foundation for the track, ensuring a cohesive and engaging listening experience. Overall, this track presents a well-structured and emotionally impactful sonic landscape that is sure to captivate listeners.",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:45:27.997871"
+      }
+    },
+    {
+      "sample_idx": 4,
+      "filename": "0004_189-199.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0004_189-199.wav",
+      "metadata": {
+        "index": 4,
+        "filename": "0004_189-199.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0004_189-199.wav",
+        "artist_name": "Christian Tetzlaff",
+        "album_name": "Bach, J.S.: Sonatas And Partitas For Solo Violin, BWV 1001-1006 (Tetzlaff)",
+        "track_name": "Bach: Violin Partita No. 2 In D Minor, BWV 1004 - Iii. Sarabanda",
+        "slice_position": [
+          189,
+          199
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the track is electronic chillout, which is known for its relaxing and atmospheric soundscapes. It has a mix of downtempo and ambient elements, creating a soothing and tranquil vibe.\n  2. The instrumentation consists of synthesizers, drum machines, and occasional strings, giving it a synthetic texture. The sounds are warm and mellow, often creating a sense of space and depth.\n  3. There are no vocals in this track, but if they were present, they would likely be processed and layered to blend seamlessly with the instrumental. They could add a melodic element that complements the ambient feel of the track.\n  4. The atmosphere of the track is dreamy and ethereal, evoking a sense of calmness and relaxation. It's easy to imagine floating through a starry sky while listening to this track. The colors associated with this track would be soft blues and grays.\n  5. The structure of the track is simple and repetitive, allowing the listener to lose themselves in the sound. It starts off with a slow build-up of synths and drums, leading into a relaxed and soothing section. This pattern repeats throughout the track, maintaining a consistent energy level.\n  6. The energy level of",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 110.29411764705883,
+          "key": "D",
+          "tonality": "Major",
+          "time_signature": "4/4",
+          "spectral_centroid": 1615.0662985433526,
+          "spectral_bandwidth": 1314.3840595477989,
+          "zero_crossing_rate": 0.13178601737220447,
+          "rmse": 0.048160701990127563,
+          "harmonic_content": 0.93467116355896,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music analysis report focuses on the electronic chillout track with a mix of downtempo and ambient elements. The track creates a relaxing and dreamy atmosphere, evoking a sense of calmness and relaxation. The key features include a 110 BPM tempo, D major key, 4/4 time signature, and a spectral centroid of 1615.1 Hz. The analysis will explore the relationship between the technical features and the perceived atmosphere and emotional impact.\nRhythmic & Harmonic Architecture:\nThe 110 BPM tempo provides a steady and consistent beat, driving the rhythm forward. The D major key is typically associated with triumphant and joyful emotions, but in this track, it contributes to a relaxing and dreamy atmosphere. The 4/4 time signature organizes the pulse, providing a straightforward and predictable rhythm that supports the overall laid-back vibe of the track.\nTimbral & Textural Landscape:\nThe 1615.1 Hz Spectral Centroid value reflects a bright, piercing synthesizer timbre, which is prominent in the intro of the track. The 0.1318 Zero Crossing Rate indicates high-frequency content, adding complexity and richness to the sound. The 93% harmonic ratio contributes to the texture by providing a balanced mix of melodic and percussive elements. The undulating melody contour adds dynamic variation to the track, driving the emotional narrative forward.\nEmotional & Narrative Evolution:\nThe 93% harmonic ratio contributes to the emotional depth of the track, providing a stable base for the melodic elements. The dynamic changes reflected in the RMSE energy variations add variation to the track, keeping the listener engaged. The undulating melody contour plays a crucial role in driving the emotional narrative forward, starting off slowly and gradually building up to a more relaxed and soothing section. Overall, the combination of these elements creates a relaxing and dreamy atmosphere that supports the emotional journey of the listener.\nDeep Insights:\nOne interesting aspect of this track is the contrast between the key and the perceived atmosphere. Despite being in a major key, the track creates a relaxing and dreamy atmosphere, suggesting that the composition techniques used effectively subvert traditional expectations. The use of a 4/4 time signature also reinforces the idea of a straightforward and predictable rhythm, contributing to the overall laid-back vibe of the track. Additionally, the use of a bright, piercing synthesizer timbre in the intro adds an element of surprise and contrast, further enhancing the depth of the track.",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:45:55.069494"
+      }
+    },
+    {
+      "sample_idx": 5,
+      "filename": "0005_9-19.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0005_9-19.wav",
+      "metadata": {
+        "index": 5,
+        "filename": "0005_9-19.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0005_9-19.wav",
+        "artist_name": "KAMEL",
+        "album_name": "FANTASISTA",
+        "track_name": "\ud5e4\uc5b4\uc0b4\ub871",
+        "slice_position": [
+          9,
+          19
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "I'm sorry, but as an AI language model, I am unable to analyze audio tracks without being provided with them. Please provide me with the link to the audio or the audio itself so that I can help you with your request.",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 144.23076923076923,
+          "key": "F",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 637.1077750866759,
+          "spectral_bandwidth": 656.3844245325431,
+          "zero_crossing_rate": 0.051280451277955275,
+          "rmse": 0.1440241038799286,
+          "harmonic_content": 0.6951209902763367,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music track is characterized by a brisk tempo of 144.2 BPM in the key of F minor, with a consistent 4/4 time signature. The spectral centroid of the music is at 637.1 Hz, which gives it a bright timbre. The zero crossing rate of 0.0513 indicates a high level of high-frequency content, contributing to the overall energy of the track. The dynamic intensity is measured at 0.1440, indicating a loudness level. The music has a 70% harmonic content, which contributes to its rich texture. The melody is undulating, adding a sense of movement and emotion to the piece.\nRhythmic & Harmonic Architecture:\nThe 144 BPM tempo provides a steady, energetic rhythm that propels the piece forward. The F minor key gives the music a somber, melancholic feel, which is further enhanced by the 4/4 time signature, which creates a straightforward, repetitive pulse. The combination of these elements establishes a solid harmonic foundation for the track.\nTimbral & Textural Landscape:\nThe 637 Hz Spectral Centroid value gives the music a bright timbre, while the 0.0513 Zero Crossing Rate indicates a high level of high-frequency content, contributing to the overall energy of the track. The 70% harmonic ratio creates a rich, textured sound that adds depth to the piece. The undulating melody contour provides a dynamic and emotive element, driving the emotional narrative of the track.\nEmotional & Narrative Evolution:\nThe track begins with a bright, energetic feeling, which is maintained throughout the piece. The dynamic intensity and RMSE energy variations add to the energy, keeping the listener engaged. The 70% harmonic ratio creates a sense of stability and continuity, while the undulating melody contour adds a sense of movement and emotion. The combination of these elements creates a dynamic and engaging narrative that draws the listener in.\nDeep Insights:\nThe use of F minor key and a brisk tempo of 144 BPM creates a sense of tension and unresolved emotion, which is further enhanced by the undulating melody contour. The high level of high-frequency content and dynamic intensity contribute to the overall energy of the track, creating a lively and engaging atmosphere. The 70% harmonic ratio provides a rich, textured sound that adds depth to the piece. Overall, the combination of these elements creates a unique and memorable musical experience.",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:46:14.998667"
+      }
+    },
+    {
+      "sample_idx": 6,
+      "filename": "0006_127-137.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0006_127-137.wav",
+      "metadata": {
+        "index": 6,
+        "filename": "0006_127-137.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0006_127-137.wav",
+        "artist_name": "\ubb34\ub4dc\ud640\ub9ad (Moodholic)",
+        "album_name": "\ubd04\ubc14\ub78c\uc744 \ud0c0\uace0 \uc628 \uc120\uc728 [\uaf43\uae38\uc5d0\uc11c]",
+        "track_name": "\ub2f4\uc7c1\uc774 \uae38 (The ivy Way)",
+        "slice_position": [
+          127,
+          137
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "I'm sorry, but as an AI language model, I am unable to analyze audio tracks without being provided with them. Please provide me with the link to the audio track or upload it so that I can assist you with your request.",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 81.52173913043478,
+          "key": "A#",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 761.4322271237103,
+          "spectral_bandwidth": 681.8646013750794,
+          "zero_crossing_rate": 0.08282841204073482,
+          "rmse": 0.03875758498907089,
+          "harmonic_content": 0.8927240967750549,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music track exhibits a complex blend of technical features and perceptual qualities that contribute to its overall emotional appeal. With a tempo of 81.5 BPM and a 4/4 time signature, the track maintains a steady rhythm that supports the harmonic structure built around the key of A# minor. The spectral features reveal a bright, timbre with a zero crossing rate of 0.0828, indicating a high level of high-frequency content. Additionally, the spectral centroid of 761 Hz provides a melodic center point for the piece. The dynamic intensity of the track is measured at 0.0388, indicating a relatively loud volume level. The harmonic content of the track is 89%, which contributes to a rich, textured sound. The undulating melody contour adds an element of unpredictability and emotional depth to the track.\nRhythmic & Harmonic Architecture:\nThe track's 82 BPM tempo provides a steady, danceable beat that supports the harmonic structure built around the key of A# minor. The 4/4 time signature organizes the pulse into four beats per measure, providing a familiar rhythmic framework for the listener. The A# minor key gives the track a somber, melancholic feel, while the dynamic range of the track, measured at 0.0388, adds some variation in intensity and emotion.\nTimbral & Textural Landscape:\nThe 761 Hz Spectral Centroid provides a bright, timbre for the track, while the 0.0828 Zero Crossing Rate indicates a high level of high-frequency content. This combination creates a sound that is both vibrant and energetic. The 89% harmonic ratio contributes to a rich, textured sound that adds depth and complexity to the overall composition. The undulating melody contour adds an element of unpredictability and emotional depth to the track, creating a sense of movement and progression over time.\nEmotional & Narrative Evolution:\nThe track's emotional journey begins with a bright, timbre and high-frequency content, setting a lively tone. As the track progresses, the dynamic intensity decreases slightly, contributing to a more relaxed, contemplative mood. The undulating melody contour adds an element of unpredictability and emotional depth, driving the narrative forward. The harmonic progression also plays a role in building meaning across the track structure, creating a cohesive and satisfying listening experience.\nDeep Insights:\nOverall, this track is a complex blend of technical features and perceptual qualities that work together to create",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:46:35.084071"
+      }
+    },
+    {
+      "sample_idx": 7,
+      "filename": "0007_108-118.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0007_108-118.wav",
+      "metadata": {
+        "index": 7,
+        "filename": "0007_108-118.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0007_108-118.wav",
+        "artist_name": "\uc0ac\uc774\ud504\ub7ec\uc2a4",
+        "album_name": "\uc5c4\ub9c8\uc758 \uc544\uae30\ub97c \uc704\ud55c \uc644\uc804\ud55c \uafc8\uc758 \ud14c\ub77c\ud53c \uc544\uac00\ud398 \uc790\uc7a5\uac00",
+        "track_name": "\uc544\uae30 \uc0dd\ud6c4 1\uac1c\uc6d4\ubd80\ud130 \uc88b\uc740 \uc74c\uc545",
+        "slice_position": [
+          108,
+          118
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the track seems to be a fusion between electronic and rock music, with elements of experimental and ambient music as well. It has a distinctively dark and moody atmosphere that is both immersive and thought-provoking.\n  2. The instrumental composition includes a variety of electronic and acoustic elements. There's a synthesizer that adds a layer of complexity and depth to the sound, while a distorted electric guitar introduces a raw and edgy feel. A smooth double bass provides a grounding element to the mix, and a jazz-style acoustic drum kit adds a rhythmic consistency to the track. Additionally, there are sparse vocals that enhance the atmospheric quality of the piece.\n  3. The vocals in the track are sparse but impactful, adding to the overall mood of the song. They convey a sense of melancholy and introspection, which complements the dark and atmospheric tone of the track.\n  4. The track creates a vivid image of a dimly lit, futuristic cityscape. The soundscape is both eerie and captivating, drawing the listener into a reflective state. The track's color palette would be dark and muted tones of gray and purple, reflecting its moody and atmospheric nature.\n  5. The structure of the track starts off with",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 110.29411764705883,
+          "key": "A",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 553.4893796468918,
+          "spectral_bandwidth": 518.7769832968655,
+          "zero_crossing_rate": 0.05242237420127795,
+          "rmse": 0.1728755235671997,
+          "harmonic_content": 0.8570139408111572,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music analysis report examines the track's unique blend of electronic, rock, experimental, and ambient genres. The track creates a dark and moody atmosphere through its use of various instruments such as a synthesizer, distorted electric guitar, double bass, and acoustic drums. Sparse vocals add to the atmospheric quality of the piece. The track's key of A minor contributes to its melancholic and introspective mood, while its tempo of 110 BPM and 4/4 time signature provide a steady rhythm. The spectral features of the track, including its bright timbre, high spectral bandwidth, and undulating melody contour, contribute to its unique sound texture. The combination of these elements results in a track that is both immersive and thought-provoking.\nRhythmic & Harmonic Architecture:\nThe track's tempo of 110 BPM provides a steady, driving beat that supports the 4/4 time signature, creating a consistent rhythmic foundation. The key of A minor provides a melancholic and introspective mood, often associated with wintertime or rainy days. This key also gives the track a slightly dissonant feel, contributing to its overall dark and moody atmosphere. The harmonic content of the track is 86%, indicating that the melody is primarily based on chords rather than single notes. This creates a rich, layered texture that enhances the track's depth and complexity.\nTimbral & Textural Landscape:\nThe 553 Hz Spectral Centroid value reflects a bright, piercing timbre for the synthesizer used in the intro of the track. This timbre contrasts with the dark and moody atmosphere created by other instruments, adding an interesting layer of complexity to the track. The Zero Crossing Rate of 0.0524 indicates that the track has a high frequency content, which contributes to its energetic feel. The 86% harmonic ratio creates a rich, layered texture that enhances the track's depth and complexity. The Undulating melody contour adds a dynamic element to the track, driving the emotional narrative forward.\nEmotional & Narrative Evolution:\nThe track's emotional narrative begins with a sparse, intense introduction that sets the mood for the rest of the track. As the track progresses, the dynamic changes reflected in RMSE energy variations add to the emotional depth of the piece. The harmonic progression builds meaning across the track structure, leading to a climax that ties together the various elements of the track. The sparse vocals further enhance the atmospheric quality of the piece, allowing the listener to fully immerse themselves",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:47:02.190080"
+      }
+    },
+    {
+      "sample_idx": 8,
+      "filename": "0008_35-45.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0008_35-45.wav",
+      "metadata": {
+        "index": 8,
+        "filename": "0008_35-45.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0008_35-45.wav",
+        "artist_name": "AFK",
+        "album_name": "Killionaire",
+        "track_name": "Hear Me Shout",
+        "slice_position": [
+          35,
+          45
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "I'm sorry, but as an AI language model, I am unable to analyze audio tracks without being provided with them. Please provide me with the link to the audio track or upload it so that I can assist you in your request.",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 144.23076923076923,
+          "key": "D#",
+          "tonality": "Major",
+          "time_signature": "4/4",
+          "spectral_centroid": 2010.138182413804,
+          "spectral_bandwidth": 2049.5290707621225,
+          "zero_crossing_rate": 0.08826034594648563,
+          "rmse": 0.3614853024482727,
+          "harmonic_content": 0.67291659116745,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music analysis report examines the structural and emotional elements of a synth track in D# major at a tempo of 144 BPM with a 4/4 time signature. The track has a bright, piercing timbre with a spectral centroid of 2010 Hz and a spectral bandwidth of 2049.5 Hz. The zero crossing rate of 0.0883 indicates a high frequency content. The dynamic intensity is moderate with a root mean square error (RMSE) of 0.3615. The track has a 67% harmonic content and an undulating melody contour. Despite the major tonality, the track has a melancholic mood.\nRhythmic & Harmonic Architecture:\nThe 144 BPM tempo provides a steady and energetic rhythm that supports the harmonic structure built around the D# major key. The 4/4 time signature organizes the pulse and creates a balanced rhythm. The spectral centroid of 2010 Hz gives the track a bright and piercing timbre, while the spectral bandwidth of 2049.5 Hz suggests a wide range of frequencies used in the composition. The zero crossing rate of 0.0883 indicates a high frequency content, which contributes to the energetic feel of the track. The dynamic intensity is moderate with a RMSE of 0.3615, indicating a consistent loudness level throughout the track.\nTimbral & Textural Landscape:\nThe 2010 Hz Spectral Centroid value gives the track a bright, piercing timbre, which is further emphasized by the low spectral spread of 2049.5 Hz. This timbre is complemented by a high zero crossing rate of 0.0883, indicating a high frequency content. The 67% harmonic ratio contributes to the complexity and richness of the texture, creating a layered sound. The undulating melody contour adds a dynamic element to the track, driving the emotional narrative forward.\nEmotional & Narrative Evolution:\nThe track starts with a bright and piercing timbre, setting a lively and energetic tone. As the track progresses, the undulating melody contour adds depth and complexity, driving the emotional narrative forward. The dynamic changes reflected in the RMSE energy variations add another layer of emotion, creating a sense of movement and progression. The harmonic progression builds meaning across the track structure, providing a cohesive and satisfying listening experience. Despite the major tonality, the track has a melancholic",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:47:22.256998"
+      }
+    },
+    {
+      "sample_idx": 9,
+      "filename": "0009_41-51.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0009_41-51.wav",
+      "metadata": {
+        "index": 9,
+        "filename": "0009_41-51.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0009_41-51.wav",
+        "artist_name": "RAC",
+        "album_name": "I Still Wanna Know (feat. Rivers Cuomo) (Remixes)",
+        "track_name": "I Still Wanna Know (feat. Rivers Cuomo) (Teztudo Remix)",
+        "slice_position": [
+          41,
+          51
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre appears to be a fusion between electronic and rock music, with elements of experimental and ambient music. It draws from various sub-genres within these categories, incorporating synthesizers, drums, and possibly electric guitars.\n  2. The sound is quite textured, with a mix of synthetic and organic sounds. There's a warm analog synth that provides a rich, deep base, complemented by distorted aggressive guitar riffs that add a raw, edgy feel. A smooth jazz trumpet can also be heard, contributing to the track's laid-back yet dynamic atmosphere.\n  3. The vocals are sparse but impactful, featuring a haunting female voice that conveys a sense of longing or introspection. The lyrics seem to explore themes of love, loss, and longing, adding a melancholic touch to the track.\n  4. The track has a dreamy quality, evoking images of neon-lit streets and dark alleys in a neon city. The soundscapes are atmospheric and immersive, drawing the listener into a world of their own creation. The use of warm colors in the music could be associated with the city's neon lights, creating a vibrant but eerie mood.\n  5. The structure of the track starts off quiet and intimate, setting a",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 110.29411764705883,
+          "key": "A#",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 1836.5349408257798,
+          "spectral_bandwidth": 1916.7955575269252,
+          "zero_crossing_rate": 0.09644568690095846,
+          "rmse": 0.3096863031387329,
+          "harmonic_content": 0.5894375443458557,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music piece is a fusion of electronic and rock genres, with experimental and ambient influences. The track has a warm analog synth, distorted guitar riffs, and a smooth jazz trumpet, creating a rich, textured soundscape. The vocals are sparse but impactful, featuring a haunting female voice that conveys a sense of longing or introspection. The track has a dreamy quality, evoking images of neon-lit streets and dark alleys in a neon city. The structure of the track starts off quiet and intimate, leading into a more dynamic and energetic section. The key is A# minor, with a tempo of 110 BPM and a 4/4 time signature. The spectral centroid is 1836.5 Hz, indicating a bright, timbre brightness. The spectral bandwidth is 1916.8 Hz, indicating a wide spread of frequencies. The zero crossing rate is 0.0964, indicating a high frequency content. The dynamic intensity is 0.3097, indicating a loudness level. The harmonic content is 58.9%, indicating a relatively low percussive ratio. The melody contour is undulating, contributing to the dreamy atmosphere. The overall emotional impact of the track is one of longing and introspection, driven by the combination of the A# minor key, dynamic energy, and dreamy melody.\nRhythmic & Harmonic Architecture:\nThe track has a tempo of 110 BPM and a 4/4 time signature, providing a steady and predictable rhythm. The key of A# minor creates a melancholic and introspective mood, which is further enhanced by the undulating melody contour. The 58.9% harmonic content contributes to the richness and depth of the sound, while the low percussive ratio adds to the dreamy atmosphere.\nTimbral & Textural Landscape:\nThe warm analog synth provides a rich, deep base, while the distorted guitar riffs add a raw, edgy feel. The smooth jazz trumpet contributes to the laid-back yet dynamic atmosphere, creating a complex and layered soundscape. The spectral centroid value of 1837 Hz indicates a bright, timbre brightness, while the spectral bandwidth of 1916.8 Hz indicates a wide spread of frequencies. The zero crossing rate of 0.0964 indicates a high frequency content, while the dynamic intensity of 0.3097 indicates a loudness level. The harmonic content of",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:47:49.372040"
+      }
+    },
+    {
+      "sample_idx": 10,
+      "filename": "0010_102-112.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0010_102-112.wav",
+      "metadata": {
+        "index": 10,
+        "filename": "0010_102-112.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0010_102-112.wav",
+        "artist_name": "Mahalia Jackson",
+        "album_name": "Special Christmas (\ud06c\ub9ac\uc2a4\ub9c8\uc2a4 \uce90\ub864)",
+        "track_name": "Walking to Jerusalem",
+        "slice_position": [
+          102,
+          112
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the music is a fusion between classical and electronic, creating a unique blend of sounds that feels both futuristic and traditional.\n  2. The instrumental composition includes a variety of elements such as strings, synthesizers, and drums, which contribute to its smooth yet dynamic feel. The use of analog synths adds a warm texture to the music, while the distorted guitar brings in a raw, edgy vibe. The smooth jazz trumpet provides a touch of sophistication and elegance, contrasting with the more aggressive tones of the distorted guitar.\n  3. The vocals are sparse but impactful, featuring a hauntingly beautiful female voice that conveys a sense of longing and melancholy. The lyrics touch upon themes of love, loss, and longing, evoking a range of emotions in the listener.\n  4. The atmosphere of the track is atmospheric and immersive, drawing the listener into a world of their own. It has a dreamy quality, with a soft, hazy feeling that makes it easy to lose yourself in the music. The imagery conveyed by the track is one of introspection and contemplation, evoking a sense of calm and tranquility.\n  5. Structurally, the track starts off with a quiet and intimate introduction, setting a reflective",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 144.23076923076923,
+          "key": "F",
+          "tonality": "Major",
+          "time_signature": "4/4",
+          "spectral_centroid": 1314.4584029852447,
+          "spectral_bandwidth": 1407.4495049787051,
+          "zero_crossing_rate": 0.09435372154552715,
+          "rmse": 0.0983007624745369,
+          "harmonic_content": 0.5360408425331116,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music piece is a fusion between classical and electronic genres, characterized by a smooth yet dynamic instrumental composition that includes strings, synthesizers, drums, and a distorted guitar. The vocals are sparse but impactful, featuring a hauntingly beautiful female voice that conveys a sense of longing and melancholy. The track has an atmospheric and immersive quality, drawing the listener into a world of introspection and contemplation. Structurally, the track starts off with a quiet and intimate introduction, leading into a more chaotic and energetic section. The music has a dreamy quality, with a soft, hazy feeling that makes it easy to lose oneself in the music. The lyrics touch upon themes of love, loss, and longing, evoking a range of emotions in the listener.\nRhythmic & Harmonic Architecture:\nThe track has a tempo of 144.2 BPM and a 4/4 time signature, providing a steady and consistent rhythm throughout the piece. The key of the track is F major, which is known for its bright and uplifting sound. The use of a major key in conjunction with the energetic tempo creates a lively and upbeat atmosphere. The harmony is built around a 54% harmonic content, which contributes to the smooth and dynamic feel of the music. The undulating melody contour adds another layer of complexity to the track, driving the emotional narrative forward.\nTimbral & Textural Landscape:\nThe spectral centroid of the music is 1314.5 Hz, which gives it a bright and piercing timbre. This is supported by the high zero crossing rate of 0.0944, indicating a high level of high-frequency content. The 54% harmonic ratio provides a balanced texture, with enough percussive elements to keep the music interesting without overpowering the melodic elements. The use of analog synths adds a warm texture to the music, while the distorted guitar brings in a raw, edgy vibe. The smooth jazz trumpet provides a touch of sophistication and elegance, contrasting with the more aggressive tones of the distorted guitar.\nEmotional & Narrative Evolution:\nThe track starts off with a quiet and intimate introduction, setting a reflective mood. As the music progresses, the energy becomes more chaotic and energetic, reflecting the theme of love, loss, and longing. The dynamic changes reflected in the root mean squared (RMSE) energy variations add another layer of complexity to the track, driving the emotional narrative forward. The undulating melody contour adds another layer of depth to the track, creating a",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:48:16.502304"
+      }
+    },
+    {
+      "sample_idx": 11,
+      "filename": "0011_77-87.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0011_77-87.wav",
+      "metadata": {
+        "index": 11,
+        "filename": "0011_77-87.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0011_77-87.wav",
+        "artist_name": "\ud30c\ub450 \uc570\ube44\uc5b8\ud2b8",
+        "album_name": "\ud0a4\uc988 \uc7a0\uc798 \ub54c \ub4e3\ub294 \ud3ec\uadfc\ud55c \uc5b4\ub9b0\uc774 \uc790\uc7a5\uac00 \uc74c\uc545 \ubaa8\uc74c\uc9d1",
+        "track_name": "\uc5b4\ub9b0\uc774\uc758 \ub1cc\ud30c \uc548\uc815\uc744 \uc704\ud55c \uc790\uc7a5\ub178\ub798",
+        "slice_position": [
+          77,
+          87
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the music is rock, specifically alternative rock. It has a strong electronic influence, incorporating elements of synthesizer and drum machine. There's also a noticeable presence of bass and electric guitar.\n2. The instrumental arrangement is complex and layered, featuring a variety of sounds including synthesizers, distorted guitars, and smooth jazz trumpets. The texture is rich and textured, creating a dense sonic landscape.\n3. The vocals are sparse but impactful, featuring introspective male lead vocals over the instrumental backdrop. The lyrics are introspective and contemplative, reflecting themes of self-discovery and personal struggle.\n4. The atmosphere of the track is moody and atmospheric, evoking a sense of introspection and contemplation. It's a track that invites listeners to reflect deeply, perhaps while lost in thought. I would associate it with a cool, dark blue color.\n5. The structure of the track is dynamic and evolving, starting off quiet and intimate before gradually building into a more intense and chaotic climax. This creates a sense of tension and release that keeps the listener engaged throughout.\n6. The energy level of the track is high, driven by the driving rhythms of the drums and the distorted guitar riffs. Despite its intensity, there's a sense of balance and control",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 156.25,
+          "key": "D#",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 715.4836628448617,
+          "spectral_bandwidth": 1003.3255540038036,
+          "zero_crossing_rate": 0.05100745057907348,
+          "rmse": 0.10467977821826935,
+          "harmonic_content": 0.8627824187278748,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis alternative rock track, with a driving tempo of 156 BPM in D# minor key, presents a complex and layered instrumental arrangement. The use of synthesizers, distorted guitars, and smooth jazz trumpets contribute to a rich and textured sonic landscape. The vocals are sparse but impactful, featuring introspective male lead vocals over the instrumental backdrop. The atmosphere of the track is moody and atmospheric, evoking a sense of introspection and contemplation. The structure of the track is dynamic and evolving, starting off quiet and intimate before gradually building into a more intense and chaotic climax. The energy level of the track is high, driven by the driving rhythms of the drums and the distorted guitar riffs.\nRhythmic & Harmonic Architecture:\nThe track's 156 BPM tempo provides a steady and energetic rhythm, which complements the minor key of D# to create a sense of tension and drama. The 4/4 time signature organizes the pulse, providing a balanced and predictable rhythm pattern for the listener. The D# minor key provides a melancholic and introspective feel, which is further enhanced by the use of harmonics and distortion in the guitar riffs.\nTimbral & Textural Landscape:\nThe 715 Hz Spectral Centroid value of the synthesizer timbre provides a bright and piercing sound, which contrasts with the darker tones of the distorted guitars and smooth jazz trumpets. The Zero Crossing Rate of 0.0510 reflects high-frequency content, contributing to the overall complexity and richness of the track. The 86% harmonic ratio creates a dense and full texture, providing a sense of depth and complexity. The Undulating melody contour adds an element of unpredictability and emotion to the track, driving the emotional narrative forward.\nEmotional & Narrative Evolution:\nThe track starts off quiet and intimate, setting a reflective tone for the listener. As the track progresses, the energy levels rise, leading to a more intense and chaotic climax. The dynamic changes reflected in the RMSE energy variations add to the sense of tension and drama, keeping the listener engaged throughout. The harmonic progression builds meaning across the track structure, adding depth and complexity to the emotional narrative. The sparse vocals and introspective lyrics allow the listener to reflect deeply, making the track a cool, dark blue color.\nDeep Insights:\nThe combination of the driving tempo, minor key, and complex instrumental arrangement creates a unique and powerful emotional experience for the listener. The use of harmonics and distortion in the guitar riffs adds",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:48:43.631977"
+      }
+    },
+    {
+      "sample_idx": 12,
+      "filename": "0012_63-73.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0012_63-73.wav",
+      "metadata": {
+        "index": 12,
+        "filename": "0012_63-73.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0012_63-73.wav",
+        "artist_name": "Tango Transit",
+        "album_name": "Akrobat",
+        "track_name": "Taumler",
+        "slice_position": [
+          63,
+          73
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the track is electronic and ambient, with experimental influences. It has a slow tempo and features synthesizers, bass, drums, and occasional guitar riffs.\n  2. The instrumental texture is rich and layered, with a variety of synths, bass, and drums creating a deep, immersive soundscape. There are also occasional guitar riffs that add some aggression to the mix.\n  3. The vocals are sparse, featuring a haunting female voice singing over the instrumental. The lyrics are introspective and contemplative, reflecting on themes of love, loss, and longing.\n  4. The atmosphere of the track is dreamy and atmospheric, evoking a sense of introspection and contemplation. I would associate the track with a cool, muted color palette, perhaps in shades of gray or blue.\n  5. Structurally, the track starts off quiet and intimate, building gradually into a more complex and layered arrangement. There are several sections that feel quite different from one another, adding to the overall dynamic feel of the track.\n  6. The energy level of the track is low, but it feels dynamic and evolving throughout. There are moments where the track feels quite intense and others where it feels more subdued and contemplative.",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 144.23076923076923,
+          "key": "A",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 1276.2212499754376,
+          "spectral_bandwidth": 1715.8620172369535,
+          "zero_crossing_rate": 0.05862651008386582,
+          "rmse": 0.11448042094707489,
+          "harmonic_content": 0.6969069838523865,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis track is an electronic and ambient piece with experimental influences, characterized by a slow tempo and a haunting female vocal singing over a rich, layered instrumental texture. The music creates a dreamy, atmospheric ambience, evoking introspective and contemplative feelings through its use of synthesizers, bass, drums, and occasional guitar riffs. The key of A minor contributes to a melancholic mood, while the 70% harmonic content provides a sense of complexity and depth. The undulating melody contour adds to the emotional depth of the track, driving the narrative forward through its dynamic changes. Overall, the combination of these elements results in a unique and engaging listening experience.\nRhythmic & Harmonic Architecture:\nThe track has a steady tempo of 144.2 BPM and follows a 4/4 time signature, providing a consistent pulse for the music. The key of A minor gives the track a melancholic feel, while the 70% harmonic content provides a sense of complexity and depth. The 4/4 time signature organizes the pulse, ensuring that the rhythm remains consistent throughout the track.\nTimbral & Textural Landscape:\nThe track's timbre is defined by its bright, piercing synthesizer timbre, which is supported by a rich, layered instrumental texture. The 1276 Hz Spectral Centroid value reflects the timbre brightness/darkness, while the Zero Crossing Rate of 0.0586 reflects high-frequency content. The 70% harmonic ratio plays a significant role in the texture, contributing to the overall complexity and richness of the sound.\nEmotional & Narrative Evolution:\nThe track's emotional narrative is driven by its undulating melody contour, which adds dynamic changes to the music. These changes are reflected in the RMSE energy variations, providing a sense of tension and release. The harmonic progression builds meaning across the track structure, contributing to the overall emotional depth of the music. The combination of these elements results in a unique and engaging listening experience, drawing the listener into a state of introspection and contemplation.\nDeep Insights:\nOne of the key insights gained from this analysis is the interplay between the technical features and the perceived atmosphere. The key of A minor, for example, contributes to a melancholic mood, while the 70% harmonic content provides a sense of complexity and depth. Similarly, the undulating melody contour adds to the emotional depth of the track, driving the narrative forward through its dynamic changes. This combination of elements results in a unique",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:49:10.764943"
+      }
+    },
+    {
+      "sample_idx": 13,
+      "filename": "0013_69-79.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0013_69-79.wav",
+      "metadata": {
+        "index": 13,
+        "filename": "0013_69-79.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0013_69-79.wav",
+        "artist_name": "The Piano Guys",
+        "album_name": "At Home with Beethoven",
+        "track_name": "Moonlight",
+        "slice_position": [
+          69,
+          79
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "I'm sorry, but as an AI language model, I don't have access to audio files. Please provide me with the link or the audio file itself so that I can perform the analysis for you.",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 117.1875,
+          "key": "C#",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 736.2805364771328,
+          "spectral_bandwidth": 1033.0149616774954,
+          "zero_crossing_rate": 0.04501235523162939,
+          "rmse": 0.2622722089290619,
+          "harmonic_content": 0.7127315402030945,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "## Executive Summary\nThis music analysis report focuses on the key features of the track, including its tonality, tempo, spectral characteristics, and dynamic intensity. Through a combination of qualitative analysis and technical data, we aim to understand how these elements contribute to the overall emotional and narrative impact of the piece.\n### Rhythmic & Harmonic Architecture\nThe track has a tempo of 117.2 BPM and a 4/4 time signature, which provides a steady and consistent rhythmic foundation. The key of C# minor gives the piece a somber and melancholic feel, which is further emphasized by the low Spectral Centroid value of 736 Hz, indicating a bright and piercing timbre. The dynamic intensity, measured by Root Mean Square Error (RMSE), is relatively high at 0.2623, suggesting a loud and energetic sound. Additionally, the 71% harmonic content indicates that the piece is heavily based on chords and harmonies, contributing to the overall texture and depth of the sound.\n### Timbral & Textural Landscape\nThe 736 Hz Spectral Centroid value reflects a bright and piercing timbre, which is supported by the low Zero Crossing Rate of 0.0450, indicating a high frequency content. This timbre contributes to the overall brightness of the track and creates a sense of tension and unease. The 71% harmonic ratio, combined with the undulating melody contour, creates a complex and dynamic texture that drives the emotional narrative of the piece. The spectral bandwidth of 1033.0 Hz suggests a wide range of frequencies, contributing to the richness and complexity of the sound.\n### Emotional & Narrative Evolution\nThe undulating melody contour creates a sense of movement and change, driving the emotional narrative of the piece. The dynamic changes in the RMSE energy variations suggest a fluctuating level of intensity, adding to the sense of tension and unease. The harmonic progression also plays a crucial role in building meaning across the track structure, providing a sense of direction and resolution. Together, these elements create a complex and dynamic emotional landscape that engages the listener throughout the piece.\n### Deep Insights\nOverall, the track utilizes a combination of tonal, rhythmic, and textural elements to create a unique and engaging listening experience. The use of a minor key and low Spectral Centroid values contribute to a somber and melancholic mood, while the high dynamic intensity and 71% harmonic ratio add energy and complexity. The",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:49:30.622430"
+      }
+    },
+    {
+      "sample_idx": 14,
+      "filename": "0014_242-252.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0014_242-252.wav",
+      "metadata": {
+        "index": 14,
+        "filename": "0014_242-252.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0014_242-252.wav",
+        "artist_name": "UMEK",
+        "album_name": "Straight Forward, Vol. 6 - Tech-House Essentials",
+        "track_name": "Novi Sad (Anton Pieete Remix)",
+        "slice_position": [
+          242,
+          252
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the track seems to be a fusion between electronic and rock, with a touch of experimental and ambient elements. It has a strong bass presence which indicates a rock influence, while the synthesizer gives it an electronic feel. There's also a distorted electric guitar that adds more texture to the sound.\n  2. The track has a complex arrangement, starting off with a sparse and quiet section using only drums and bass. As the song progresses, it becomes more dynamic and intense, incorporating various instruments such as a synthesizer, guitar, and piano. The drums maintain a steady tempo throughout, while the bassline gets more complex and intricate. The distorted guitar adds a raw and aggressive edge to the track, contrasting with the smoothness of the piano and synthesizer parts.\n  3. The vocals in the track are sparse, featuring a haunting female voice singing over the instrumental. The lyrics seem introspective and dark, hinting at themes of loneliness and despair. The vocal delivery is haunting and emotive, adding to the overall melancholic atmosphere of the track.\n  4. The track creates a somber and dreamy mood, evoking images of a dark and atmospheric landscape. It's easy to imagine this track playing in a moody movie scene",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 125.0,
+          "key": "G#",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 1988.355595918482,
+          "spectral_bandwidth": 2321.412234475237,
+          "zero_crossing_rate": 0.03897201976837061,
+          "rmse": 0.341988742351532,
+          "harmonic_content": 0.8445637226104736,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music analysis report aims to examine the technical features and perceptual qualities of a fusion track between electronic, rock, experimental, and ambient genres. The track has a complex arrangement that starts off sparse and quiet and gradually becomes more dynamic and intense. The key of G# minor, tempo of 125 BPM, and 4/4 time signature contribute to a somber and dreamy mood. The spectral features of the track, including the spectral centroid, bandwidth, zero crossing rate, and dynamic intensity, provide insight into the timbre and texture of the instruments used. The melody contour is undulating, contributing to the emotional depth of the track. This report will explore how these technical and perceptual elements work together to create the overall listening experience.\nRhythmic & Harmonic Architecture:\nThe track has a tempo of 125 BPM and follows a 4/4 time signature, which contributes to a steady and predictable rhythm. The key of G# minor provides a melancholic and introspective tone, often associated with somber or dreamy moods. The minor key can evoke feelings of sadness or longing, which aligns with the overall mood of the track. The harmonic structure of the track is complex, with an 84% harmonic ratio indicating a balance between harmonic and percussive elements. This may contribute to the rich and layered texture of the track.\nTimbral & Textural Landscape:\nThe spectral centroid of 1988 Hz provides a bright and piercing timbre, which contrasts with the dark and atmospheric mood of the track. The zero crossing rate of 0.0390 reflects high-frequency content, which may contribute to the energetic and dynamic nature of the track. The 84% harmonic ratio indicates a balance between harmonic and percussive elements, which may contribute to the rich and layered texture of the track. The use of a distorted electric guitar adds a raw and aggressive edge to the track, providing contrast to the smoothness of the synthesizer and piano parts.\nEmotional & Narrative Evolution:\nThe undulating melody contour contributes to the emotional depth of the track, creating a sense of movement and tension that builds throughout the piece. The dynamic changes reflected in the RMSE energy variations may add to the sense of intensity and excitement, contributing to the overall energy of the track. The harmonic progression builds meaning across the track structure, providing a sense of direction and progression. These elements work together to create a sense of narrative and emotion that engages the listener throughout the track.\nDeep",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:49:57.741300"
+      }
+    },
+    {
+      "sample_idx": 15,
+      "filename": "0015_209-219.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0015_209-219.wav",
+      "metadata": {
+        "index": 15,
+        "filename": "0015_209-219.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0015_209-219.wav",
+        "artist_name": "Idil Biret",
+        "album_name": "Wine And Music (\uc640\uc778\uacfc \uc74c\uc545)",
+        "track_name": "Rachmaninov: 3 Nocturnes - No.2 In F Major (\ub77c\ud750\ub9c8\ub2c8\ub178\ud504: 3\uac1c\uc758 \uc57c\uc0c1\uace1 - 2\ubc88 \ubc14\uc7a5\uc870)",
+        "slice_position": [
+          209,
+          219
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre appears to be a fusion between electronic and acoustic elements, drawing from both worlds to create a unique auditory experience.\n  2. A variety of instruments can be heard, including synthesizers, guitars, drums, and possibly brass instruments. The timbres range from warm analog synths to distorted aggressive guitars, creating a rich and textured soundscape.\n  3. Vocals are sparse but impactful when present, adding to the track's emotive depth. The vocal style is likely varied, contributing to the track's eclectic mix of styles and moods.\n  4. The atmosphere is dynamic and evocative, drawing on a range of sensory experiences. It could be associated with a vibrant cityscape or a moody, atmospheric landscape.\n  5. The structure of the track is likely complex and layered, with a gradual build-up that culminates in a powerful climax. This suggests a careful consideration of dynamics and pacing throughout the piece.\n  6. The energy level of the track is high, with a sense of movement and progression that keeps the listener engaged. There are likely shifts in dynamics and texture that contribute to this feeling of energy. Overall, the track has a lively and engaging feel that keeps the listener interested and emotionally connected",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 156.25,
+          "key": "E",
+          "tonality": "Major",
+          "time_signature": "4/4",
+          "spectral_centroid": 628.5023837547232,
+          "spectral_bandwidth": 654.8607524180479,
+          "zero_crossing_rate": 0.054838820387380194,
+          "rmse": 0.019275320693850517,
+          "harmonic_content": 0.8606669306755066,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music analysis report explores the sonic characteristics of an electronic and acoustic fusion track, drawing on a range of instruments and vocals to create a dynamic and emotive soundscape. The track exhibits a complex and layered structure, with a gradual build-up leading to a powerful climax. The use of E major key and a tempo of 156 BPM contributes to a lively and engaging atmosphere, while the spectral features of the track provide a rich and textured backdrop. The melody contour is undulating, driving the emotional narrative of the piece. Through a combination of these elements, the track creates a unique auditory experience that engages listeners and evokes a range of emotions.\nRhythmic & Harmonic Architecture:\nThe track is built on a rhythmic foundation of 156 BPM and a 4/4 time signature, which provides a steady pulse and a clear sense of meter. The key of E major provides a tonal center for the piece, and the harmonic content of 86% is indicative of a well-balanced mix of melodic and harmonic elements. The spectral features of the track, such as the bright timbre of the synthesizer and the high frequency content, add to the complexity and richness of the sound.\nTimbral & Textural Landscape:\nThe timbre of the track is defined by a range of instruments, including synthesizers, guitars, drums, and possibly brass instruments. The 629 Hz Spectral Centroid value reflects a bright, piercing timbre, while the 0.0548 Zero Crossing Rate indicates a high frequency content. The 86% harmonic ratio contributes to a rich and textured sound, with a balance between melodic and percussive elements. The use of vocals is sparse but impactful, adding to the track's emotive depth.\nEmotional & Narrative Evolution:\nThe track's emotional narrative is driven by the undulating melody contour, which creates a sense of movement and progression. The dynamic changes in the RMSE energy variations add to the intensity of the piece, creating a sense of energy and excitement. The harmonic progression builds meaning across the track structure, contributing to the overall emotional impact of the piece. The combination of these elements creates a lively and engaging atmosphere that keeps the listener emotionally connected to the music.\nDeep Insights:\nOne of the key insights of this analysis is the way in which the technical features of the track work together to create a unique auditory experience. The use of E major key and a tempo of 156 BPM contribute to a lively and engaging",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:50:24.857901"
+      }
+    },
+    {
+      "sample_idx": 16,
+      "filename": "0016_185-195.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0016_185-195.wav",
+      "metadata": {
+        "index": 16,
+        "filename": "0016_185-195.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0016_185-195.wav",
+        "artist_name": "\ud589\uc778\ub370\uc5b4 (Haeng Inthere)",
+        "album_name": "Mute",
+        "track_name": "Mute",
+        "slice_position": [
+          185,
+          195
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the track seems to be a fusion between electronic and rock, drawing from both worlds to create a unique auditory experience.\n  2. The instrumental arrangement includes a variety of sounds such as synthesizers, distorted guitars, and drums, contributing to a gritty texture that is typical of many modern rock bands. The inclusion of a smooth jazz trumpet adds a layer of sophistication and a touch of classiness to the mix.\n  3. Vocals are sparse but impactful, featuring a haunting female voice that conveys a sense of longing and melancholy. The lyrics appear to be introspective and reflective, hinting at themes of love, loss, and longing.\n  4. The atmosphere created by the track is one of darkness and tension, evoking images of stormy skies and deserted streets. The use of minor key tones and dissonant harmonies amplifies this feeling of unease.\n  5. Structurally, the track starts off quiet and intimate, gradually building up in intensity until it reaches a chaotic climax. This progression creates a sense of suspense and anticipation, keeping the listener engaged throughout.\n  6. The energy level of the track is dynamic, starting off slow and building up into a high-intensity climax. There are moments",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 117.1875,
+          "key": "A",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 440.560956078578,
+          "spectral_bandwidth": 440.8338800279041,
+          "zero_crossing_rate": 0.045018595247603835,
+          "rmse": 0.0738629624247551,
+          "harmonic_content": 0.8962004780769348,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis track is a fusion of electronic and rock genres, characterized by a gritty texture from a variety of instruments including synthesizers, distorted guitars, drums, and a smooth jazz trumpet. The vocals are sparse but impactful, featuring a haunting female voice that conveys a sense of longing and melancholy. The track creates a dark and tense atmosphere, evoking images of stormy skies and deserted streets. The use of minor key tones and dissonant harmonies amplifies this feeling of unease. The track starts off quiet and intimate, gradually building up in intensity until it reaches a chaotic climax. The energy level of the track is dynamic, starting off slow and building up into a high-intensity climax. The track has a tempo of 117.2 BPM and a 4/4 time signature.\nRhythmic & Harmonic Architecture:\nThe track has a tempo of 117.2 BPM and a 4/4 time signature, which provides a steady and predictable rhythm. The key of the track is A minor, which is often associated with a somber or melancholic mood. The use of minor key tones in the track contributes to this feeling of unease and longing. Additionally, the 90% harmonic content of the track indicates that there is a strong emphasis on chords and harmony, which can contribute to the overall texture and feel of the track.\nTimbral & Textural Landscape:\nThe 441 Hz Spectral Centroid value of 440.6 Hz corresponds to a bright, piercing synthesizer timbre, which is used in the intro of the track. This helps to establish a sense of intensity and tension from the beginning of the track. The Zero Crossing Rate of 0.0450 reflects high-frequency content, which may contribute to the overall brightness of the track. The 90% harmonic ratio of the track indicates that there is a strong emphasis on chords and harmony, which can contribute to the overall texture and feel of the track. The Undulating melody contour of the track adds an element of unpredictability and dynamism, which can help to keep the listener engaged throughout the track.\nEmotional & Narrative Evolution:\nThe Undulating melody contour of the track creates an emotional trajectory that rises and falls in intensity, adding to the sense of tension and longing. The dynamic changes reflected in RMSE energy variations can also contribute to the emotional impact of the track. As the track progresses, the harmonic progression builds meaning across the track structure, helping to deepen the",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:50:51.982093"
+      }
+    },
+    {
+      "sample_idx": 17,
+      "filename": "0017_322-332.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0017_322-332.wav",
+      "metadata": {
+        "index": 17,
+        "filename": "0017_322-332.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0017_322-332.wav",
+        "artist_name": "Tortured Soul",
+        "album_name": "U Live 2 Far Away (Remixes, Vol. 2)",
+        "track_name": "U Live 2 Far Away (John Christian Urich Backseat Make Out Mix)",
+        "slice_position": [
+          322,
+          332
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre of the music is a fusion between electronic and classical music, drawing heavily from both worlds. It has a slow tempo and features a wide range of instruments including synthesizers, violins, cellos, and pianos. The sound is rich and layered, creating a textured soundscape that feels both futuristic and timeless.\n  2. The instrumental arrangement is complex and intricate, with each instrument contributing its own unique timbre to create a cohesive whole. The synthesizers add a warm, ambient feel to the music, while the violins and cellos bring a sense of drama and emotion. The pianos provide a melodic foundation, and the distorted guitars add a touch of edginess and intensity.\n  3. The vocals in the music are sparse but impactful, featuring a haunting female voice singing over the instrumental landscape. The lyrics are introspective and contemplative, exploring themes of love, loss, and longing. The vocal delivery is melancholic and emotive, drawing listeners into the music's world.\n  4. The atmosphere of the music is dreamy and otherworldly, evoking a sense of wonder and awe. The use of violins and cellos creates a lush, emotional landscape, while the synthesizers add a layer of",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 75.0,
+          "key": "A",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 2211.1766712526646,
+          "spectral_bandwidth": 2124.4800102856557,
+          "zero_crossing_rate": 0.12521528055111822,
+          "rmse": 0.1664528250694275,
+          "harmonic_content": 0.6856631636619568,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music piece is a fusion between electronic and classical genres, characterized by a slow tempo of 75 BPM and a 4/4 time signature. The key of the composition is A minor, which contributes to a melancholic and dreamy atmosphere. The use of a wide range of instruments such as synthesizers, violins, cellos, pianos, and distorted guitars adds depth and complexity to the sound. The vocals are sparse but impactful, featuring a haunting female voice singing over the instrumental landscape. The lyrics explore themes of love, loss, and longing, and the vocal delivery is emotive and melancholic.\nRhythmic & Harmonic Architecture:\nThe 75 BPM tempo provides a steady and relaxed pace, allowing the listener to fully engage with the music. The A minor key gives the composition a somber and reflective quality, which is further enhanced by the use of a 4/4 time signature, providing a straightforward and consistent rhythm pattern. The spectral features of the instruments contribute to the overall texture of the music, with the bright timbre of the synthesizer contrasting with the dark tones of the strings and piano.\nTimbral & Textural Landscape:\nThe 2211 Hz Spectral Centroid value reflects the bright, piercing timbre of the synthesizer, adding a layer of complexity to the overall sound. The Zero Crossing Rate of 0.1252 indicates a high level of high-frequency content, contributing to the energetic and dynamic nature of the music. The 69% harmonic ratio suggests a balance between harmonic and percussive elements, contributing to the richness and complexity of the texture. The use of a wide range of instruments such as synthesizers, violins, cellos, pianos, and distorted guitars adds depth and complexity to the sound, creating a rich and layered texture.\nEmotional & Narrative Evolution:\nThe Undulating melody contour contributes to an emotional journey for the listener, starting from a soft and gentle beginning and gradually building up to a more intense and passionate climax. The dynamic changes reflected in RMSE energy variations add another layer of complexity to the emotional narrative, creating a sense of tension and release. The harmonic progression builds meaning across the track structure, leading to a more profound emotional impact. The sparse vocals and emotive delivery of the lyrics further enhance the dreamy and otherworldly atmosphere of the music, making it a deeply immersive and emotional experience.\nDeep Insights:\nThe fusion of electronic and classical genres creates a unique and innovative sound that bridges traditional and modern musical",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:51:19.106157"
+      }
+    },
+    {
+      "sample_idx": 18,
+      "filename": "0018_85-95.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0018_85-95.wav",
+      "metadata": {
+        "index": 18,
+        "filename": "0018_85-95.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0018_85-95.wav",
+        "artist_name": "\uc6b0\ud30d (WooPark)",
+        "album_name": "3\u67089\u65e5",
+        "track_name": "Lifelong Dream (Feat. Brother Gun)",
+        "slice_position": [
+          85,
+          95
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "I'm sorry, but as an AI language model, I don't have access to audio files. Please provide me with the link or the audio file itself so that I can analyze it for you.",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 133.92857142857142,
+          "key": "D#",
+          "tonality": "Minor",
+          "time_signature": "4/4",
+          "spectral_centroid": 1654.1500568692543,
+          "spectral_bandwidth": 1662.565045001281,
+          "zero_crossing_rate": 0.09693084814297125,
+          "rmse": 0.360499769449234,
+          "harmonic_content": 0.7935322523117065,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music piece is characterized by a fast tempo of 133.9 BPM and a D# minor key, creating a sense of tension and drama. The 4/4 time signature provides a steady rhythm, while the spectral centroid at 1654.2 Hz gives the music a bright timbre. The dynamic intensity is moderate with a RMSE of 0.3605, indicating a balanced loudness level. The music has a high harmonic content of 79%, contributing to a rich texture. The melody is undulating, adding complexity and emotion to the piece.\nRhythmic & Harmonic Architecture:\nThe 134 BPM tempo creates a lively and energetic atmosphere, which is further enhanced by the D# minor key, which typically conveys feelings of sadness or melancholy. The 4/4 time signature provides a steady and predictable rhythm, while the spectral centroid at 1654.2 Hz gives the music a bright timbre. The dynamic intensity is moderate with a RMSE of 0.3605, indicating a balanced loudness level. The high harmonic content of 79% contributes to a rich and full sound, while the undulating melody adds complexity and emotion to the piece.\nTimbral & Textural Landscape:\nThe 1654 Hz Spectral Centroid value indicates a bright timbre, which is supported by the 79% harmonic content, giving the music a rich and full sound. The 0.0969 Zero Crossing Rate reflects high-frequency content, contributing to the liveliness and energy of the piece. The 79% harmonic ratio plays a significant role in the texture, providing a balance between harmonic and percussive elements.\nEmotional & Narrative Evolution:\nThe undulating melody contour adds a sense of movement and emotion to the piece, creating a dynamic narrative that engages the listener. The dynamic changes reflected in RMSE energy variations add another layer of complexity and emotion, contributing to the overall tension and drama of the piece. The harmonic progression builds meaning across the track structure, leading to a satisfying resolution that ties together the various elements of the music.\nDeep Insights:\nThe combination of a fast tempo, D# minor key, 4/4 time signature, bright timbre, and high harmonic content creates a unique and engaging listening experience. The undulating melody adds complexity and emotion to the piece, while the dynamic changes and harmonic progression build a sense of tension and drama. Overall, this music piece",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:51:38.986145"
+      }
+    },
+    {
+      "sample_idx": 19,
+      "filename": "0019_92-102.wav",
+      "filepath": "/pscratch/sd/h/heehaw/NLP_course/FA_project/dataset/audio/0019_92-102.wav",
+      "metadata": {
+        "index": 19,
+        "filename": "0019_92-102.wav",
+        "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0019_92-102.wav",
+        "artist_name": "\uc6cc\uc2ed \ubc14\uc774\ub7ec\uc2a4",
+        "album_name": "The Story",
+        "track_name": "\ub9cc\ub0a8",
+        "slice_position": [
+          92,
+          102
+        ],
+        "duration_seconds": 10.0,
+        "sample_rate": 16000,
+        "num_samples": 160000
+      },
+      "hybrid_analysis": {
+        "step1_perception": {
+          "perception": "1. The genre appears to be a fusion between electronic and acoustic elements, drawing inspiration from both worlds. It's characterized by a blend of synthesized sounds with organic instruments such as strings and drums.\n  2. The sonic texture is rich and complex, featuring a variety of instruments including synthesizers, drum machines, guitars, and strings. The synthesizer adds a modern, synthetic feel while the guitar brings in a raw, edgy vibe. The strings contribute to a more emotional, human touch, and the drums provide a steady rhythmic foundation that drives the piece forward.\n  3. The vocals are sparse but impactful, adding to the track's introspective quality. There are male and female vocals, which complement each other well. The lyrics convey a sense of longing and introspection, making the listener reflect on their own experiences.\n  4. The atmosphere of the track is atmospheric and moody, evoking a sense of introspection and contemplation. The colors associated with this track might be dark blues or grays, reflecting the mood and tone set by the music.\n  5. The structure of the track starts off slow and intimate, gradually building up to a more intense and chaotic climax. This creates a dynamic and engaging listening experience, keeping the listener",
+          "focus": "Qualitative - Texture, Atmosphere, Instrumentation, Genre"
+        },
+        "step2_metrics": {
+          "tempo": 81.52173913043478,
+          "key": "G",
+          "tonality": "Major",
+          "time_signature": "4/4",
+          "spectral_centroid": 1809.1012081313452,
+          "spectral_bandwidth": 1719.2988264629594,
+          "zero_crossing_rate": 0.12256483376597443,
+          "rmse": 0.1679840385913849,
+          "harmonic_content": 0.7398821711540222,
+          "melody_contour": "Undulating"
+        },
+        "step3_synthesis": {
+          "synthesis": "Executive Summary:\nThis music piece is a fusion between electronic and acoustic elements, characterized by a blend of synthesized sounds with organic instruments such as strings and drums. The sonic texture is rich and complex, featuring a variety of instruments including synthesizers, drum machines, guitars, and strings. The track has a slow and intimate start, gradually building up to a more intense and chaotic climax. The vocals are sparse but impactful, adding to the introspective quality of the track. The atmosphere of the track is atmospheric and moody, evoking a sense of introspection and contemplation. The key is G major, tempo is 81.5 BPM, time signature is 4/4, and the spectral centroid is 1809.1 Hz. The dynamic intensity is 0.1680, and the harmonic content is 74.0%.\nRhythmic & Harmonic Architecture:\nThe track has a 4/4 time signature and a tempo of 81.5 BPM, which provides a steady and predictable rhythm. The key of G major provides a bright and uplifting sound, while the dynamic intensity of 0.1680 suggests a relatively soft and controlled dynamic level. The spectral centroid of 1809.1 Hz indicates a bright timbre, which contributes to the overall atmosphere of the track.\nTimbral & Textural Landscape:\nThe 1809.1 Hz Spectral Centroid value corresponds to a bright timbre, which is further supported by the 0.1226 Zero Crossing Rate indicating high-frequency content. The 74% harmonic ratio suggests that the track has a strong harmonic foundation, contributing to the complexity and richness of the texture. The Undulating melody contour adds an element of unpredictability and emotional depth to the track, driving the emotional narrative and evolution of the piece.\nEmotional & Narrative Evolution:\nThe track starts off slow and intimate, setting a reflective and introspective mood. As it progresses, the intensity increases, leading to a more chaotic and intense climax. The sparse vocals add to the introspective quality of the track, inviting listeners to reflect on their own experiences. The dynamic changes reflected in the RMSE energy variations suggest a gradual build-up to the climax, maintaining the listener's engagement throughout the track. The harmonic progression also plays a crucial role in building meaning across the track structure, providing a sense of continuity and coherence.\nDeep Insights:\nThe fusion of electronic and acoustic elements in this track creates a unique sonic landscape that is both",
+          "focus": "Integrated - Causal Analysis & Deep Insights"
+        },
+        "timestamp": "2025-12-03T05:52:06.095568"
+      }
+    }
+  ]
+}

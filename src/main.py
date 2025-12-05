@@ -46,9 +46,24 @@ def run(base_prompt: str):
 
 def main():
     parser = argparse.ArgumentParser(description="Run Director–Generator MAS for generative art.")
-    parser.add_argument("prompt", help="Base text prompt describing music/mood.")
+    parser.add_argument("prompt", nargs="?", help="Base text prompt describing music/mood. If omitted, use -f/--prompt-file.")
+    parser.add_argument(
+        "-f",
+        "--prompt-file",
+        dest="prompt_file",
+        help="Path to a text file containing the base prompt; file contents will be used verbatim.",
+    )
     args = parser.parse_args()
-    result, report_path = run(args.prompt)
+
+    if args.prompt_file:
+        with open(args.prompt_file, "r", encoding="utf-8") as f:
+            base_prompt = f.read().strip()
+    elif args.prompt:
+        base_prompt = args.prompt
+    else:
+        parser.error("Provide a prompt string or a file via -f/--prompt-file.")
+
+    result, report_path = run(base_prompt)
     print(f"Run complete. Final iteration: {result.get('iteration')}. Report saved to: {report_path}")
 
 

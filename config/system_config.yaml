@@ -1,6 +1,7 @@
-evaluation_threshold: 78
+evaluation_threshold: 4
 max_loops: 10
 recursion_limit: 1000
+creative_index_threshold: 4.0
 
 # Role → alias. Swap these to redirect per-role model selection.
 models:

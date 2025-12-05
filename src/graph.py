@@ -3,7 +3,7 @@ from typing import Callable
 
 from langgraph.graph import END, START, StateGraph
 
-from .agents import MASState, ModelRouter, director_phase, generator_phase
+from .agents import MASState, ModelRouter, creation_director_phase, critic_phase, generator_phase
 from .tools import SDXLWrapper
 from .utils import SystemConfig
 
@@ -25,24 +25,28 @@ def build_app(config: SystemConfig):
 
     graph = StateGraph(MASState)
     graph.add_node(
-        "director_phase",
-        lambda state: director_phase(state, config=config, router=router, director_path="config/directors.json"),
+        "director_creation",
+        lambda state: creation_director_phase(state, config=config, router=router, director_path="config/directors.json"),
     )
-    graph.add_node(
-        "generator_phase",
-        lambda state: generator_phase(state, config=config, router=router, generator_path="config/generators.json"),
-    )
+    graph.add_node("generator_phase", lambda state: generator_phase(state, config=config, router=router))
     graph.add_node("sdxl_execution", _sdxl_node(sdxl))
+    graph.add_node(
+        "critic_phase",
+        lambda state: critic_phase(state, config=config, router=router, director_path="config/directors.json"),
+    )
 
-    graph.add_edge(START, "director_phase")
+    graph.add_edge(START, "director_creation")
+    graph.add_edge("director_creation", "generator_phase")
     graph.add_edge("generator_phase", "sdxl_execution")
-    graph.add_edge("sdxl_execution", "director_phase")
+    graph.add_edge("sdxl_execution", "critic_phase")
 
     def decide_next(state: MASState) -> str:
+        if state.get("creative_index_avg", 0) >= config.creative_index_threshold:
+            return "end"
         if state.get("iteration", 0) >= config.max_loops:
             return "end"
         return "loop"
 
-    graph.add_conditional_edges("director_phase", decide_next, {"end": END, "loop": "generator_phase"})
+    graph.add_conditional_edges("critic_phase", decide_next, {"end": END, "loop": "generator_phase"})
 
     return graph.compile()

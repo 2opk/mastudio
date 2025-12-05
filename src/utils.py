@@ -1,5 +1,7 @@
+import hashlib
 import json
 import os
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -16,6 +18,23 @@ class AgentMeta(BaseModel):
     display_name: Optional[str] = None
 
 
+class DirectorMeta(BaseModel):
+    id: str
+    name: str
+    creation_prompt: str
+    critic_prompt: str
+    display_name: Optional[str] = None
+
+
+class GeneratorAgentMeta(BaseModel):
+    id: str
+    name: str
+    prompt: str
+    display_name: Optional[str] = None
+    keywords: List[str] = Field(default_factory=list)
+    category: Optional[str] = None
+
+
 class VLLMConfig(BaseModel):
     api_base: str = Field(default_factory=lambda: os.getenv("VLLM_API_BASE", "http://localhost:8000/v1"))
     tensor_parallel_size: int = 4
@@ -30,6 +49,7 @@ class SDXLConfig(BaseModel):
 class SystemConfig(BaseModel):
     evaluation_threshold: int
     max_loops: int
+    creative_index_threshold: float = 4.0
     recursion_limit: int = 2500
     models: Dict[str, str] = Field(default_factory=dict)
     aliases: Dict[str, str] = Field(default_factory=dict)
@@ -89,6 +109,69 @@ def load_agents(path: str, aliases: Optional[Dict[str, str]] = None) -> List[Age
         display_name = alias_map.get(agent_id) or item.get("display_name") or item.get("name")
         processed.append(AgentMeta(**item, display_name=display_name))
     return processed
+
+
+def load_directors(path: str, aliases: Optional[Dict[str, str]] = None) -> List[DirectorMeta]:
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    alias_map = aliases or {}
+    processed: List[DirectorMeta] = []
+    for item in data:
+        agent_id = item.get("id", "")
+        display_name = alias_map.get(agent_id) or item.get("display_name") or item.get("name")
+        processed.append(DirectorMeta(**item, display_name=display_name))
+    return processed
+
+
+def _extract_persona_name(raw: str) -> Optional[str]:
+    match = re.search(r"##\s*PERSONA:\s*(.+)", raw)
+    if match:
+        return match.group(1).strip()
+    return None
+
+
+def _extract_keywords(raw: str) -> List[str]:
+    """Extract backtick-wrapped keywords from persona prompt."""
+    keywords: List[str] = []
+    for match in re.findall(r"`([^`]+)`", raw):
+        parts = [p.strip() for p in re.split(r"[;,]", match) if p.strip()]
+        if parts:
+            keywords.extend(parts)
+        else:
+            keywords.append(match.strip())
+    return keywords
+
+
+def load_generator_pool(root: str = "prompts/generators") -> List[GeneratorAgentMeta]:
+    base = Path(root)
+    if not base.exists():
+        return []
+    exclude_dirs = {"creation_mode", "refinement_mode"}
+    metas: List[GeneratorAgentMeta] = []
+    for path in base.rglob("*.md"):
+        if any(part in exclude_dirs for part in path.parts):
+            continue
+        rel_parts = path.relative_to(base).parts
+        category = rel_parts[0] if rel_parts else None
+        raw = path.read_text(encoding="utf-8")
+        name = _extract_persona_name(raw) or path.stem.replace("_", " ").title()
+        keywords = _extract_keywords(raw)
+        metas.append(
+            GeneratorAgentMeta(
+                id=path.stem,
+                name=name,
+                prompt=str(path),
+                display_name=name,
+                keywords=keywords,
+                category=category,
+            )
+        )
+    return metas
+
+
+def stable_seed(text: str) -> int:
+    """Return deterministic seed from text for squad selection randomness."""
+    return int(hashlib.sha256(text.encode("utf-8")).hexdigest()[:8], 16)
 
 
 def load_prompt(path: str) -> str:

@@ -1,0 +1,909 @@
+{
+  "total_samples": 100,
+  "analysis_timestamp": "2025-12-03T05:43:50.362075",
+  "hybrid_analyzer_enabled": true,
+  "samples_with_errors": 0,
+  "samples_with_hybrid_analysis": 100,
+  "sample_summary": [
+    {
+      "sample_idx": 0,
+      "filename": "0000_45-55.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Minor",
+      "tempo": 125.0,
+      "harmonic_content": 0.8430421948432922
+    },
+    {
+      "sample_idx": 1,
+      "filename": "0001_37-47.wav",
+      "has_hybrid_analysis": true,
+      "key": "D",
+      "tonality": "Major",
+      "tempo": 170.45454545454547,
+      "harmonic_content": 0.7303547263145447
+    },
+    {
+      "sample_idx": 2,
+      "filename": "0002_98-108.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Major",
+      "tempo": 125.0,
+      "harmonic_content": 0.6198063492774963
+    },
+    {
+      "sample_idx": 3,
+      "filename": "0003_117-127.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Minor",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.753679633140564
+    },
+    {
+      "sample_idx": 4,
+      "filename": "0004_189-199.wav",
+      "has_hybrid_analysis": true,
+      "key": "D",
+      "tonality": "Major",
+      "tempo": 110.29411764705883,
+      "harmonic_content": 0.93467116355896
+    },
+    {
+      "sample_idx": 5,
+      "filename": "0005_9-19.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Minor",
+      "tempo": 144.23076923076923,
+      "harmonic_content": 0.6951209902763367
+    },
+    {
+      "sample_idx": 6,
+      "filename": "0006_127-137.wav",
+      "has_hybrid_analysis": true,
+      "key": "A#",
+      "tonality": "Minor",
+      "tempo": 81.52173913043478,
+      "harmonic_content": 0.8927240967750549
+    },
+    {
+      "sample_idx": 7,
+      "filename": "0007_108-118.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 110.29411764705883,
+      "harmonic_content": 0.8570139408111572
+    },
+    {
+      "sample_idx": 8,
+      "filename": "0008_35-45.wav",
+      "has_hybrid_analysis": true,
+      "key": "D#",
+      "tonality": "Major",
+      "tempo": 144.23076923076923,
+      "harmonic_content": 0.67291659116745
+    },
+    {
+      "sample_idx": 9,
+      "filename": "0009_41-51.wav",
+      "has_hybrid_analysis": true,
+      "key": "A#",
+      "tonality": "Minor",
+      "tempo": 110.29411764705883,
+      "harmonic_content": 0.5894375443458557
+    },
+    {
+      "sample_idx": 10,
+      "filename": "0010_102-112.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Major",
+      "tempo": 144.23076923076923,
+      "harmonic_content": 0.5360408425331116
+    },
+    {
+      "sample_idx": 11,
+      "filename": "0011_77-87.wav",
+      "has_hybrid_analysis": true,
+      "key": "D#",
+      "tonality": "Minor",
+      "tempo": 156.25,
+      "harmonic_content": 0.8627824187278748
+    },
+    {
+      "sample_idx": 12,
+      "filename": "0012_63-73.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 144.23076923076923,
+      "harmonic_content": 0.6969069838523865
+    },
+    {
+      "sample_idx": 13,
+      "filename": "0013_69-79.wav",
+      "has_hybrid_analysis": true,
+      "key": "C#",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.7127315402030945
+    },
+    {
+      "sample_idx": 14,
+      "filename": "0014_242-252.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Minor",
+      "tempo": 125.0,
+      "harmonic_content": 0.8445637226104736
+    },
+    {
+      "sample_idx": 15,
+      "filename": "0015_209-219.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 156.25,
+      "harmonic_content": 0.8606669306755066
+    },
+    {
+      "sample_idx": 16,
+      "filename": "0016_185-195.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.8962004780769348
+    },
+    {
+      "sample_idx": 17,
+      "filename": "0017_322-332.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 75.0,
+      "harmonic_content": 0.6856631636619568
+    },
+    {
+      "sample_idx": 18,
+      "filename": "0018_85-95.wav",
+      "has_hybrid_analysis": true,
+      "key": "D#",
+      "tonality": "Minor",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.7935322523117065
+    },
+    {
+      "sample_idx": 19,
+      "filename": "0019_92-102.wav",
+      "has_hybrid_analysis": true,
+      "key": "G",
+      "tonality": "Major",
+      "tempo": 81.52173913043478,
+      "harmonic_content": 0.7398821711540222
+    },
+    {
+      "sample_idx": 20,
+      "filename": "0020_512-522.wav",
+      "has_hybrid_analysis": true,
+      "key": "G",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.8069831728935242
+    },
+    {
+      "sample_idx": 21,
+      "filename": "0021_79-89.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 89.28571428571429,
+      "harmonic_content": 0.6458385586738586
+    },
+    {
+      "sample_idx": 22,
+      "filename": "0022_49-59.wav",
+      "has_hybrid_analysis": true,
+      "key": "F#",
+      "tonality": "Major",
+      "tempo": 98.6842105263158,
+      "harmonic_content": 0.3634021282196045
+    },
+    {
+      "sample_idx": 23,
+      "filename": "0023_99-109.wav",
+      "has_hybrid_analysis": true,
+      "key": "F#",
+      "tonality": "Major",
+      "tempo": 208.33333333333334,
+      "harmonic_content": 0.6773008704185486
+    },
+    {
+      "sample_idx": 24,
+      "filename": "0024_135-145.wav",
+      "has_hybrid_analysis": true,
+      "key": "F#",
+      "tonality": "Minor",
+      "tempo": 81.52173913043478,
+      "harmonic_content": 0.9097262620925903
+    },
+    {
+      "sample_idx": 25,
+      "filename": "0025_25-35.wav",
+      "has_hybrid_analysis": true,
+      "key": "D",
+      "tonality": "Major",
+      "tempo": 78.125,
+      "harmonic_content": 0.7885544300079346
+    },
+    {
+      "sample_idx": 26,
+      "filename": "0026_159-169.wav",
+      "has_hybrid_analysis": true,
+      "key": "B",
+      "tonality": "Major",
+      "tempo": 75.0,
+      "harmonic_content": 0.6634696125984192
+    },
+    {
+      "sample_idx": 27,
+      "filename": "0027_198-208.wav",
+      "has_hybrid_analysis": true,
+      "key": "F#",
+      "tonality": "Major",
+      "tempo": 69.44444444444444,
+      "harmonic_content": 0.7519067525863647
+    },
+    {
+      "sample_idx": 28,
+      "filename": "0028_153-163.wav",
+      "has_hybrid_analysis": true,
+      "key": "F#",
+      "tonality": "Major",
+      "tempo": 117.1875,
+      "harmonic_content": 0.6088820695877075
+    },
+    {
+      "sample_idx": 29,
+      "filename": "0029_25-35.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Minor",
+      "tempo": 170.45454545454547,
+      "harmonic_content": 0.49509626626968384
+    },
+    {
+      "sample_idx": 30,
+      "filename": "0030_133-143.wav",
+      "has_hybrid_analysis": true,
+      "key": "D",
+      "tonality": "Major",
+      "tempo": 187.5,
+      "harmonic_content": 0.7481443881988525
+    },
+    {
+      "sample_idx": 31,
+      "filename": "0031_15-25.wav",
+      "has_hybrid_analysis": true,
+      "key": "D",
+      "tonality": "Minor",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.9069547653198242
+    },
+    {
+      "sample_idx": 32,
+      "filename": "0032_49-59.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 156.25,
+      "harmonic_content": 0.8545781970024109
+    },
+    {
+      "sample_idx": 33,
+      "filename": "0033_335-345.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.8380142450332642
+    },
+    {
+      "sample_idx": 34,
+      "filename": "0034_54-64.wav",
+      "has_hybrid_analysis": true,
+      "key": "A#",
+      "tonality": "Minor",
+      "tempo": 72.11538461538461,
+      "harmonic_content": 0.7633400559425354
+    },
+    {
+      "sample_idx": 35,
+      "filename": "0035_171-181.wav",
+      "has_hybrid_analysis": true,
+      "key": "B",
+      "tonality": "Major",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.7437195181846619
+    },
+    {
+      "sample_idx": 36,
+      "filename": "0036_241-251.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Minor",
+      "tempo": 170.45454545454547,
+      "harmonic_content": 0.7297248244285583
+    },
+    {
+      "sample_idx": 37,
+      "filename": "0037_207-217.wav",
+      "has_hybrid_analysis": true,
+      "key": "F#",
+      "tonality": "Minor",
+      "tempo": 89.28571428571429,
+      "harmonic_content": 0.6863037347793579
+    },
+    {
+      "sample_idx": 38,
+      "filename": "0038_178-188.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 69.44444444444444,
+      "harmonic_content": 0.9200277924537659
+    },
+    {
+      "sample_idx": 39,
+      "filename": "0039_39-49.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Minor",
+      "tempo": 93.75,
+      "harmonic_content": 0.8306471109390259
+    },
+    {
+      "sample_idx": 40,
+      "filename": "0040_129-139.wav",
+      "has_hybrid_analysis": true,
+      "key": "G",
+      "tonality": "Major",
+      "tempo": 117.1875,
+      "harmonic_content": 0.6511842012405396
+    },
+    {
+      "sample_idx": 41,
+      "filename": "0041_141-151.wav",
+      "has_hybrid_analysis": true,
+      "key": "D#",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.6360495686531067
+    },
+    {
+      "sample_idx": 42,
+      "filename": "0042_137-147.wav",
+      "has_hybrid_analysis": true,
+      "key": "B",
+      "tonality": "Major",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.8660630583763123
+    },
+    {
+      "sample_idx": 43,
+      "filename": "0043_170-180.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 104.16666666666667,
+      "harmonic_content": 0.6961803436279297
+    },
+    {
+      "sample_idx": 44,
+      "filename": "0044_123-133.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Major",
+      "tempo": 144.23076923076923,
+      "harmonic_content": 0.9019119143486023
+    },
+    {
+      "sample_idx": 45,
+      "filename": "0045_141-151.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 125.0,
+      "harmonic_content": 0.63459712266922
+    },
+    {
+      "sample_idx": 46,
+      "filename": "0046_16-26.wav",
+      "has_hybrid_analysis": true,
+      "key": "A#",
+      "tonality": "Major",
+      "tempo": 187.5,
+      "harmonic_content": 0.7769055366516113
+    },
+    {
+      "sample_idx": 47,
+      "filename": "0047_91-101.wav",
+      "has_hybrid_analysis": true,
+      "key": "A#",
+      "tonality": "Major",
+      "tempo": 81.52173913043478,
+      "harmonic_content": 0.7614844441413879
+    },
+    {
+      "sample_idx": 48,
+      "filename": "0048_94-104.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 85.22727272727273,
+      "harmonic_content": 0.6583551168441772
+    },
+    {
+      "sample_idx": 49,
+      "filename": "0049_93-103.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Minor",
+      "tempo": 144.23076923076923,
+      "harmonic_content": 0.7337079644203186
+    },
+    {
+      "sample_idx": 50,
+      "filename": "0050_88-98.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 170.45454545454547,
+      "harmonic_content": 0.8497777581214905
+    },
+    {
+      "sample_idx": 51,
+      "filename": "0051_75-85.wav",
+      "has_hybrid_analysis": true,
+      "key": "G",
+      "tonality": "Minor",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.9121092557907104
+    },
+    {
+      "sample_idx": 52,
+      "filename": "0052_2-12.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Minor",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.7874568104743958
+    },
+    {
+      "sample_idx": 53,
+      "filename": "0053_61-71.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 89.28571428571429,
+      "harmonic_content": 0.4728858470916748
+    },
+    {
+      "sample_idx": 54,
+      "filename": "0054_146-156.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 98.6842105263158,
+      "harmonic_content": 0.738308846950531
+    },
+    {
+      "sample_idx": 55,
+      "filename": "0055_108-118.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 98.6842105263158,
+      "harmonic_content": 0.6208127737045288
+    },
+    {
+      "sample_idx": 56,
+      "filename": "0056_71-81.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 89.28571428571429,
+      "harmonic_content": 0.8323044180870056
+    },
+    {
+      "sample_idx": 57,
+      "filename": "0057_378-388.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Minor",
+      "tempo": 144.23076923076923,
+      "harmonic_content": 0.6602003574371338
+    },
+    {
+      "sample_idx": 58,
+      "filename": "0058_108-118.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Minor",
+      "tempo": 104.16666666666667,
+      "harmonic_content": 0.6491482853889465
+    },
+    {
+      "sample_idx": 59,
+      "filename": "0059_72-82.wav",
+      "has_hybrid_analysis": true,
+      "key": "D",
+      "tonality": "Major",
+      "tempo": 93.75,
+      "harmonic_content": 0.6971819400787354
+    },
+    {
+      "sample_idx": 60,
+      "filename": "0060_32-42.wav",
+      "has_hybrid_analysis": true,
+      "key": "F#",
+      "tonality": "Major",
+      "tempo": 170.45454545454547,
+      "harmonic_content": 0.8644497990608215
+    },
+    {
+      "sample_idx": 61,
+      "filename": "0061_182-192.wav",
+      "has_hybrid_analysis": true,
+      "key": "D",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.5989725589752197
+    },
+    {
+      "sample_idx": 62,
+      "filename": "0062_10-20.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 187.5,
+      "harmonic_content": 0.8362974524497986
+    },
+    {
+      "sample_idx": 63,
+      "filename": "0063_164-174.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 78.125,
+      "harmonic_content": 0.8534513711929321
+    },
+    {
+      "sample_idx": 64,
+      "filename": "0064_194-204.wav",
+      "has_hybrid_analysis": true,
+      "key": "B",
+      "tonality": "Minor",
+      "tempo": 75.0,
+      "harmonic_content": 0.8254575729370117
+    },
+    {
+      "sample_idx": 65,
+      "filename": "0065_0-10.wav",
+      "has_hybrid_analysis": true,
+      "key": "C#",
+      "tonality": "Minor",
+      "tempo": 72.11538461538461,
+      "harmonic_content": 0.9267330169677734
+    },
+    {
+      "sample_idx": 66,
+      "filename": "0066_95-105.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Major",
+      "tempo": 89.28571428571429,
+      "harmonic_content": 0.7003151178359985
+    },
+    {
+      "sample_idx": 67,
+      "filename": "0067_105-115.wav",
+      "has_hybrid_analysis": true,
+      "key": "G",
+      "tonality": "Minor",
+      "tempo": 98.6842105263158,
+      "harmonic_content": 0.4866733253002167
+    },
+    {
+      "sample_idx": 68,
+      "filename": "0068_8-18.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 125.0,
+      "harmonic_content": 0.8511009216308594
+    },
+    {
+      "sample_idx": 69,
+      "filename": "0069_285-295.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 98.6842105263158,
+      "harmonic_content": 0.85286945104599
+    },
+    {
+      "sample_idx": 70,
+      "filename": "0070_126-136.wav",
+      "has_hybrid_analysis": true,
+      "key": "C#",
+      "tonality": "Major",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.7130028605461121
+    },
+    {
+      "sample_idx": 71,
+      "filename": "0071_104-114.wav",
+      "has_hybrid_analysis": true,
+      "key": "C#",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.6631987690925598
+    },
+    {
+      "sample_idx": 72,
+      "filename": "0072_103-113.wav",
+      "has_hybrid_analysis": true,
+      "key": "D",
+      "tonality": "Minor",
+      "tempo": 156.25,
+      "harmonic_content": 0.6819776892662048
+    },
+    {
+      "sample_idx": 73,
+      "filename": "0073_106-116.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.728570818901062
+    },
+    {
+      "sample_idx": 74,
+      "filename": "0074_48-58.wav",
+      "has_hybrid_analysis": true,
+      "key": "G",
+      "tonality": "Minor",
+      "tempo": 144.23076923076923,
+      "harmonic_content": 0.6628355383872986
+    },
+    {
+      "sample_idx": 75,
+      "filename": "0075_108-118.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Minor",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.7893949151039124
+    },
+    {
+      "sample_idx": 76,
+      "filename": "0076_149-159.wav",
+      "has_hybrid_analysis": true,
+      "key": "D#",
+      "tonality": "Minor",
+      "tempo": 72.11538461538461,
+      "harmonic_content": 0.7100952863693237
+    },
+    {
+      "sample_idx": 77,
+      "filename": "0077_37-47.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 156.25,
+      "harmonic_content": 0.7718487977981567
+    },
+    {
+      "sample_idx": 78,
+      "filename": "0078_178-188.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 110.29411764705883,
+      "harmonic_content": 0.7891169190406799
+    },
+    {
+      "sample_idx": 79,
+      "filename": "0079_11-21.wav",
+      "has_hybrid_analysis": true,
+      "key": "B",
+      "tonality": "Major",
+      "tempo": 98.6842105263158,
+      "harmonic_content": 0.8399544954299927
+    },
+    {
+      "sample_idx": 80,
+      "filename": "0080_669-679.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 98.6842105263158,
+      "harmonic_content": 0.9190143942832947
+    },
+    {
+      "sample_idx": 81,
+      "filename": "0081_33-43.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 117.1875,
+      "harmonic_content": 0.6823603510856628
+    },
+    {
+      "sample_idx": 82,
+      "filename": "0082_102-112.wav",
+      "has_hybrid_analysis": true,
+      "key": "F#",
+      "tonality": "Minor",
+      "tempo": 170.45454545454547,
+      "harmonic_content": 0.5124013423919678
+    },
+    {
+      "sample_idx": 83,
+      "filename": "0083_32-42.wav",
+      "has_hybrid_analysis": true,
+      "key": "G",
+      "tonality": "Minor",
+      "tempo": 78.125,
+      "harmonic_content": 0.6960598826408386
+    },
+    {
+      "sample_idx": 84,
+      "filename": "0084_139-149.wav",
+      "has_hybrid_analysis": true,
+      "key": "A#",
+      "tonality": "Minor",
+      "tempo": 93.75,
+      "harmonic_content": 0.7740891575813293
+    },
+    {
+      "sample_idx": 85,
+      "filename": "0085_242-252.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 156.25,
+      "harmonic_content": 0.8906344175338745
+    },
+    {
+      "sample_idx": 86,
+      "filename": "0086_62-72.wav",
+      "has_hybrid_analysis": true,
+      "key": "C#",
+      "tonality": "Minor",
+      "tempo": 156.25,
+      "harmonic_content": 0.7368224859237671
+    },
+    {
+      "sample_idx": 87,
+      "filename": "0087_165-175.wav",
+      "has_hybrid_analysis": true,
+      "key": "B",
+      "tonality": "Major",
+      "tempo": 156.25,
+      "harmonic_content": 0.7669534087181091
+    },
+    {
+      "sample_idx": 88,
+      "filename": "0088_150-160.wav",
+      "has_hybrid_analysis": true,
+      "key": "A",
+      "tonality": "Minor",
+      "tempo": 125.0,
+      "harmonic_content": 0.7119900584220886
+    },
+    {
+      "sample_idx": 89,
+      "filename": "0089_449-459.wav",
+      "has_hybrid_analysis": true,
+      "key": "C",
+      "tonality": "Minor",
+      "tempo": 187.5,
+      "harmonic_content": 0.8466087579727173
+    },
+    {
+      "sample_idx": 90,
+      "filename": "0090_129-139.wav",
+      "has_hybrid_analysis": true,
+      "key": "G",
+      "tonality": "Minor",
+      "tempo": 98.6842105263158,
+      "harmonic_content": 0.739088773727417
+    },
+    {
+      "sample_idx": 91,
+      "filename": "0091_32-42.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 89.28571428571429,
+      "harmonic_content": 0.6760424375534058
+    },
+    {
+      "sample_idx": 92,
+      "filename": "0092_48-58.wav",
+      "has_hybrid_analysis": true,
+      "key": "B",
+      "tonality": "Major",
+      "tempo": 170.45454545454547,
+      "harmonic_content": 0.8245916962623596
+    },
+    {
+      "sample_idx": 93,
+      "filename": "0093_2-12.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Minor",
+      "tempo": 104.16666666666667,
+      "harmonic_content": 0.835297703742981
+    },
+    {
+      "sample_idx": 94,
+      "filename": "0094_185-195.wav",
+      "has_hybrid_analysis": true,
+      "key": "C#",
+      "tonality": "Major",
+      "tempo": 85.22727272727273,
+      "harmonic_content": 0.6852593421936035
+    },
+    {
+      "sample_idx": 95,
+      "filename": "0095_98-108.wav",
+      "has_hybrid_analysis": true,
+      "key": "G#",
+      "tonality": "Major",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.5825564861297607
+    },
+    {
+      "sample_idx": 96,
+      "filename": "0096_178-188.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Minor",
+      "tempo": 133.92857142857142,
+      "harmonic_content": 0.827772319316864
+    },
+    {
+      "sample_idx": 97,
+      "filename": "0097_45-55.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Minor",
+      "tempo": 62.5,
+      "harmonic_content": 0.924437403678894
+    },
+    {
+      "sample_idx": 98,
+      "filename": "0098_160-170.wav",
+      "has_hybrid_analysis": true,
+      "key": "E",
+      "tonality": "Major",
+      "tempo": 117.1875,
+      "harmonic_content": 0.7909833788871765
+    },
+    {
+      "sample_idx": 99,
+      "filename": "0099_163-173.wav",
+      "has_hybrid_analysis": true,
+      "key": "F",
+      "tonality": "Major",
+      "tempo": 170.45454545454547,
+      "harmonic_content": 0.598781168460846
+    }
+  ]
+}

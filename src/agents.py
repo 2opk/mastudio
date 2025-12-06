@@ -3,8 +3,10 @@ import json
 import os
 import random
 import re
+from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, List, Optional, TypedDict, Union
+import time
 
 import litellm
 from rich.console import Console
@@ -15,7 +17,7 @@ from .utils import (
     GeneratorAgentMeta,
     SystemConfig,
     load_agent_aliases,
-    load_directors,
+    load_directors_auto,
     load_generator_pool,
     load_prompt,
     stable_seed,
@@ -40,6 +42,7 @@ class MASState(TypedDict, total=False):
     critic_results: List[Dict[str, Any]]
     creative_index_avg: float
     critic_feedback: str
+    t0: float
 
 
 class ModelRouter:
@@ -192,7 +195,6 @@ def select_squad_agents(
     final_draft: Dict[str, Any],
     instructions: Dict[str, Any],
     pool: List[GeneratorAgentMeta],
-    squad_size: int = 3,
 ) -> Dict[str, List[GeneratorAgentMeta]]:
     main_prompt = ""
     if isinstance(final_draft, dict):
@@ -200,15 +202,49 @@ def select_squad_agents(
     base_targets = _text_keywords(main_prompt or base_prompt)
     harmonic_targets = instructions.get("squad_a_harmonic", {}).get("target_keywords") or base_targets
     conflict_targets = instructions.get("squad_b_conflict", {}).get("target_keywords") or base_targets
+    categories = [
+        "category1_time",
+        "category2_cognitive",
+        "category3_emotional",
+        "category4_cultural",
+        "category5_medium",
+    ]
+    grouped: Dict[str, List[GeneratorAgentMeta]] = defaultdict(list)
+    for agent in pool:
+        grouped[agent.category or "uncategorized"].append(agent)
 
-    harmonic_agents = _select_by_score(pool, _normalize_keywords(harmonic_targets), reverse=True, k=squad_size)
-    conflict_agents = _select_by_score(pool, _normalize_keywords(conflict_targets), reverse=False, k=squad_size)
-    random_agents = _fallback_random(pool, base_prompt + main_prompt, k=squad_size)
+    def _pick_by_strategy(cat: str, targets: List[str], reverse: bool, seed_suffix: str) -> Optional[GeneratorAgentMeta]:
+        agents = grouped.get(cat, [])
+        if not agents:
+            return None
+        norm_targets = _normalize_keywords(targets)
+        if not norm_targets:
+            rng = random.Random(stable_seed(base_prompt + main_prompt + seed_suffix + cat))
+            return rng.choice(agents)
+        scored = sorted(
+            agents,
+            key=lambda a: (_score_agent(a, norm_targets), a.id),
+            reverse=reverse,
+        )
+        return scored[0] if scored else None
 
-    if not harmonic_agents:
-        harmonic_agents = _fallback_random(pool, base_prompt + "harmonic", k=squad_size)
-    if not conflict_agents:
-        conflict_agents = _fallback_random(pool, base_prompt + "conflict", k=squad_size)
+    harmonic_agents: List[GeneratorAgentMeta] = []
+    conflict_agents: List[GeneratorAgentMeta] = []
+    random_agents: List[GeneratorAgentMeta] = []
+
+    for cat in categories:
+        chosen_h = _pick_by_strategy(cat, harmonic_targets, True, "harmonic") or _fallback_random(
+            pool, base_prompt + "harmonic" + cat, k=1
+        )[0]
+        chosen_c = _pick_by_strategy(cat, conflict_targets, False, "conflict") or _fallback_random(
+            pool, base_prompt + "conflict" + cat, k=1
+        )[0]
+        rng = random.Random(stable_seed(base_prompt + main_prompt + "random" + cat))
+        cat_agents = grouped.get(cat) or pool
+        chosen_r = rng.choice(cat_agents)
+        harmonic_agents.append(chosen_h)
+        conflict_agents.append(chosen_c)
+        random_agents.append(chosen_r)
 
     return {
         "harmonic": harmonic_agents,
@@ -242,7 +278,7 @@ def _finalize_prompt_text(raw: str, max_len: int = 77) -> str:
     return text
 
 
-def creation_director_phase(state: MASState, config: SystemConfig, router: ModelRouter, director_path: str) -> MASState:
+def creation_director_phase(state: MASState, config: SystemConfig, router: ModelRouter) -> MASState:
     router.console.print(
         Text(
             f"[phase:director_creation] base_prompt={router._preview(state.get('user_prompt',''))}",
@@ -250,7 +286,7 @@ def creation_director_phase(state: MASState, config: SystemConfig, router: Model
         )
     )
     aliases = load_agent_aliases()
-    directors = load_directors(director_path, aliases)
+    directors = load_directors_auto(aliases)
     if len(directors) < 4:
         raise ValueError("Director config must include four agents for creation/critic modes.")
     common_prompt = load_prompt("prompts/directors/creation_mode/COMMON_INSTRUCTION_CREATION_D.md")
@@ -416,16 +452,18 @@ def generator_phase(state: MASState, config: SystemConfig, router: ModelRouter) 
     prompts_out: List[str] = []
     squad_prompt_map: Dict[str, str] = {}
 
-    # Display a compact, fixed-height squad overview.
+    # Display a compact, fixed-height squad overview with elapsed time.
     iteration_label = state.get("iteration", 0)
+    t0 = state.get("t0") or time.time()
+    elapsed = time.time() - t0
     overview_lines = []
-    for label, key in [("Squad A (Harmonic)", "harmonic"), ("Squad B (Conflict)", "conflict"), ("Squad C (Random)", "random")]:
+    for label, key in [("Squad Harmonic", "harmonic"), ("Squad Conflict", "conflict"), ("Squad Random", "random")]:
         names = [a.get("display_name") or a.get("name") for a in squad_assignments_raw.get(key, [])]
         overview_lines.append(f"{label}: {', '.join(names) if names else 'n/a'}")
     router.console.print(Text("=== Squad Overview ===", style="bold yellow"))
     for line in overview_lines:
         router.console.print(Text(line, style="cyan"))
-    router.console.print(Text(f"Page / Iteration: {iteration_label}", style="dim"))
+    router.console.print(Text(f"Iteration: {iteration_label} | Elapsed: {elapsed:.1f}s", style="dim"))
 
     for squad_name in ["harmonic", "conflict", "random"]:
         agent_entries = squad_assignments_raw.get(squad_name, [])
@@ -446,7 +484,7 @@ def generator_phase(state: MASState, config: SystemConfig, router: ModelRouter) 
                 system_prompt=system_prompt,
                 user_prompt=user_prompt,
                 temperature=0.9 if squad_name == "random" else 0.7,
-                agent_label=f"{meta.display_name or meta.name} | Squad {squad_name.title()[0]}",
+                agent_label=f"{meta.display_name or meta.name} | Squad {squad_name.title()}",
             )
             contributions.append({"agent": meta.display_name or meta.name, "content": content})
             history_entries.append({"role": meta.display_name or meta.name, "content": content})
@@ -465,10 +503,10 @@ def generator_phase(state: MASState, config: SystemConfig, router: ModelRouter) 
     }
 
 
-def critic_phase(state: MASState, config: SystemConfig, router: ModelRouter, director_path: str) -> MASState:
+def critic_phase(state: MASState, config: SystemConfig, router: ModelRouter) -> MASState:
     router.console.print(Text(f"[phase:critic] iteration={state.get('iteration',0)}", style="bold white"))
     aliases = load_agent_aliases()
-    directors = load_directors(director_path, aliases)
+    directors = load_directors_auto(aliases)
     critic_common = load_prompt("prompts/directors/critic_mode/COMMON_INSTRUCTION_CRITIC.md")
     history_entries: List[Dict[str, str]] = state.get("history", []).copy()
     base_prompt = state.get("user_prompt", "")

@@ -5,6 +5,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+from collections import defaultdict
 
 import yaml
 from dotenv import load_dotenv
@@ -117,10 +118,38 @@ def load_directors(path: str, aliases: Optional[Dict[str, str]] = None) -> List[
     alias_map = aliases or {}
     processed: List[DirectorMeta] = []
     for item in data:
+        if not all(k in item for k in ("id", "name", "creation_prompt", "critic_prompt")):
+            continue
         agent_id = item.get("id", "")
         display_name = alias_map.get(agent_id) or item.get("display_name") or item.get("name")
         processed.append(DirectorMeta(**item, display_name=display_name))
     return processed
+
+
+def load_directors_auto(aliases: Optional[Dict[str, str]] = None) -> List[DirectorMeta]:
+    """Load director metas without relying on config files."""
+    alias_map = aliases or {}
+    base = Path("prompts/directors")
+    mapping = [
+        ("music_interpreter", "Music Interpreter"),
+        ("visual_director", "Visual Director"),
+        ("concept_architect", "Concept Architect"),
+        ("orchestrator", "Orchestrator"),
+    ]
+    metas: List[DirectorMeta] = []
+    for dir_id, name in mapping:
+        creation_prompt = base / "creation_mode" / f"{dir_id}.md"
+        critic_prompt = base / "critic_mode" / f"{dir_id}.md"
+        metas.append(
+            DirectorMeta(
+                id=dir_id,
+                name=name,
+                creation_prompt=str(creation_prompt),
+                critic_prompt=str(critic_prompt),
+                display_name=alias_map.get(dir_id, name),
+            )
+        )
+    return metas
 
 
 def _extract_persona_name(raw: str) -> Optional[str]:

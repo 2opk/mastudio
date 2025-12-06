@@ -1,5 +1,6 @@
 import argparse
 import shutil
+import time
 from pathlib import Path
 
 from .graph import build_app
@@ -16,7 +17,7 @@ def run(base_prompt: str):
     config.sdxl.output_dir = str(intms_dir)
 
     app = build_app(config)
-    initial_state = {"user_prompt": base_prompt, "iteration": 0, "history": []}
+    initial_state = {"user_prompt": base_prompt, "iteration": 0, "history": [], "t0": time.time()}
     result = app.invoke(initial_state, config={"recursion_limit": config.recursion_limit})
 
     # Copy final images from intms to run root.

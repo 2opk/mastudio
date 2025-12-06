@@ -26,13 +26,13 @@ def build_app(config: SystemConfig):
     graph = StateGraph(MASState)
     graph.add_node(
         "director_creation",
-        lambda state: creation_director_phase(state, config=config, router=router, director_path="config/directors.json"),
+        lambda state: creation_director_phase(state, config=config, router=router),
     )
     graph.add_node("generator_phase", lambda state: generator_phase(state, config=config, router=router))
     graph.add_node("sdxl_execution", _sdxl_node(sdxl))
     graph.add_node(
         "critic_phase",
-        lambda state: critic_phase(state, config=config, router=router, director_path="config/directors.json"),
+        lambda state: critic_phase(state, config=config, router=router),
     )
 
     graph.add_edge(START, "director_creation")

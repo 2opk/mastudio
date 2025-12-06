@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0088_150-160.wav",
+  "perception": "This audio track belongs to the electronic genre, specifically the drum and bass subgenre. It features heavy use of synthesizers, particularly a bass synth, which gives it a deep, resonant sound. The instrumental structure is characterized by a loud electronic drum beat that forms the backbone of the track. Vocals are sparse but impactful, mainly consisting of a male voice screaming. The atmosphere created is energetic and intense, evoking feelings of exhilaration and excitement. This track could be associated with nightclubs and DJ playlists due to its high-energy vibe. Overall, the track has a dynamic feel, starting off quieter before gradually intensifying into a chaotic climax.",
+  "metrics": {
+    "tempo": 125.0,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 2089.8589743359175,
+    "spectral_bandwidth": 2018.385331213093,
+    "zero_crossing_rate": 0.08010464506789138,
+    "rmse": 0.4182986915111542,
+    "harmonic_content": 0.7119900584220886,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      16,
+      31,
+      46,
+      60,
+      75,
+      90,
+      104,
+      119,
+      133,
+      148,
+      163,
+      177,
+      192,
+      207,
+      222,
+      236,
+      251,
+      265,
+      280,
+      295,
+      309
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.4228755831718445,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

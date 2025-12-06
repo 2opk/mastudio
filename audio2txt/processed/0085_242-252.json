@@ -1,0 +1,45 @@
+{
+  "wav_path": "audio2txt/audio/0085_242-252.wav",
+  "perception": "The genre and style of the music lean towards electronic chillout with ambient undertones. It incorporates elements of downtempo, which is evident in its relaxed pace and soothing atmosphere. The instrumentation primarily consists of synthesizers, creating a warm, analog texture that envelops the listener. There's also a noticeable presence of distorted guitars, adding a layer of intensity and aggression to the mix. The smooth jazz trumpet contributes to the laid-back vibe while maintaining a hint of sophistication. Vocals are sparse but impactful, enhancing the emotive quality of the piece. The track evokes a sense of tranquility and introspection, painting a serene landscape in the listener's mind. Its slow build-up creates a gradual intensification of emotion, culminating in a climax that feels both chaotic and cathartic. Overall, the energy level is dynamic yet balanced, providing a consistent feeling of calm throughout the duration of the track.",
+  "metrics": {
+    "tempo": 156.25,
+    "key": "C",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1157.0790855737314,
+    "spectral_bandwidth": 1112.0676863675078,
+    "zero_crossing_rate": 0.11789262180511183,
+    "rmse": 0.038249529898166656,
+    "harmonic_content": 0.8906344175338745,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      18,
+      31,
+      43,
+      55,
+      67,
+      79,
+      90,
+      102,
+      114,
+      125,
+      137,
+      149,
+      161,
+      173,
+      184,
+      196,
+      208,
+      219,
+      231
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.3970947265625,
+    "min": -0.519317626953125,
+    "rms": 0.04609515890479088,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

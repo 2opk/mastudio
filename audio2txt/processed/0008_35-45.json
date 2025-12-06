@@ -1,0 +1,48 @@
+{
+  "wav_path": "audio2txt/audio/0008_35-45.wav",
+  "perception": "This music can be categorized under the electronic genre, specifically within the drum and bass subgenre. It has a strong influence from both ambient and experimental music styles. The instrumental composition includes a synthesizer, which provides a warm and fuzzy texture to the sound. There's also a distorted electric guitar that adds an aggressive touch to the overall mix. A smooth jazz trumpet contributes to the melodic line, offering a contrasting layer of sophistication and elegance. Vocals are sparse but impactful, featuring a female voice that conveys a sense of longing or introspection. The atmosphere created is atmospheric and immersive, evoking feelings of nostalgia and contemplation. The music's dynamic range is quite broad, starting off quiet and intimate before gradually escalating into a high-energy, chaotic climax. Overall, the energy level is high, creating a vibrant and invigorating listening experience.",
+  "metrics": {
+    "tempo": 144.23076923076923,
+    "key": "D#",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 2010.138182413804,
+    "spectral_bandwidth": 2049.5290707621225,
+    "zero_crossing_rate": 0.08826034594648563,
+    "rmse": 0.3614853024482727,
+    "harmonic_content": 0.67291659116745,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      21,
+      35,
+      48,
+      61,
+      75,
+      88,
+      102,
+      115,
+      128,
+      142,
+      155,
+      168,
+      181,
+      195,
+      209,
+      222,
+      236,
+      249,
+      263,
+      276,
+      289,
+      301
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.3853730857372284,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

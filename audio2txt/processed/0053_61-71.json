@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0053_61-71.wav",
+  "perception": "This music can be categorized under the sub-genre of Synth-pop, characterized by its electronic and synthetic elements. The instrumentation includes a variety of instruments such as synthesizers, drum machines, and possibly electric guitars, contributing to a slick and groovy feel. The vocals are performed by a male vocalist, adding a unique touch to the overall sound. The lyrics seem to convey a sense of longing or desire, making the song quite emotive. The atmosphere created by this music is one of passion and intensity, evoking strong feelings in the listener. The use of distorted sounds adds a raw and edgy quality to the track, making it stand out. Overall, the song has a dynamic structure that starts off quiet and intimate before gradually building up into a more intense and chaotic climax. The song exudes a youthful and energetic vibe, making it suitable for dancing and creating a lively atmosphere.",
+  "metrics": {
+    "tempo": 89.28571428571429,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 2237.138860961351,
+    "spectral_bandwidth": 2066.491255286661,
+    "zero_crossing_rate": 0.14574493310702874,
+    "rmse": 0.16615083813667297,
+    "harmonic_content": 0.4728858470916748,
+    "melody_contour": "Falling",
+    "beat_frames": [
+      5,
+      26,
+      47,
+      67,
+      89,
+      110,
+      131,
+      152,
+      173,
+      194,
+      215,
+      236,
+      255,
+      274,
+      293
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.20604965090751648,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

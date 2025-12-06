@@ -1,0 +1,35 @@
+{
+  "wav_path": "audio2txt/audio/0034_54-64.wav",
+  "perception": "1. The genre is jazz with elements of blues and swing. It has a smooth and mellow feel, indicative of the piano, double bass, and acoustic guitar instrumentation.\n2. The piano provides a warm and jazzy foundation, while the double bass adds depth and resonance, contributing to the smooth texture of the music. The acoustic guitar complements these instruments with its light and vibrant strumming patterns.\n3. There are no vocals in this track; it's instrumental only.\n4. This piece evokes a serene and peaceful atmosphere, akin to a sunny day at the beach. The imagery it paints is one of tranquility and relaxation.\n5. The structure of the track starts with a slow and gentle introduction that sets a calm and soothing tone. As the song progresses, it builds into a more upbeat and energetic section, reflecting the rising intensity of the waves in the ocean.\n6. The energy level of the track is dynamic and uplifting, mirroring the natural progression from calm to stormy weather. The music feels both grounded and expansive, capturing the essence of a beautiful summer day.",
+  "metrics": {
+    "tempo": 72.11538461538461,
+    "key": "A#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1019.327578260972,
+    "spectral_bandwidth": 1130.5730276428799,
+    "zero_crossing_rate": 0.07090374151357827,
+    "rmse": 0.09626180678606033,
+    "harmonic_content": 0.7633400559425354,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      64,
+      92,
+      124,
+      151,
+      177,
+      202,
+      228,
+      254,
+      281
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.612640380859375,
+    "min": -0.55670166015625,
+    "rms": 0.10646972060203552,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0007_108-118.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and acoustic elements, drawing inspiration from ambient and techno styles.\n2. A variety of instruments contribute to the texture, including synthesizers, guitars, and possibly piano or other keyboard instruments. Each adds its unique timbre to create a rich, layered soundscape.\n3. Vocals are sparse but impactful, featuring a haunting female voice that enhances the emotive quality of the piece.\n4. The atmosphere is moody and evocative, invoking feelings of introspection and longing. It's easy to imagine this track as the soundtrack to a drama movie set against a somber landscape.\n5. The structure starts with a quiet, introspective section that gradually builds into a more intense, chaotic section. This dynamic progression keeps the listener engaged and creates a sense of escalation.\n6. The energy level is dynamic, shifting between moments of calm and intensity. There's a palpable tension in the music that keeps it engaging and prevents it from feeling static or monotone.",
+  "metrics": {
+    "tempo": 110.29411764705883,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 553.4893796468918,
+    "spectral_bandwidth": 518.7769832968655,
+    "zero_crossing_rate": 0.05242237420127795,
+    "rmse": 0.1728755235671997,
+    "harmonic_content": 0.8570139408111572,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      74,
+      91,
+      108,
+      126,
+      143,
+      158,
+      173,
+      187,
+      204,
+      221,
+      239,
+      256,
+      273,
+      291,
+      308
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.945404052734375,
+    "min": -0.8651123046875,
+    "rms": 0.17695632576942444,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

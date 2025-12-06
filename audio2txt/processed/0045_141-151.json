@@ -1,0 +1,45 @@
+{
+  "wav_path": "audio2txt/audio/0045_141-151.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and traditional elements, possibly drawing from both worlds to create a unique auditory experience.\n2. A variety of sounds contribute to the texture, including synthesized tones that could be reminiscent of classic video game music, along with acoustic drums and electric guitars which add a more organic feel. The inclusion of brass instruments suggests a classical influence, possibly indicative of a fusion genre that combines electronic with classical music elements.\n3. Vocals are sparse but impactful when present, adding to the track's dynamic range. The vocals convey a sense of longing or introspection, enhancing the emotive quality of the piece.\n4. The track creates a vivid atmosphere, evoking feelings of nostalgia and longing. It's easy to imagine this music as the soundtrack for a cyberpunk video game or a dystopian movie, due to its atmospheric and immersive qualities.\n5. The structure of the track is well-organized, starting with a quiet and intimate introduction before gradually building into a more complex and dynamic arrangement. This progression adds depth and interest to the listening experience.\n6. The energy level of the track is fairly consistent, maintaining a moderate tempo throughout. There are moments where the intensity increases, such as during the build-up to the climax, which contributes to the",
+  "metrics": {
+    "tempo": 125.0,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 2189.8883500169604,
+    "spectral_bandwidth": 1855.0476503499951,
+    "zero_crossing_rate": 0.16907167282348243,
+    "rmse": 0.29496487975120544,
+    "harmonic_content": 0.63459712266922,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      31,
+      47,
+      61,
+      76,
+      91,
+      106,
+      121,
+      136,
+      151,
+      165,
+      180,
+      194,
+      209,
+      224,
+      240,
+      256,
+      270,
+      284,
+      299
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.306557297706604,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

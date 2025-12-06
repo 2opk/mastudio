@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0083_32-42.wav",
+  "perception": "1. The genre appears to be a fusion between classical and modern elements, possibly incorporating electronic or digital effects. It has cinematic overtones and feels grandiose, hinting at a large ensemble involved in its production.\n2. A wide array of instruments is used, including strings, brass, and percussion, contributing to a rich, layered texture. The timbres range from warm and analog to distorted and aggressive, providing a dynamic contrast that enhances the dramatic feel of the piece.\n3. There are no discernible vocals in this track, focusing instead on instrumental prowess. The absence of lyrics allows the listener to fully immerse themselves in the music's emotive power.\n4. The atmosphere created by this track is one of intensity and drama, evoking imagery of epic battles or grand scenes in movies. The bold and powerful tones suggest a scene filled with drama and tension.\n5. The structure of the track is well-organized, starting with a quieter, more intimate section before gradually escalating into a chaotic climax. This progression adds depth and complexity to the composition.\n6. The energy level of the track is high, maintaining a consistent dynamic throughout. There are moments of tension and release that contribute to the overall intensity, keeping the listener engaged and captivated.",
+  "metrics": {
+    "tempo": 78.125,
+    "key": "G",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1412.3846231384086,
+    "spectral_bandwidth": 1450.5231590259957,
+    "zero_crossing_rate": 0.11303944938099042,
+    "rmse": 0.16482582688331604,
+    "harmonic_content": 0.6960598826408386,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      25,
+      48,
+      70,
+      92,
+      116,
+      137,
+      158,
+      180,
+      203,
+      226,
+      248,
+      269,
+      290
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.6168212890625,
+    "min": -0.63446044921875,
+    "rms": 0.16679516434669495,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

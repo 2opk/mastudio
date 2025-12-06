@@ -1,26 +1,5 @@
 [
   {
-    "id": "music_interpreter",
-    "name": "Music Interpreter",
-    "creation_prompt": "prompts/directors/creation_mode/music_interpreter.md",
-    "critic_prompt": "prompts/directors/critic_mode/music_interpreter.md"
-  },
-  {
-    "id": "visual_director",
-    "name": "Visual Director",
-    "creation_prompt": "prompts/directors/creation_mode/visual_director.md",
-    "critic_prompt": "prompts/directors/critic_mode/visual_director.md"
-  },
-  {
-    "id": "concept_architect",
-    "name": "Concept Architect",
-    "creation_prompt": "prompts/directors/creation_mode/concept_architect.md",
-    "critic_prompt": "prompts/directors/critic_mode/concept_architect.md"
-  },
-  {
-    "id": "orchestrator",
-    "name": "Orchestrator",
-    "creation_prompt": "prompts/directors/creation_mode/orchestrator.md",
-    "critic_prompt": "prompts/directors/critic_mode/orchestrator.md"
+    "note": "config/directors.json is no longer used; directors are auto-loaded from prompts/directors/*."
   }
 ]

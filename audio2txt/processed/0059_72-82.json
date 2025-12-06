@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0059_72-82.wav",
+  "perception": "1. The genre is a fusion of pop and electronic music, drawing inspiration from hip hop and R&B. It has a synthetic and digital feel, incorporating elements such as synthesizers, drum machines, and computer-generated sounds.\n2. The instrumental arrangement includes a broad range of sounds, including synthesized strings, synthesizer pads, a distorted electric guitar, and programmed drums. The overall texture is smooth yet gritty, with a heavy use of reverb and delay to create a spacious and immersive sound environment.\n3. The vocals feature a male voice singing in a rap-like manner over the instrumental backdrop. The lyrics convey a sense of longing and introspection, reflecting the melancholic mood of the track. The vocal delivery is smooth and soothing, enhancing the emotional depth of the song.\n4. The atmosphere of the track is dreamy and introspective, evoking a sense of contemplation and introspection. The colors associated with this track are cool blues and grays, reflecting the mood and tone set by the synthesizers and electronic sounds.\n5. The structure of the track begins with a sparse and intimate introduction, featuring only the vocals and a few synth pads. As the track progresses, layers of sound are added, culminating in a full, dense section that feels both chaotic and",
+  "metrics": {
+    "tempo": 93.75,
+    "key": "D",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1945.8709398552041,
+    "spectral_bandwidth": 1959.979117923732,
+    "zero_crossing_rate": 0.12425587809504793,
+    "rmse": 0.18958063423633575,
+    "harmonic_content": 0.6971819400787354,
+    "melody_contour": "Falling",
+    "beat_frames": [
+      46,
+      66,
+      86,
+      106,
+      126,
+      146,
+      166,
+      185,
+      205,
+      225,
+      245,
+      266,
+      285,
+      305
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.9814453125,
+    "min": -0.995697021484375,
+    "rms": 0.20447909832000732,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

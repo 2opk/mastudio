@@ -1,0 +1,44 @@
+{
+  "wav_path": "audio2txt/audio/0009_41-51.wav",
+  "perception": "1. The genre is a blend of pop and electronic music, drawing influence from both styles. It has a synthetic, digital feel that's common in modern pop music but incorporates elements of electronic music such as synthesized sounds and heavy drum beats.\n2. The instrumental composition includes synthesizers, drums, and possibly other electronic effects, contributing to its digital and synthetic sound. The drums likely provide a steady rhythm with punchy beats typical of pop and electronic music.\n3. There may be a male vocalist singing over the instrumental, contributing to the narrative and emotion of the song. The vocal style could range from melodic and expressive to flat and detached, reflecting the mood set by the music.\n4. The atmosphere of the track is likely energetic and vibrant, indicative of pop and electronic genres. It might evoke scenes of excitement and movement, such as a bustling city or a lively party. A bright, colorful palette might be associated with this track due to its upbeat and dynamic nature.\n5. The structure of the track is probably designed to build tension and climax towards the end, typical of many pop and electronic songs. It may start with a sparse, understated introduction before gradually intensifying into a more dramatic and powerful section.\n6. The energy level of the track is high, reflecting",
+  "metrics": {
+    "tempo": 110.29411764705883,
+    "key": "A#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1836.5349408257798,
+    "spectral_bandwidth": 1916.7955575269252,
+    "zero_crossing_rate": 0.09644568690095846,
+    "rmse": 0.3096863031387329,
+    "harmonic_content": 0.5894375443458557,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      25,
+      42,
+      59,
+      76,
+      93,
+      110,
+      127,
+      142,
+      157,
+      173,
+      191,
+      208,
+      225,
+      242,
+      259,
+      276,
+      293,
+      310
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.97705078125,
+    "min": -0.986968994140625,
+    "rms": 0.3296017646789551,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

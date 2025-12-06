@@ -1,0 +1,46 @@
+{
+  "wav_path": "audio2txt/audio/0071_104-114.wav",
+  "perception": "This music can be categorized under the rock genre, specifically alternative rock. The instrumental composition includes a distorted electric guitar playing the lead, a bass guitar that complements the melody, and acoustic drums that add depth to the rhythm section. The overall feel is aggressive yet soothing, reminiscent of grunge rock but with a softer touch. Vocals are sparse, featuring a hauntingly beautiful female voice that adds to the melancholy atmosphere. The song has a slow build-up, starting off quiet and intimate before escalating into a loud, chaotic climax. The use of synthesizers contributes to the atmospheric texture, providing a warm backdrop to the raw guitar sounds. This track evokes a sense of rebellion and introspection, painting vivid pictures of dark, moody landscapes. It's a perfect soundtrack for a rainy day, reflecting one's inner turmoil in its complex layers of sound and emotion.",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "C#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1610.7345208618294,
+    "spectral_bandwidth": 1388.9557608047867,
+    "zero_crossing_rate": 0.15570243859824281,
+    "rmse": 0.3808647096157074,
+    "harmonic_content": 0.6631987690925598,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      17,
+      32,
+      48,
+      63,
+      79,
+      95,
+      110,
+      127,
+      143,
+      158,
+      174,
+      190,
+      206,
+      221,
+      237,
+      253,
+      269,
+      285,
+      300
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.38411661982536316,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,48 @@
+{
+  "wav_path": "audio2txt/audio/0052_2-12.wav",
+  "perception": "1. The genre is pop rock, characterized by its catchy melodies and upbeat tempo. It draws from various sub-genres such as alternative pop and indie pop, incorporating elements of electronic music and rock.\n\n2. The instrumentation includes a mix of acoustic and electric guitars, drums, bass, and synthesizers. The sound is bright and melodic, often featuring harmonies and catchy hooks. There's also a noticeable use of reverb and delay effects, creating a spacious and layered texture.\n\n3. The vocals are performed by a male singer with a smooth and soothing voice. He sings in English and conveys a sense of longing and introspection in his lyrics. The vocal delivery is passionate and emotive, drawing listeners into the song's narrative.\n\n4. The atmosphere of the track is reflective and nostalgic, evoking memories of past relationships and moments of vulnerability. The lyrics touch upon themes of love, loss, and self-discovery, painting a vivid picture of a person struggling to find their place in the world. The music creates a warm and comforting soundscape, reminiscent of a sunny day spent alone with thoughts.\n\n5. Structurally, the song starts off with a simple chord progression and a slow build-up, setting a contemplative tone. As the song progresses, layers of",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "F",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1523.7211147461092,
+    "spectral_bandwidth": 1732.576290639607,
+    "zero_crossing_rate": 0.08805598542332269,
+    "rmse": 0.12904728949069977,
+    "harmonic_content": 0.7874568104743958,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      16,
+      30,
+      44,
+      58,
+      72,
+      86,
+      100,
+      113,
+      128,
+      142,
+      156,
+      170,
+      184,
+      198,
+      212,
+      226,
+      240,
+      254,
+      268,
+      282,
+      295,
+      309
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.817596435546875,
+    "min": -0.7244873046875,
+    "rms": 0.1485302746295929,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

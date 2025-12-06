@@ -1,0 +1,43 @@
+{
+  "wav_path": "audio2txt/audio/0081_33-43.wav",
+  "perception": "1. The genre is a fusion of several styles including electronic, ambient, experimental, and noise music. It has a dark and atmospheric tone that's heavily influenced by synthesizers, bass, and drums.\n2. The instrument used includes synthesizers, bass, drums, and electric guitars. The synthesizers add a deep, pulsating undertone while the bass provides a heavy, rhythmic foundation. The drums contribute to the experimental aspect of the track with unconventional beats, and the electric guitars add a raw, distorted edge to the overall sound.\n3. The vocals are sparse but impactful, featuring a male voice that's processed through heavy effects to create a haunting, ethereal quality. The lyrics are introspective and contemplative, reflecting themes of darkness and turmoil.\n4. The track creates a somber, dreamlike atmosphere that transports listeners into a world of shadows and mystery. It evokes images of desolate landscapes and eerie, otherworldly scenes. I would associate the track with a deep, inky black color.\n5. The structure of the track begins with a slow, meditative build-up using sparse, atmospheric synths and bass. As the piece progresses, it becomes increasingly complex and dense, culminating in a chaotic, intense climax that leaves a lasting impression",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "C",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1134.8671083966537,
+    "spectral_bandwidth": 1578.4729923884117,
+    "zero_crossing_rate": 0.04993572783546326,
+    "rmse": 0.14563962817192078,
+    "harmonic_content": 0.6823603510856628,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      19,
+      35,
+      51,
+      68,
+      85,
+      102,
+      117,
+      133,
+      148,
+      163,
+      178,
+      193,
+      208,
+      224,
+      239,
+      254,
+      268
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.7894287109375,
+    "min": -0.832305908203125,
+    "rms": 0.17274615168571472,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

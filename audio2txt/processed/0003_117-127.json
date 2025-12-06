@@ -1,0 +1,46 @@
+{
+  "wav_path": "audio2txt/audio/0003_117-127.wav",
+  "perception": "This audio track possesses a unique blend of various instrumental sounds that create a distinct atmosphere. The genre can be identified as electronic with experimental influences, incorporating both analog and digital elements. A synthesizer plays a crucial role in shaping the timbre, producing warm tones that dominate the composition. Distortion is also evident, adding a raw, aggressive touch to the overall sound profile. In addition, there's a presence of a guitar that contributes to the texture, its sound being distorted and aggressive, enhancing the experimental vibe of the track.\n\nThe track lacks vocals but carries a strong emotive charge through its instrumental arrangement. It evokes imagery of rebellion, possibly due to the aggressive tones and distorted sounds used throughout. The mood leans towards melancholy, creating a somber yet intriguing atmosphere. As for the color palette associated with this track, one might visualize a dark, brooding landscape painted with shades of gray and muted tones.\n\nThe structure of the track is dynamic and layered. It starts off quietly and intimate, gradually building up tension and complexity. This slow evolution culminates into a chaotic climax, signifying a shift in energy levels and dynamics. The track maintains a consistent energy level throughout, neither too static nor overly fluctuating, which contributes to its engaging and immersive quality.\n\nIn summary",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "G#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 249.69446955491674,
+    "spectral_bandwidth": 341.95622026276857,
+    "zero_crossing_rate": 0.022220696884984025,
+    "rmse": 0.16943831741809845,
+    "harmonic_content": 0.753679633140564,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      20,
+      35,
+      50,
+      63,
+      76,
+      88,
+      101,
+      114,
+      127,
+      140,
+      154,
+      168,
+      182,
+      196,
+      210,
+      224,
+      238,
+      251,
+      265,
+      281
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.772125244140625,
+    "min": -0.71844482421875,
+    "rms": 0.17332947254180908,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,45 @@
+{
+  "wav_path": "audio2txt/audio/0013_69-79.wav",
+  "perception": "1. The genre appears to be a fusion between classical and electronic music, incorporating elements of both worlds. It has a cinematic feel, suggesting that it could be part of a film soundtrack.\n2. The instrumental arrangement includes a wide range of sounds such as strings, brass, and percussion, creating a dense texture. There's also a synthesizer, indicating a blend of acoustic and digital sounds. The timbres of these instruments contribute to a dark yet epic atmosphere, which is typical in many film scores.\n3. The vocals are sparse, featuring only a few lines sung by a male voice. The style is emotive and carries a sense of longing or introspection, enhancing the dramatic impact of the piece.\n4. This track paints a vivid picture of a somber, reflective scene. The imagery evoked is one of desolation or contemplation, perhaps set against a brooding sky or a dimly lit street. A deep, cool blue might be associated with this track due to its somber tone.\n5. Structurally, the piece starts off with a quiet, introspective section that sets the mood. As it progresses, the intensity builds, culminating in a powerful, chaotic climax. This progression adds depth and complexity to the track, keeping the listener engaged",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "C#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 736.2805364771328,
+    "spectral_bandwidth": 1033.0149616774954,
+    "zero_crossing_rate": 0.04501235523162939,
+    "rmse": 0.2622722089290619,
+    "harmonic_content": 0.7127315402030945,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      15,
+      31,
+      47,
+      62,
+      78,
+      94,
+      109,
+      125,
+      140,
+      156,
+      172,
+      188,
+      203,
+      219,
+      235,
+      250,
+      266,
+      281,
+      297
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.979736328125,
+    "min": -0.984375,
+    "rms": 0.2697661221027374,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,35 @@
+{
+  "wav_path": "audio2txt/audio/0027_198-208.wav",
+  "perception": "1. The genre is a fusion of pop and electronic music, with a distinct Korean influence. It has a modern, urban edge that blends catchy melodies with synthesized beats.\n2. The instrumental composition includes a variety of digital elements such as synthesizers, drum machines, and keyboards. There's also a prominent electric guitar that adds a raw, edgy feel to the mix. The overall timbre is crisp and futuristic, reflecting the contemporary aesthetic of K-pop.\n3. The vocals feature a male lead who sings in a smooth, melodic manner. His voice is complemented by backup singers who provide harmonies and vocal fills. The lyrics are introspective and emotionally charged, often exploring themes of love, longing, and personal growth. The vocal delivery conveys a sense of vulnerability and sincerity, making the listener deeply connect with the song.\n4. The atmosphere of the track is warm and inviting, yet there's a subtle undertone of melancholy. It paints a vivid picture of a bustling city at night, filled with neon lights and the hum of activity. The soundscapes are layered with rich textures, creating a soundscape that feels both expansive and intimate. The music evokes a sense of nostalgia and longing, drawing listeners into its own unique world.\n5. The",
+  "metrics": {
+    "tempo": 69.44444444444444,
+    "key": "F#",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1977.0875543482173,
+    "spectral_bandwidth": 1862.051854182821,
+    "zero_crossing_rate": 0.12379879692492013,
+    "rmse": 0.2530475854873657,
+    "harmonic_content": 0.7519067525863647,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      43,
+      70,
+      98,
+      125,
+      152,
+      178,
+      205,
+      232,
+      259
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.98406982421875,
+    "min": -0.950714111328125,
+    "rms": 0.272350013256073,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

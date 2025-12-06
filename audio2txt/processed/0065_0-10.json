@@ -1,0 +1,36 @@
+{
+  "wav_path": "audio2txt/audio/0065_0-10.wav",
+  "perception": "1. The genre is a mix of pop, electronic, and alternative. It has a unique style that combines electronic beats with pop catchy melodies and alternative elements.\n2. The instrumental composition includes synthesizers, drums, bass, and a piano. The synthesizer gives the song a warm texture, while the drums add a rhythmic pulse. The bass provides depth to the song, and the piano adds melodic lines that enhance the emotional impact of the song.\n3. There are no vocals in this song, but the instrumental arrangement creates a powerful emotional experience. The song's mood is introspective and melancholic, reflecting on past memories and regrets.\n4. The atmosphere of the song is dreamy and nostalgic, evoking a sense of longing and introspection. The song's color could be described as a warm, muted gray, reflecting the introspective mood of the song.\n5. The structure of the song starts with a slow and quiet introduction that sets the mood. As the song progresses, it builds up into a more dynamic and intense section, reflecting the theme of introspection and regret. The song then fades out slowly, maintaining the dreamy atmosphere.\n6. The energy level of the song is dynamic, starting off slow and quiet and gradually building up to a more",
+  "metrics": {
+    "tempo": 72.11538461538461,
+    "key": "C#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1591.6760093600622,
+    "spectral_bandwidth": 1875.9297862149472,
+    "zero_crossing_rate": 0.06224259934105431,
+    "rmse": 0.08464019745588303,
+    "harmonic_content": 0.9267330169677734,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      40,
+      66,
+      92,
+      116,
+      142,
+      168,
+      191,
+      216,
+      240,
+      265
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.599822998046875,
+    "min": -0.483489990234375,
+    "rms": 0.09316442161798477,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

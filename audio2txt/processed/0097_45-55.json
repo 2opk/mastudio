@@ -1,0 +1,35 @@
+{
+  "wav_path": "audio2txt/audio/0097_45-55.wav",
+  "perception": "The genre and style of the music lean towards a fusion of electronic and classical elements, with a touch of ambient influence. The instrumentation includes a piano that plays a significant role in setting the mood, contributing a warm and analog tone to the mix. A distorted electric guitar adds a raw, aggressive texture to the composition. There's also a smooth jazz trumpet that enhances the richness of the sound palette. Vocals are sparse but impactful, featuring a melancholic female voice that weaves through the music, adding depth and emotion.\n\nThe atmosphere created by this piece is atmospheric and immersive, evoking a sense of calmness and introspection. It's easy to imagine this music playing in the background at a coffee shop, providing a soothing backdrop while one reads or works. The imagery painted by the music is dreamy and ethereal, reminiscent of scenes from a sci-fi drama movie set in space. As for the color, I would associate it with deep blues or purples, reflecting the moodiness and contemplative nature of the track.\n\nThe structure of the music follows a typical pattern of an intro leading into a main section, which then evolves into a climax. The intro starts off quiet and intimate, gradually building up tension before transitioning into the main section. This section features a more",
+  "metrics": {
+    "tempo": 62.5,
+    "key": "E",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 865.842791006141,
+    "spectral_bandwidth": 1151.907978065901,
+    "zero_crossing_rate": 0.06442972494009584,
+    "rmse": 0.10961511731147766,
+    "harmonic_content": 0.924437403678894,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      31,
+      60,
+      90,
+      119,
+      149,
+      178,
+      208,
+      238,
+      267
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.54986572265625,
+    "min": -0.679962158203125,
+    "rms": 0.11297865957021713,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

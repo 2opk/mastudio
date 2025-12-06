@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0042_137-147.wav",
+  "perception": "1. The genre appears to be a fusion between classical and electronic music, drawing inspiration from both worlds. It's characterized by the use of a grand piano which adds a classical touch while the synthesizer introduces an electronic element.\n2. The timbre of the grand piano is warm and analog, providing a rich, deep tone that pairs well with the crispness of the synthesizer. The distorted aggressive guitar adds a raw, edgy quality to the mix, creating a dynamic contrast with the melodic piano. The smooth jazz trumpet contributes to the laid-back, sophisticated feel of the piece.\n3. The vocals are sparse but impactful, featuring a haunting female voice that weaves through the instrumental landscape. The lyrics convey a sense of longing and introspection, enhancing the emotive depth of the piece.\n4. The atmosphere created by this track is one of contemplation and introspection. The music paints vivid images of serene landscapes at dawn or the quiet streets of a bustling city at night. The colors associated with this track are cool blues and grays, reflecting the mood of melancholy and pensiveness.\n5. The structure of the track starts off with a slow, quiet introduction, setting a reflective tone. As the song progresses, it builds into a more intense, chaotic climax",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "B",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 672.7576600912662,
+    "spectral_bandwidth": 543.6073399956316,
+    "zero_crossing_rate": 0.07399254942092652,
+    "rmse": 0.04938729479908943,
+    "harmonic_content": 0.8660630583763123,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      26,
+      40,
+      55,
+      70,
+      85,
+      99,
+      113,
+      127,
+      142,
+      156,
+      170,
+      184,
+      198,
+      214,
+      228,
+      241,
+      255,
+      269,
+      282,
+      295,
+      308
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.435394287109375,
+    "min": -0.4393310546875,
+    "rms": 0.05681653320789337,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

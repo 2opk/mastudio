@@ -1,0 +1,50 @@
+{
+  "wav_path": "audio2txt/audio/0001_37-47.wav",
+  "perception": "The audio track possesses a unique blend of various instrumental and vocal elements that contribute to its distinct feel and texture. It can be categorized under the sub-genre of fusion music, incorporating elements from several genres such as rock, electronic, and possibly world music, given its eclectic mix.\n\nThe instrumental arrangement comprises a variety of sounds including a warm analog synth, which adds a nostalgic touch, a distorted aggressive guitar that injects energy and intensity, and a smooth jazz trumpet that enriches the texture with its smooth and soothing tones. These instruments work together harmoniously, creating a rich and layered soundscape.\n\nThe vocals are provided by a female artist who sings in a melancholic manner, adding depth and emotion to the track. Her voice is accompanied by a choir, enhancing the overall atmospheric quality of the song. The lyrics appear to convey a sense of longing or nostalgia, resonating deeply with listeners.\n\nThe track's structure starts off quietly and intimate, setting a reflective tone. As it progresses, it builds up gradually into a more chaotic climax, signifying a journey or evolution in its narrative. This dynamic progression keeps the listener engaged and interested throughout the track.\n\nThe energy level of the track is dynamic and fluctuating, starting off relatively subdued before escalating into a more intense and energetic phase.",
+  "metrics": {
+    "tempo": 170.45454545454547,
+    "key": "D",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1380.8506642556133,
+    "spectral_bandwidth": 1480.308857269851,
+    "zero_crossing_rate": 0.08709034295127796,
+    "rmse": 0.18085522949695587,
+    "harmonic_content": 0.7303547263145447,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      18,
+      30,
+      41,
+      52,
+      63,
+      74,
+      85,
+      96,
+      108,
+      120,
+      131,
+      141,
+      152,
+      164,
+      175,
+      186,
+      197,
+      209,
+      220,
+      231,
+      242,
+      253,
+      264,
+      275
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.872711181640625,
+    "min": -0.773162841796875,
+    "rms": 0.18902313709259033,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

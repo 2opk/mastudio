@@ -1,0 +1,49 @@
+{
+  "wav_path": "audio2txt/audio/0057_378-388.wav",
+  "perception": "This music is a fusion of several genres and styles, creating a unique auditory experience. It has a distinct Japanese flavor that is evident in its instrumentation and timbre. The song features a male vocalist who delivers his lines in a way that conveys a sense of melancholy. The lyrics appear to be written with a rebellious spirit, which aligns well with the overall mood of the piece.\n\nThe instrumental arrangement comprises a combination of acoustic drums, electric guitars, and strings. The drums provide a steady rhythm, while the electric guitars add a layer of intensity and aggression to the sound. The strings contribute to the emotional depth of the piece, providing a smooth and flowing texture.\n\nThe vocal delivery is poignant and carries a sense of longing or yearning. The lyrics are filled with metaphors and imagery that paint a vivid picture of rebellion and defiance against societal norms. This adds to the overall feeling of rebellion conveyed by the song.\n\nThe atmosphere created by this music is one of chaos and turmoil. The lyrics and the instrumental arrangement work together to create a feeling of rebellion and defiance. The use of distorted guitars and aggressive drums amplifies this sentiment, making the listener feel as if they are part of a revolution.\n\nThe song starts off with a sparse introduction, setting the stage for the rest",
+  "metrics": {
+    "tempo": 144.23076923076923,
+    "key": "E",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1604.6207320634462,
+    "spectral_bandwidth": 1621.2212018495081,
+    "zero_crossing_rate": 0.1132968500399361,
+    "rmse": 0.14778654277324677,
+    "harmonic_content": 0.6602003574371338,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      17,
+      31,
+      44,
+      56,
+      69,
+      81,
+      92,
+      104,
+      116,
+      129,
+      142,
+      155,
+      168,
+      181,
+      195,
+      208,
+      221,
+      234,
+      247,
+      260,
+      274,
+      287
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.955780029296875,
+    "min": -0.799530029296875,
+    "rms": 0.1554081290960312,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

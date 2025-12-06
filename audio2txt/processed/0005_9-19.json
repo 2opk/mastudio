@@ -1,0 +1,48 @@
+{
+  "wav_path": "audio2txt/audio/0005_9-19.wav",
+  "perception": "1. The genre of the music is electronic and ambient. It has a slow tempo and creates a relaxing atmosphere. The music is instrumental and features synthesizers, bass, drums, and keyboards. There are no vocals in this song.\n2. The music has a warm and fuzzy texture, which makes it feel inviting and comforting. The synthesizers add a layer of depth and complexity to the music, while the bass provides a solid foundation. The drums give the music a steady rhythm, and the keyboards add melodic elements that enhance the overall sound.\n3. There are no vocals in this song, so there are no singing voices or lyrical content. However, the music creates a relaxing and calming atmosphere, which could be associated with themes of tranquility and inner peace.\n4. This song has a relaxing and calming effect, evoking images of peaceful scenery or moments of solitude. The warm and fuzzy texture of the music creates a sense of comfort and familiarity, making it ideal background music for relaxation or meditation.\n5. The structure of the song is simple and straightforward, with a slow build-up that leads to a climax. The music starts off with a warm and fuzzy texture and gradually adds more layers and complexity as it progresses. The climax is intense and powerful, creating a",
+  "metrics": {
+    "tempo": 144.23076923076923,
+    "key": "F",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 637.1077750866759,
+    "spectral_bandwidth": 656.3844245325431,
+    "zero_crossing_rate": 0.051280451277955275,
+    "rmse": 0.1440241038799286,
+    "harmonic_content": 0.6951209902763367,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      33,
+      46,
+      60,
+      74,
+      87,
+      100,
+      113,
+      126,
+      138,
+      150,
+      163,
+      176,
+      188,
+      201,
+      217,
+      231,
+      244,
+      257,
+      270,
+      283,
+      296,
+      308
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.976776123046875,
+    "min": -0.96331787109375,
+    "rms": 0.16302287578582764,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

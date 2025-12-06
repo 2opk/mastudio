@@ -1,0 +1,48 @@
+{
+  "wav_path": "audio2txt/audio/0035_171-181.wav",
+  "perception": "1. The genre is a fusion of rock and electronic music, drawing from alternative and experimental influences.\n2. The instrumental composition includes a synthesizer, drums, bass, and electric guitar. The synthesizer adds a warm texture, the drums provide a steady beat, the bass offers depth, and the electric guitar introduces a distorted and aggressive edge to the sound.\n3. The vocals feature a male voice singing in English with a melancholic tone. The lyrics convey themes of introspection and longing.\n4. The atmosphere of the track is moody and atmospheric, evoking feelings of nostalgia and introspection. I would associate the track with a cool, dark blue color.\n5. Structurally, the track starts off sparse and quiet, featuring only the synthesizer and drums. As the song progresses, layers of instrumentation are added, culminating in a chaotic climax towards the end.\n6. The energy level of the track is dynamic, shifting between moments of calmness and intensity. There's a sense of building tension that leads up to the climax, making the track feel more exciting as it progresses.",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "B",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1970.3755136534573,
+    "spectral_bandwidth": 1812.7686459731854,
+    "zero_crossing_rate": 0.14242836461661343,
+    "rmse": 0.2831505835056305,
+    "harmonic_content": 0.7437195181846619,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      13,
+      25,
+      38,
+      51,
+      65,
+      79,
+      94,
+      110,
+      124,
+      138,
+      152,
+      166,
+      180,
+      194,
+      208,
+      222,
+      235,
+      248,
+      262,
+      277,
+      292,
+      306
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.29264649748802185,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

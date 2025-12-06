@@ -1,0 +1,44 @@
+{
+  "wav_path": "audio2txt/audio/0060_32-42.wav",
+  "perception": "The genre is a blend of classical and electronic music, showcasing both acoustic piano and synthesizer sounds. The piece has a slow tempo that contributes to its relaxing nature, making it suitable for meditation purposes. It also incorporates elements of ambient and chillout genres, providing a soothing and tranquil auditory experience. The music feels spacious, enveloping the listener in a warm embrace. There are no vocals present, allowing the instrumental melodies to take center stage. The overall feel of the music is calming and meditative, evoking a sense of inner peace and tranquility.",
+  "metrics": {
+    "tempo": 170.45454545454547,
+    "key": "F#",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 784.1963542491957,
+    "spectral_bandwidth": 890.1713180232954,
+    "zero_crossing_rate": 0.06257800019968052,
+    "rmse": 0.045484088361263275,
+    "harmonic_content": 0.8644497990608215,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      14,
+      26,
+      37,
+      48,
+      59,
+      70,
+      81,
+      92,
+      104,
+      115,
+      126,
+      137,
+      148,
+      159,
+      170,
+      182,
+      193,
+      203
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.410308837890625,
+    "min": -0.4188232421875,
+    "rms": 0.05247514694929123,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

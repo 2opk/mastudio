@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0055_108-118.wav",
+  "perception": "This music is a fusion of several genres and styles, creating a unique sonic experience. It draws from rock, electronic, pop, and possibly alternative or experimental music, evident from the diverse range of instruments used. The track features a warm analog synth, producing a rich, deep sound that adds depth to the composition. A distorted aggressive guitar enhances the edginess of the piece, while smooth jazz trumpets introduce a layer of sophistication and elegance. Vocals are sparse but impactful, contributing to the overall texture of the music. The lyrics convey a sense of longing and introspection, which aligns with the melancholic mood set by the music. The atmosphere created by this track is both immersive and thought-provoking, evoking vivid imagery of serene landscapes juxtaposed with introspective moments. The dynamic feel of the music shifts between moments of tranquility and intense energy, culminating in a climax that leaves a lasting impression. Overall, the energy level is high, making it suitable for settings that require a boost of adrenaline.",
+  "metrics": {
+    "tempo": 98.6842105263158,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1809.1683226684927,
+    "spectral_bandwidth": 1772.1674958936298,
+    "zero_crossing_rate": 0.11772882138578275,
+    "rmse": 0.29394587874412537,
+    "harmonic_content": 0.6208127737045288,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      27,
+      47,
+      68,
+      86,
+      105,
+      124,
+      143,
+      161,
+      180,
+      199,
+      218,
+      237,
+      255,
+      274
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.2998705506324768,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

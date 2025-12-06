@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0075_108-118.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and acoustic elements, drawing from ambient, downtempo, and IDM (Intelligent Dance Music) styles.\n2. A variety of instruments contribute to its unique texture, including synthesizers, drums, bass, and possibly acoustic guitars or piano. The soundscape is rich and layered, with a warm and analog synth providing a soothing backdrop, while the distorted aggressive guitar injects energy and intensity. The smooth jazz trumpet adds a touch of sophistication and elegance to the mix.\n3. The vocals are sparse but impactful, featuring a male voice that conveys a sense of longing or introspection. The lyrics appear to reflect themes of love, loss, and acceptance, contributing to a melancholic mood that resonates deeply with listeners.\n4. The track creates a dreamy, atmospheric soundscape that transports listeners into a serene, introspective state. It evokes imagery of peaceful, solitary moments spent in nature or amidst the chaos of city life. The color associated with this track could be a deep, cool blue, representing tranquility and reflection.\n5. The structure of the track is carefully crafted, starting with a quiet and intimate introduction that gradually builds into a more complex and dynamic arrangement. This progression serves to engage listeners and keep them",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "E",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1554.5571895983326,
+    "spectral_bandwidth": 1768.710070610765,
+    "zero_crossing_rate": 0.07574755391373802,
+    "rmse": 0.1654518097639084,
+    "harmonic_content": 0.7893949151039124,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      26,
+      40,
+      54,
+      69,
+      84,
+      99,
+      113,
+      128,
+      143,
+      158,
+      173,
+      187,
+      202,
+      216,
+      231,
+      245,
+      260,
+      274,
+      287,
+      299,
+      312
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.745452880859375,
+    "min": -0.770355224609375,
+    "rms": 0.17572900652885437,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

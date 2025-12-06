@@ -1,0 +1,46 @@
+{
+  "wav_path": "audio2txt/audio/0033_335-345.wav",
+  "perception": "This music is an instrumental electronic piece with a slow tempo and ambient feel. It has a unique, weird, and spacey texture that creates a hypnotic atmosphere. The synthesizer and the theremin play key roles in shaping its sound, which is both futuristic and retro at the same time. There are no vocals in this track. Overall, it's relaxing and meditative, making it perfect background music for focus tasks such as coding or studying.",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "G#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1580.2357287757848,
+    "spectral_bandwidth": 1354.1667655172282,
+    "zero_crossing_rate": 0.12718556559504793,
+    "rmse": 0.20666182041168213,
+    "harmonic_content": 0.8380142450332642,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      19,
+      35,
+      50,
+      65,
+      80,
+      95,
+      109,
+      124,
+      141,
+      158,
+      173,
+      188,
+      203,
+      219,
+      235,
+      249,
+      265,
+      281,
+      297
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.86376953125,
+    "min": -0.883941650390625,
+    "rms": 0.20945100486278534,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

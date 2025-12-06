@@ -1,0 +1,38 @@
+{
+  "wav_path": "audio2txt/audio/0076_149-159.wav",
+  "perception": "The genre appears to be a fusion between electronic and acoustic elements, drawing from jazz and possibly ambient influences. The track features a prominent piano which adds a layer of sophistication and elegance to the composition. There's also a synth bass that provides depth and richness to the sound. The drums contribute to the rhythmic foundation, maintaining a steady tempo that supports the other instruments. Vocals are sparse but impactful, featuring a haunting female voice that enhances the emotive quality of the piece. The atmosphere is atmospheric and enveloping, evoking a sense of tranquility and introspection. It could be associated with a cool, dimly lit room or a peaceful, solitary moment. Structurally, the piece starts off softly and gradually builds into a more complex arrangement, showcasing a dynamic progression in energy levels. Overall, the track feels warm and inviting while maintaining a sense of mystery and intrigue.",
+  "metrics": {
+    "tempo": 72.11538461538461,
+    "key": "D#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1272.939599750482,
+    "spectral_bandwidth": 1617.9935418359055,
+    "zero_crossing_rate": 0.06172935802715655,
+    "rmse": 0.3237784504890442,
+    "harmonic_content": 0.7100952863693237,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      9,
+      35,
+      62,
+      88,
+      114,
+      140,
+      164,
+      192,
+      218,
+      244,
+      267,
+      289
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.997100830078125,
+    "min": -0.999542236328125,
+    "rms": 0.3366057276725769,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

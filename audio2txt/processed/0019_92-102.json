@@ -1,0 +1,36 @@
+{
+  "wav_path": "audio2txt/audio/0019_92-102.wav",
+  "perception": "1. The genre of the music is a fusion between electronic and rock, with elements of pop and alternative. It has a strong danceable beat and features synthesizers, drums, and electric guitars. There's also a male vocal that adds a unique touch to the mix.\n2. The instrumental arrangement is quite complex, with multiple layers of synths, distorted guitars, and electronic beats. The drums have a driving feel, adding to the energetic and dynamic nature of the song. The bass line provides a solid foundation while the synthesizer adds a modern texture to the overall sound.\n3. The vocals are sparse but impactful, featuring a male voice singing over the instrumental. The lyrics convey a sense of rebellion and defiance, which aligns well with the overall tone of the song.\n4. The atmosphere of the song is intense and passionate. It feels like a journey through a dark and stormy landscape, evoking imagery of rebellion and defiance. The use of vibrant colors such as red or black could be associated with this mood.\n5. The structure of the song starts off with a quiet and intimate section, setting the stage for the rest of the piece. As the song progresses, it becomes more dynamic and chaotic, culminating in a powerful climax. This progression creates a sense",
+  "metrics": {
+    "tempo": 81.52173913043478,
+    "key": "G",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1809.1012081313452,
+    "spectral_bandwidth": 1719.2988264629594,
+    "zero_crossing_rate": 0.12256483376597443,
+    "rmse": 0.1679840385913849,
+    "harmonic_content": 0.7398821711540222,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      80,
+      103,
+      127,
+      151,
+      174,
+      197,
+      220,
+      242,
+      264,
+      286
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.99688720703125,
+    "min": -1.0,
+    "rms": 0.18018336594104767,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

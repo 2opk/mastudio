@@ -1,0 +1,48 @@
+{
+  "wav_path": "audio2txt/audio/0011_77-87.wav",
+  "perception": "1. The genre is a fusion between electronic and traditional music, incorporating elements of ambient, dubstep, and world music. It has a distinct Middle Eastern flavor, blending modern electronic production techniques with traditional stringed instruments and ethnic percussion.\n2. The instrumental arrangement includes a wide range of sounds. A prominent feature is the use of a synthesizer, which provides a warm, analog texture throughout the piece. Accompanying this is a distorted electric guitar that adds a raw, aggressive edge to the composition. Traditional stringed instruments contribute to the Middle Eastern feel, while ethnic percussion rounds out the sonic landscape with a rhythmic complexity reflecting the diversity of world music influences.\n3. Vocals are sparse but impactful, featuring a haunting female voice that weaves through the instrumental layers. Her singing style is emotive and evocative, drawing listeners into a reflective state. Lyrically, the song explores themes of longing and introspection, enhancing its emotional depth.\n4. The atmosphere created by this track is both immersive and otherworldly. It transports listeners to a mystical, Middle Eastern landscape, filled with vibrant colors and sensory experiences that stimulate the imagination. The mood is contemplative and introspective, prompting listeners to reflect deeply on their own thoughts and feelings.\n5. Structurally",
+  "metrics": {
+    "tempo": 156.25,
+    "key": "D#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 715.4836628448617,
+    "spectral_bandwidth": 1003.3255540038036,
+    "zero_crossing_rate": 0.05100745057907348,
+    "rmse": 0.10467977821826935,
+    "harmonic_content": 0.8627824187278748,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      58,
+      71,
+      84,
+      96,
+      108,
+      120,
+      131,
+      143,
+      154,
+      166,
+      177,
+      189,
+      200,
+      211,
+      223,
+      235,
+      249,
+      263,
+      275,
+      287,
+      299,
+      311
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.738128662109375,
+    "min": -0.65789794921875,
+    "rms": 0.11403799057006836,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

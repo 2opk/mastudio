@@ -1,0 +1,45 @@
+{
+  "wav_path": "audio2txt/audio/0040_129-139.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and traditional music, possibly drawing from hip-hop, ambient, or experimental genres. It incorporates elements of classical music, indicated by the presence of a piano and strings.\n2. The instrumental mix includes synthesized sounds, which add a textured, digital quality to the piece. A piano provides a melodic foundation, while strings contribute depth and emotion. Additionally, there is a distorted electric guitar that adds a gritty, edgy tone to the composition.\n3. The vocals, if present, would likely be performed in a rap or spoken word style due to the rhythmic and rhyming nature of the lyrics. The mood conveyed could range from introspective to rebellious, reflecting the complex and layered nature of the music.\n4. This track might evoke scenes of neon-lit city streets or futuristic landscapes, evoking feelings of exhilaration and awe. The use of synth pads contributes to a dreamy, otherworldly atmosphere.\n5. The structure of the track seems to follow a pattern of building intensity, starting with a quieter, more introspective section before escalating into a more dynamic, chaotic climax. This progression creates a sense of tension and release that keeps the listener engaged.\n6. The energy level of the track is dynamic",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "G",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1994.4739880457873,
+    "spectral_bandwidth": 2019.529983835083,
+    "zero_crossing_rate": 0.11874282398162939,
+    "rmse": 0.292725145816803,
+    "harmonic_content": 0.6511842012405396,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      7,
+      24,
+      40,
+      56,
+      72,
+      89,
+      105,
+      122,
+      139,
+      155,
+      171,
+      187,
+      203,
+      220,
+      236,
+      252,
+      268,
+      283,
+      297
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.2988927364349365,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

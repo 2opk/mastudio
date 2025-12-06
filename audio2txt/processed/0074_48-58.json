@@ -1,0 +1,46 @@
+{
+  "wav_path": "audio2txt/audio/0074_48-58.wav",
+  "perception": "1. The genre appears to be a blend of pop and electronic, drawing influence from both mainstream and alternative styles. It incorporates elements of synthesizer music, indicating a modern production style, while also referencing traditional pop song structures.\n2. A variety of instruments contribute to the texture of the sound. There is a prominent use of synthesizers, likely providing a futuristic or digital feel. Additionally, there is a distorted electric guitar that adds a raw, edgy quality to the mix. A piano can be heard playing melodic lines, contributing to the emotional depth of the piece. The inclusion of acoustic drums suggests a more rhythmic, upbeat component to the track. The bass provides a solid foundation, grounding the higher-pitched elements with its deeper tones.\n3. The vocals in this track are performed by a female singer. Her voice has a smooth, airy quality, which complements the electronic elements of the music. The lyrics convey a sense of longing and introspection, creating a melancholic mood that resonates with listeners.\n4. The atmosphere created by this track is one of contemplation and introspection. The use of warm synthesizers gives the piece a soothing quality, while the distorted guitar introduces a hint of tension. The overall mood is bittersweet, reflecting the complexities",
+  "metrics": {
+    "tempo": 144.23076923076923,
+    "key": "G",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 798.5771226965361,
+    "spectral_bandwidth": 1201.1923625604607,
+    "zero_crossing_rate": 0.04476743460463259,
+    "rmse": 0.1314348727464676,
+    "harmonic_content": 0.6628355383872986,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      14,
+      27,
+      41,
+      54,
+      68,
+      81,
+      94,
+      108,
+      121,
+      134,
+      147,
+      159,
+      171,
+      184,
+      197,
+      211,
+      223,
+      235,
+      247,
+      259
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.83660888671875,
+    "min": -0.84588623046875,
+    "rms": 0.1399877965450287,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

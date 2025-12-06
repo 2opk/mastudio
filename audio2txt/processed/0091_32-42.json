@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0091_32-42.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and rock, possibly drawing inspiration from subgenres such as synth-rock or industrial rock.\n2. The instrumental composition includes both digital and analog elements, likely featuring synthesizers, drums, and electric guitars. The sound is gritty and distorted, indicative of the aggressive style typical of industrial rock. There's also a smooth jazz trumpet that adds a layer of sophistication and contrast to the heavier elements.\n3. Vocals are sparse but impactful, contributing to the intensity of the piece. The lead singer possesses a powerful and emotive voice that complements the gritty texture of the music. Lyrics may convey themes of rebellion or defiance, aligning with the overall aggressive tone of the track.\n4. The atmosphere of the track is intense and dynamic, evoking images of chaos and rebellion. It has a gritty, edgy quality that could be associated with urban landscapes or dystopian settings. The music might transport listeners into a neon-lit cityscape or a futuristic battlefield.\n5. Structurally, the track starts off with a quiet and intimate section, setting a somber mood before escalating into a chaotic climax. This structure contributes to a sense of tension and release, enhancing the overall intensity of the piece.\n6. The energy level of the",
+  "metrics": {
+    "tempo": 89.28571428571429,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 2189.033934034208,
+    "spectral_bandwidth": 1859.692517148432,
+    "zero_crossing_rate": 0.18392603085063897,
+    "rmse": 0.22397851943969727,
+    "harmonic_content": 0.6760424375534058,
+    "melody_contour": "Falling",
+    "beat_frames": [
+      19,
+      40,
+      61,
+      83,
+      104,
+      125,
+      147,
+      168,
+      189,
+      210,
+      228,
+      246,
+      267,
+      288
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.9921875,
+    "min": -1.0,
+    "rms": 0.22801628708839417,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

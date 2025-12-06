@@ -1,0 +1,48 @@
+{
+  "wav_path": "audio2txt/audio/0051_75-85.wav",
+  "perception": "1. The genre is classical music with elements of ambient and new age music. It has a relaxing and calming feel that makes it suitable for meditation and relaxation purposes.\n2. The primary instrument used in this track is the piano which provides a soft and gentle melody. There are also some light strings and synth pads that add texture to the composition.\n3. There are no vocals in this track. The instrumental nature of the track allows the listener to focus solely on the melody and the soothing sounds produced by the piano.\n4. This track creates a serene and peaceful atmosphere that can be associated with a tranquil landscape. It evokes feelings of calmness and tranquility, making it perfect for meditation and relaxation.\n5. The structure of the track is simple and straightforward, starting off with a soft and gentle melody and gradually building up to a more intense and powerful climax. This gradual build-up adds to the relaxing and calming effect of the track.\n6. The energy level of the track is relatively low, creating a sense of tranquility and calmness. The track is not very dynamic and does not have any sudden changes in intensity, maintaining a consistent and soothing rhythm throughout.",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "G",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 358.2256508516009,
+    "spectral_bandwidth": 427.76952371738463,
+    "zero_crossing_rate": 0.03634497304313099,
+    "rmse": 0.05242859572172165,
+    "harmonic_content": 0.9121092557907104,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      17,
+      31,
+      45,
+      59,
+      73,
+      87,
+      101,
+      115,
+      129,
+      143,
+      157,
+      171,
+      185,
+      199,
+      213,
+      227,
+      241,
+      255,
+      269,
+      284,
+      298,
+      312
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.5001220703125,
+    "min": -0.496856689453125,
+    "rms": 0.0643705427646637,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0067_105-115.wav",
+  "perception": "1. The genre is electronic experimental with ambient undertones. It has a unique, glitchy style that incorporates both analog and digital elements.\n2. The instrumentation includes synthesizers, drum machines, and samplers, creating a textured soundscape with a variety of timbres. There's also the use of live recordings, which add an organic feel to the piece.\n3. Vocals are sparse but impactful, featuring introspective male oohs and aahs over the instrumental backdrop. The lyrics convey themes of introspection and self-discovery.\n4. The atmosphere is atmospheric and immersive, evoking a sense of calmness and contemplation. The use of warm colors in the music creates a soothing effect, drawing listeners into a reflective state.\n5. Structurally, the piece starts with a slow build-up using repetitive patterns and textures, leading to a sudden shift into a more complex arrangement. This creates a dynamic and engaging listening experience.\n6. The energy level is dynamic, starting off quiet and gradually increasing in intensity towards the climax. The use of both still and moving elements contributes to a sense of tension and release.",
+  "metrics": {
+    "tempo": 98.6842105263158,
+    "key": "G",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 2292.969450125922,
+    "spectral_bandwidth": 1805.5104441938292,
+    "zero_crossing_rate": 0.1896793255790735,
+    "rmse": 0.045669134706258774,
+    "harmonic_content": 0.4866733253002167,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      18,
+      37,
+      56,
+      73,
+      92,
+      112,
+      132,
+      154,
+      172,
+      191,
+      211,
+      231,
+      251,
+      270,
+      289
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.591888427734375,
+    "min": -0.764678955078125,
+    "rms": 0.05352628231048584,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

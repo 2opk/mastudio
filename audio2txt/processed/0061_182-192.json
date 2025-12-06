@@ -1,0 +1,45 @@
+{
+  "wav_path": "audio2txt/audio/0061_182-192.wav",
+  "perception": "1. The genre is electronic dance music (EDM) with house elements. It has a repetitive structure and is designed for dancing.\n2. The main instrument used is a synthesizer, which produces a deep and fuzzy sound that contributes to the groovy feel of the piece. There's also a distorted electric guitar that adds some aggression to the mix.\n3. Vocals are sparse, featuring a few isolated notes or hooks. They convey a feeling of joyfulness and positivity.\n4. The music creates an energetic and vibrant atmosphere, evoking images of a lively party scene. The bright and shimmering sound of the synthesizer gives it a futuristic feel.\n5. The structure of the song starts off with a simple beat and builds up gradually into a more complex and dynamic arrangement. This increase in dynamics creates a sense of excitement and anticipation among listeners.\n6. The energy level of the music is high, making it suitable for dancing. It maintains a consistent dynamic throughout, never losing its groove or energy.",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "D",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1283.6593862335385,
+    "spectral_bandwidth": 1744.1126049142213,
+    "zero_crossing_rate": 0.05829890924520767,
+    "rmse": 0.19142338633537292,
+    "harmonic_content": 0.5989725589752197,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      13,
+      28,
+      43,
+      59,
+      75,
+      91,
+      106,
+      121,
+      137,
+      153,
+      168,
+      184,
+      200,
+      215,
+      231,
+      247,
+      262,
+      278,
+      294
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.96392822265625,
+    "min": -0.96014404296875,
+    "rms": 0.20792602002620697,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

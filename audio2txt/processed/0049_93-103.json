@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0049_93-103.wav",
+  "perception": "1. The genre is a fusion of electronic and rock elements, drawing inspiration from both worlds. It has a distinct pop structure that makes it easy to listen to.\n2. The instrumental arrangement includes synthesizers, drums, bass, and electric guitars. The synthesizer adds a warm texture to the music, while the distorted electric guitar injects aggression into the mix. The drums provide a steady rhythm, and the bass supports the melody. The trumpets add a layer of smoothness to the overall sound, enhancing the pop feel.\n3. There are no vocals in this track, which allows the instrumental elements to shine. The absence of lyrics doesn't take away from the emotive power of the music.\n4. The track creates a dreamy atmosphere, evoking images of a futuristic cityscape. It's soothing yet energetic, making it suitable for a soundtrack. The music could be associated with a bright, vibrant color such as blue or green.\n5. The track starts off with a sparse arrangement, setting a calm and intimate foundation. As it progresses, it builds up to a loud, chaotic climax, showcasing a dynamic range of emotions and energy levels.\n6. The track maintains a consistent energy level throughout, neither feeling too static nor overly intense. It's a well-bal",
+  "metrics": {
+    "tempo": 144.23076923076923,
+    "key": "F",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1932.8937555492507,
+    "spectral_bandwidth": 1917.9502458378893,
+    "zero_crossing_rate": 0.12371299670527157,
+    "rmse": 0.26911380887031555,
+    "harmonic_content": 0.7337079644203186,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      17,
+      30,
+      43,
+      55,
+      68,
+      81,
+      94,
+      106,
+      119,
+      133,
+      145,
+      157,
+      170,
+      183,
+      196,
+      209,
+      222,
+      235,
+      248,
+      260,
+      273
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.93756103515625,
+    "min": -0.92626953125,
+    "rms": 0.27246367931365967,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

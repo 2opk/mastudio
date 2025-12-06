@@ -1,0 +1,45 @@
+{
+  "wav_path": "audio2txt/audio/0096_178-188.wav",
+  "perception": "Perceptual Analysis:\n1. The genre appears to be a fusion between electronic and acoustic elements, drawing from ambient, downtempo, and IDM (Intelligent Dance Music) styles.\n2. A dominant feature is the use of a piano, which provides a warm and melodic foundation. Additionally, there's a synth pad that adds depth and texture to the sound. Distortion guitars and jazz trumpets contribute to the aggressive and smooth sides of the track, respectively.\n3. The vocals are sparse but impactful, sung in a hauntingly beautiful manner that enhances the melancholic mood of the piece.\n4. The atmosphere evoked is one of introspection and contemplation, akin to a dark and stormy night. The music paints a picture of desolation and longing, with a touch of rebellion in its minor key.\n5. Structurally, the track starts off quiet and intimate, gradually building up tension before descending into a calm, introspective section. This pattern repeats itself, creating a sense of cyclical movement that keeps the listener engaged.\n6. The energy level of the track is dynamic, shifting between moments of tranquility and intense emotion. There's a palpable tension that builds throughout, culminating in a powerful climax that leaves a lasting impression on the listener.",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "F",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1002.3505629178809,
+    "spectral_bandwidth": 1242.749045368602,
+    "zero_crossing_rate": 0.06674009085463259,
+    "rmse": 0.15993979573249817,
+    "harmonic_content": 0.827772319316864,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      16,
+      30,
+      43,
+      56,
+      71,
+      84,
+      98,
+      112,
+      126,
+      139,
+      153,
+      167,
+      181,
+      195,
+      208,
+      222,
+      236,
+      250
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.7030029296875,
+    "min": -0.784027099609375,
+    "rms": 0.16295571625232697,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

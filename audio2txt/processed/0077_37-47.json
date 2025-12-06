@@ -1,0 +1,52 @@
+{
+  "wav_path": "audio2txt/audio/0077_37-47.wav",
+  "perception": "1. The genre is jazz with instrumental elements, specifically a piano playing chords, a saxophone soloing over the chords, and a bassline that's easygoing. It has a chill atmosphere, suitable for a coffee shop or a classy restaurant.\n2. The piano provides a warm and smooth sound, while the saxophone adds a layer of sophistication and a hint of excitement. The bassline is laidback and easygoing, complementing the overall vibe of the track.\n3. There are no vocals in this track, so there are no singing voices or lyrical content. However, the instrumental arrangement conveys a sense of relaxation and elegance.\n4. This track doesn't evoke any specific visual scenes or emotions. It's more about creating a relaxed and elegant ambiance. I would associate a soothing color palette with it, perhaps something in shades of blue or green.\n5. The track starts off with a simple chord progression played on the piano, setting a calm and relaxed tone. As the song progresses, a saxophone solo is introduced, adding some excitement and energy to the track. The bassline remains easygoing throughout, providing a steady foundation for the other instruments. The track then fades out slowly, maintaining the chill atmosphere.\n6. The overall energy level of the track",
+  "metrics": {
+    "tempo": 156.25,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1345.0147193598154,
+    "spectral_bandwidth": 1682.127048640516,
+    "zero_crossing_rate": 0.07656499600638977,
+    "rmse": 0.08702694624662399,
+    "harmonic_content": 0.7718487977981567,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      15,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110,
+      121,
+      133,
+      145,
+      156,
+      168,
+      180,
+      192,
+      204,
+      215,
+      227,
+      239,
+      251,
+      263,
+      275,
+      287,
+      299,
+      311
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.571533203125,
+    "min": -0.469940185546875,
+    "rms": 0.09234430640935898,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

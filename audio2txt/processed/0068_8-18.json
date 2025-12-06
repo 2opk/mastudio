@@ -1,0 +1,43 @@
+{
+  "wav_path": "audio2txt/audio/0068_8-18.wav",
+  "perception": "1. The genre is classical music with a touch of jazz. It has a relaxing mood and features a piano playing in a major key.\n2. The instrumentation includes a piano which has a warm and analog sound. There's also a distorted electric guitar that adds some aggression to the piece.\n3. There are no vocals in this track.\n4. The atmosphere of the track is calming and peaceful. It feels like something you would listen to while enjoying a cup of coffee in a cozy café.\n5. The structure of the track starts off slow and quiet, building up gradually into a more complex and dynamic section towards the middle of the piece.\n6. The energy level of the track is dynamic, starting off slow and quiet before gradually increasing in intensity towards the middle section.",
+  "metrics": {
+    "tempo": 125.0,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 747.8370765018483,
+    "spectral_bandwidth": 1089.1178698850408,
+    "zero_crossing_rate": 0.05184829273162939,
+    "rmse": 0.030238958075642586,
+    "harmonic_content": 0.8511009216308594,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      29,
+      44,
+      60,
+      75,
+      91,
+      108,
+      124,
+      138,
+      154,
+      169,
+      184,
+      199,
+      214,
+      229,
+      244,
+      259,
+      273
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.227294921875,
+    "min": -0.238800048828125,
+    "rms": 0.03367637097835541,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

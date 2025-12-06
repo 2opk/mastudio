@@ -1,0 +1,42 @@
+{
+  "wav_path": "audio2txt/audio/0054_146-156.wav",
+  "perception": "1. The genre is a blend of pop and electronic, with a distinct k-pop influence. It incorporates elements of R&B and hip-hop as well.\n2. The instrumental arrangement includes synthesizers, drums, bass, and a piano. The synthesizer provides a warm and fuzzy texture, while the drums add a rhythmic pulse to the track. The bass offers a deep, resonant undertone, and the piano contributes melodic lines that enhance the emotional depth of the piece.\n3. The vocals are performed by a male singer, who sings in a smooth and soothing manner. His voice carries a hint of melancholy, which complements the reflective mood of the song. The lyrics touch upon themes of love, longing, and introspection, making them deeply personal and relatable.\n4. The atmosphere of the track is dreamy and introspective. It has a calming quality that encourages listeners to reflect inwardly. I would associate the track with pastel colors, such as light blue or pale pink, which reflect its soft and gentle demeanor.\n5. The structure of the track is simple yet effective. It starts off with a quiet and intimate section, setting a reflective tone. As the song progresses, it builds into a more dynamic and energetic section, incorporating more complex",
+  "metrics": {
+    "tempo": 98.6842105263158,
+    "key": "C",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1356.8080418585298,
+    "spectral_bandwidth": 1724.045974102502,
+    "zero_crossing_rate": 0.06643433007188498,
+    "rmse": 0.33982107043266296,
+    "harmonic_content": 0.738308846950531,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      22,
+      41,
+      59,
+      78,
+      97,
+      116,
+      135,
+      153,
+      172,
+      194,
+      216,
+      237,
+      256,
+      275,
+      294
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -0.9990234375,
+    "rms": 0.3516078293323517,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

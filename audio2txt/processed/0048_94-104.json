@@ -1,0 +1,39 @@
+{
+  "wav_path": "audio2txt/audio/0048_94-104.wav",
+  "perception": "1. The genre appears to be a fusion between rock and electronic, possibly drawing from alternative or experimental influences. It features heavy instrumentals with a gritty texture, dominated by electric guitars and synthesizers.\n2. The drums provide a steady backbone to the music, likely using a rock beat, while the bass adds depth with its strong, resonant sound. The synthesizer introduces a layer of complexity and modernity, contributing to the electronic elements of the track.\n3. Vocals are sparse but impactful when present, adding a human element that contrasts with the instrumental intensity. They may convey a sense of rebellion or defiance, aligning with the track's overall mood.\n4. The atmosphere is intense and dynamic, evoking a feeling of tension and release. The track starts with a quiet, introspective tone before escalating into a powerful, high-energy climax. This progression creates a visceral experience that could be associated with shades of gray or even black.\n5. The song has a well-structured build-up, starting with a quieter section that sets the stage for the more dramatic and powerful sections that follow. There's a clear transition from the soft beginning to the climax, making the dynamic shift engaging and impactful.\n6. The energy level of the track is quite high, maintaining a consistent",
+  "metrics": {
+    "tempo": 85.22727272727273,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 2485.6564833781504,
+    "spectral_bandwidth": 2102.803914182233,
+    "zero_crossing_rate": 0.20041995307507987,
+    "rmse": 0.22072356939315796,
+    "harmonic_content": 0.6583551168441772,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      28,
+      51,
+      73,
+      95,
+      118,
+      142,
+      164,
+      187,
+      210,
+      232,
+      250,
+      267,
+      289
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.942352294921875,
+    "min": -0.957244873046875,
+    "rms": 0.2271685004234314,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

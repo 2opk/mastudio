@@ -1,0 +1,33 @@
+{
+  "wav_path": "audio2txt/audio/0017_322-332.wav",
+  "perception": "1. The genre is electronic dance music, specifically a subgenre of house music that incorporates elements of trance.\n2. The instrumentation includes synthesizers, bass, drums, and possibly keyboards. The sounds have a digital and synthetic quality, often characterized by repetitive melodic patterns and atmospheric layers.\n3. Vocals are sparse but impactful, featuring male lead vocals that convey a sense of longing or introspection. The lyrics may touch upon themes of love, loss, or personal growth.\n4. The atmosphere of the track is warm and enveloping, creating a dreamy and immersive soundscape. It has a slow build-up that gradually intensifies into a euphoric and ecstatic state.\n5. Structurally, the track follows a typical four-on-the-floor house structure, starting off with a quiet and intimate introduction before escalating into a massive drop. This pattern creates a sense of anticipation and excitement in the listener.\n6. The energy level of the track is high, with a driving and pulsating beat that keeps the dance floor moving. There's a dynamic shift between moments of intimacy and euphoria, making the experience both soothing and invigorating.",
+  "metrics": {
+    "tempo": 75.0,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 2211.1766712526646,
+    "spectral_bandwidth": 2124.4800102856557,
+    "zero_crossing_rate": 0.12521528055111822,
+    "rmse": 0.1664528250694275,
+    "harmonic_content": 0.6856631636619568,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      24,
+      45,
+      69,
+      94,
+      119,
+      144
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.985626220703125,
+    "min": -0.96759033203125,
+    "rms": 0.22843679785728455,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

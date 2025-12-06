@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0036_241-251.wav",
+  "perception": "This track has a groovy feel with a mix of acoustic and electric elements that contribute to its texture. It's likely rooted in a genre such as jazz or blues, with a fusion of modern electronic sounds. The instrumentals feature a piano, possibly providing a smooth, melodic base, complemented by an electric guitar that adds a layer of distortion and aggression. A bass guitar might also be present, contributing depth to the sound. Vocals, if present, could be expressive and soulful, reflecting the emotive nature of the music. The atmosphere created is vibrant yet introspective, evoking imagery of bustling city streets at night or a cozy jazz club. The dynamic feel of the track is energetic and engaging, shifting between moments of intimacy and high intensity. Overall, the track exudes a sense of passion and intensity, making it memorable and enjoyable for listeners.",
+  "metrics": {
+    "tempo": 170.45454545454547,
+    "key": "G#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 772.6794582457103,
+    "spectral_bandwidth": 1121.5260151780376,
+    "zero_crossing_rate": 0.04561919678514377,
+    "rmse": 0.21683397889137268,
+    "harmonic_content": 0.7297248244285583,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      76,
+      87,
+      98,
+      110,
+      122,
+      134,
+      146,
+      158,
+      169,
+      179,
+      189,
+      200,
+      211,
+      221,
+      231,
+      243,
+      255,
+      265,
+      278,
+      290,
+      302
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.9774169921875,
+    "min": -0.923248291015625,
+    "rms": 0.2274673730134964,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

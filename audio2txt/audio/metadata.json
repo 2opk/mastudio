@@ -1,0 +1,1502 @@
+[
+  {
+    "index": 0,
+    "filename": "0000_45-55.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0000_45-55.wav",
+    "artist_name": "AKMU (악동뮤지션)",
+    "album_name": "항해",
+    "track_name": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
+    "slice_position": [
+      45,
+      55
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 1,
+    "filename": "0001_37-47.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0001_37-47.wav",
+    "artist_name": "Cocco",
+    "album_name": "スターシャンク(Star Shank)",
+    "track_name": "海辺に咲くばらのお話 / The story of the rose blooming on the shore",
+    "slice_position": [
+      37,
+      47
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 2,
+    "filename": "0002_98-108.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0002_98-108.wav",
+    "artist_name": "Excision",
+    "album_name": "Night Shine (The Remixes)",
+    "track_name": "Night Shine (feat. Luciana) (Blaynoise Remix)",
+    "slice_position": [
+      98,
+      108
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 3,
+    "filename": "0003_117-127.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0003_117-127.wav",
+    "artist_name": "마에스트로 타임",
+    "album_name": "키즈의 숙면을 위한 꿈처럼 포근한 클래식 자장가 모음집",
+    "track_name": "생상스의 동물의 사육제 7번 – 수족관",
+    "slice_position": [
+      117,
+      127
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 4,
+    "filename": "0004_189-199.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0004_189-199.wav",
+    "artist_name": "Christian Tetzlaff",
+    "album_name": "Bach, J.S.: Sonatas And Partitas For Solo Violin, BWV 1001-1006 (Tetzlaff)",
+    "track_name": "Bach: Violin Partita No. 2 In D Minor, BWV 1004 - Iii. Sarabanda",
+    "slice_position": [
+      189,
+      199
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 5,
+    "filename": "0005_9-19.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0005_9-19.wav",
+    "artist_name": "KAMEL",
+    "album_name": "FANTASISTA",
+    "track_name": "헤어살롱",
+    "slice_position": [
+      9,
+      19
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 6,
+    "filename": "0006_127-137.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0006_127-137.wav",
+    "artist_name": "무드홀릭 (Moodholic)",
+    "album_name": "봄바람을 타고 온 선율 [꽃길에서]",
+    "track_name": "담쟁이 길 (The ivy Way)",
+    "slice_position": [
+      127,
+      137
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 7,
+    "filename": "0007_108-118.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0007_108-118.wav",
+    "artist_name": "사이프러스",
+    "album_name": "엄마의 아기를 위한 완전한 꿈의 테라피 아가페 자장가",
+    "track_name": "아기 생후 1개월부터 좋은 음악",
+    "slice_position": [
+      108,
+      118
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 8,
+    "filename": "0008_35-45.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0008_35-45.wav",
+    "artist_name": "AFK",
+    "album_name": "Killionaire",
+    "track_name": "Hear Me Shout",
+    "slice_position": [
+      35,
+      45
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 9,
+    "filename": "0009_41-51.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0009_41-51.wav",
+    "artist_name": "RAC",
+    "album_name": "I Still Wanna Know (feat. Rivers Cuomo) (Remixes)",
+    "track_name": "I Still Wanna Know (feat. Rivers Cuomo) (Teztudo Remix)",
+    "slice_position": [
+      41,
+      51
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 10,
+    "filename": "0010_102-112.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0010_102-112.wav",
+    "artist_name": "Mahalia Jackson",
+    "album_name": "Special Christmas (크리스마스 캐롤)",
+    "track_name": "Walking to Jerusalem",
+    "slice_position": [
+      102,
+      112
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 11,
+    "filename": "0011_77-87.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0011_77-87.wav",
+    "artist_name": "파두 앰비언트",
+    "album_name": "키즈 잠잘 때 듣는 포근한 어린이 자장가 음악 모음집",
+    "track_name": "어린이의 뇌파 안정을 위한 자장노래",
+    "slice_position": [
+      77,
+      87
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 12,
+    "filename": "0012_63-73.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0012_63-73.wav",
+    "artist_name": "Tango Transit",
+    "album_name": "Akrobat",
+    "track_name": "Taumler",
+    "slice_position": [
+      63,
+      73
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 13,
+    "filename": "0013_69-79.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0013_69-79.wav",
+    "artist_name": "The Piano Guys",
+    "album_name": "At Home with Beethoven",
+    "track_name": "Moonlight",
+    "slice_position": [
+      69,
+      79
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 14,
+    "filename": "0014_242-252.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0014_242-252.wav",
+    "artist_name": "UMEK",
+    "album_name": "Straight Forward, Vol. 6 - Tech-House Essentials",
+    "track_name": "Novi Sad (Anton Pieete Remix)",
+    "slice_position": [
+      242,
+      252
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 15,
+    "filename": "0015_209-219.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0015_209-219.wav",
+    "artist_name": "Idil Biret",
+    "album_name": "Wine And Music (와인과 음악)",
+    "track_name": "Rachmaninov: 3 Nocturnes - No.2 In F Major (라흐마니노프: 3개의 야상곡 - 2번 바장조)",
+    "slice_position": [
+      209,
+      219
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 16,
+    "filename": "0016_185-195.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0016_185-195.wav",
+    "artist_name": "행인데어 (Haeng Inthere)",
+    "album_name": "Mute",
+    "track_name": "Mute",
+    "slice_position": [
+      185,
+      195
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 17,
+    "filename": "0017_322-332.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0017_322-332.wav",
+    "artist_name": "Tortured Soul",
+    "album_name": "U Live 2 Far Away (Remixes, Vol. 2)",
+    "track_name": "U Live 2 Far Away (John Christian Urich Backseat Make Out Mix)",
+    "slice_position": [
+      322,
+      332
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 18,
+    "filename": "0018_85-95.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0018_85-95.wav",
+    "artist_name": "우팍 (WooPark)",
+    "album_name": "3月9日",
+    "track_name": "Lifelong Dream (Feat. Brother Gun)",
+    "slice_position": [
+      85,
+      95
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 19,
+    "filename": "0019_92-102.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0019_92-102.wav",
+    "artist_name": "워십 바이러스",
+    "album_name": "The Story",
+    "track_name": "만남",
+    "slice_position": [
+      92,
+      102
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 20,
+    "filename": "0020_512-522.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0020_512-522.wav",
+    "artist_name": "Pablo Casals",
+    "album_name": "A. Dvorak: Cello Concerto / J. Brahms: Double Concerto (Casals, Thibaud) (1929, 1937) (드보르작의 첼로 협주곡(카잘스)과 브람스의 2중 협주곡(티보))",
+    "track_name": "Brahms: Double Concerto For Violin And Cello In A Minor, Op.102 - I. Allegro [1929 Recording] (브람스: 바이올린과 첼로를 위한 2중 협주곡 A단조, 작품번호 102 - 1악장 [1929년 레코딩])",
+    "slice_position": [
+      512,
+      522
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 21,
+    "filename": "0021_79-89.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0021_79-89.wav",
+    "artist_name": "Wilhelm Tell Me",
+    "album_name": "Kite",
+    "track_name": "Kite",
+    "slice_position": [
+      79,
+      89
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 22,
+    "filename": "0022_49-59.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0022_49-59.wav",
+    "artist_name": "Mario Chris",
+    "album_name": "Stay Chill",
+    "track_name": "Let's Go Back (Original Mix)",
+    "slice_position": [
+      49,
+      59
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 23,
+    "filename": "0023_99-109.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0023_99-109.wav",
+    "artist_name": "FM43",
+    "album_name": "Jazz Vol.8 With FM43",
+    "track_name": "Squared Face (Feat. 박준규 Flugelhorn)",
+    "slice_position": [
+      99,
+      109
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 24,
+    "filename": "0024_135-145.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0024_135-145.wav",
+    "artist_name": "INDEX FINGER",
+    "album_name": "아름다운 순간",
+    "track_name": "다 그렇지 뭐 (낭만닥터 김사부 2 OST 바이올린 커버 버전)",
+    "slice_position": [
+      135,
+      145
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 25,
+    "filename": "0025_25-35.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0025_25-35.wav",
+    "artist_name": "Royz",
+    "album_name": "I AM WHAT I AM",
+    "track_name": "BLESS",
+    "slice_position": [
+      25,
+      35
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 26,
+    "filename": "0026_159-169.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0026_159-169.wav",
+    "artist_name": "Editors",
+    "album_name": "Black Gold : Best of Editors",
+    "track_name": "An End Has a Start",
+    "slice_position": [
+      159,
+      169
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 27,
+    "filename": "0027_198-208.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0027_198-208.wav",
+    "artist_name": "쇼콜라디",
+    "album_name": "우리는 억울했다",
+    "track_name": "우리는 억울했다",
+    "slice_position": [
+      198,
+      208
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 28,
+    "filename": "0028_153-163.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0028_153-163.wav",
+    "artist_name": "Belleruche",
+    "album_name": "The Express",
+    "track_name": "Idea Three",
+    "slice_position": [
+      153,
+      163
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 29,
+    "filename": "0029_25-35.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0029_25-35.wav",
+    "artist_name": "나영이",
+    "album_name": "앗싸 디스코 관광 메들리",
+    "track_name": "정말로 정말로",
+    "slice_position": [
+      25,
+      35
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 30,
+    "filename": "0030_133-143.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0030_133-143.wav",
+    "artist_name": "Romantic Production",
+    "album_name": "Disaster",
+    "track_name": "Slick Surface",
+    "slice_position": [
+      133,
+      143
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 31,
+    "filename": "0031_15-25.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0031_15-25.wav",
+    "artist_name": "Jascha Heifetz",
+    "album_name": "Bruch / Beethoven / Spohr: Jascha Heifetz Plays (브루흐 / 베토벤 / 슈포어: 하이페츠가 연주)",
+    "track_name": "Beethoven: Romance No.1 In G Major Op.40 (베토벤: 로망스 1번 G장조 Op.40)",
+    "slice_position": [
+      15,
+      25
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 32,
+    "filename": "0032_49-59.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0032_49-59.wav",
+    "artist_name": "HAEUN",
+    "album_name": "In Your Mercy",
+    "track_name": "In Your Mercy",
+    "slice_position": [
+      49,
+      59
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 33,
+    "filename": "0033_335-345.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0033_335-345.wav",
+    "artist_name": "Casilofi",
+    "album_name": "Create, Create, Create",
+    "track_name": "Memories",
+    "slice_position": [
+      335,
+      345
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 34,
+    "filename": "0034_54-64.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0034_54-64.wav",
+    "artist_name": "Kay Starr",
+    "album_name": "All I Want For Christmas - 30 Timeless Christmas Classics",
+    "track_name": "December (With Billy Butterfield)",
+    "slice_position": [
+      54,
+      64
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 35,
+    "filename": "0035_171-181.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0035_171-181.wav",
+    "artist_name": "Zoa Seo",
+    "album_name": "Zoa (좋아)",
+    "track_name": "Been Meaning to Say",
+    "slice_position": [
+      171,
+      181
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 36,
+    "filename": "0036_241-251.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0036_241-251.wav",
+    "artist_name": "Nicki Parrott",
+    "album_name": "Angel Eyes",
+    "track_name": "I Told Ya I Love Ya, Now Get Out",
+    "slice_position": [
+      241,
+      251
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 37,
+    "filename": "0037_207-217.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0037_207-217.wav",
+    "artist_name": "Michael Bolton",
+    "album_name": "Said I Loved You... The Best of Michael Bolton",
+    "track_name": "The Best Of Love",
+    "slice_position": [
+      207,
+      217
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 38,
+    "filename": "0038_178-188.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0038_178-188.wav",
+    "artist_name": "나단 (Nadan)",
+    "album_name": "비 오는 날, 느리지만 조금씩 천천히",
+    "track_name": "달팽이 달리다 (Snail Running)",
+    "slice_position": [
+      178,
+      188
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 39,
+    "filename": "0039_39-49.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0039_39-49.wav",
+    "artist_name": "JoJo",
+    "album_name": "good to know",
+    "track_name": "Think About You",
+    "slice_position": [
+      39,
+      49
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 40,
+    "filename": "0040_129-139.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0040_129-139.wav",
+    "artist_name": "두왑 사운즈",
+    "album_name": "소녀야 넌,",
+    "track_name": "소녀야",
+    "slice_position": [
+      129,
+      139
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 41,
+    "filename": "0041_141-151.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0041_141-151.wav",
+    "artist_name": "재즈파크 빅밴드",
+    "album_name": "Jazzic (Jazz Meets Classical Music)",
+    "track_name": "Concerto For Trumpet In E Flat Major, Final Allegro",
+    "slice_position": [
+      141,
+      151
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 42,
+    "filename": "0042_137-147.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0042_137-147.wav",
+    "artist_name": "박종훈 (Chong Park)",
+    "album_name": "I Love Piano",
+    "track_name": "Fatima",
+    "slice_position": [
+      137,
+      147
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 43,
+    "filename": "0043_170-180.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0043_170-180.wav",
+    "artist_name": "어쿠스텔(ACOUSTEL)",
+    "album_name": "다시, 봄",
+    "track_name": "Blossom",
+    "slice_position": [
+      170,
+      180
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 44,
+    "filename": "0044_123-133.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0044_123-133.wav",
+    "artist_name": "JUJU",
+    "album_name": "YOUR STORY",
+    "track_name": "Tokyo",
+    "slice_position": [
+      123,
+      133
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 45,
+    "filename": "0045_141-151.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0045_141-151.wav",
+    "artist_name": "이찬원",
+    "album_name": "사랑의 콜센타 PART4",
+    "track_name": "추억의 소야곡",
+    "slice_position": [
+      141,
+      151
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 46,
+    "filename": "0046_16-26.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0046_16-26.wav",
+    "artist_name": "KURO",
+    "album_name": "욕심",
+    "track_name": "욕심",
+    "slice_position": [
+      16,
+      26
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 47,
+    "filename": "0047_91-101.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0047_91-101.wav",
+    "artist_name": "Glee Cast",
+    "album_name": "If I Were a Boy (Glee Cast Version)",
+    "track_name": "If I Were a Boy (Glee Cast Version)",
+    "slice_position": [
+      91,
+      101
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 48,
+    "filename": "0048_94-104.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0048_94-104.wav",
+    "artist_name": "문진오",
+    "album_name": "독립 운동가의 노래",
+    "track_name": "우리가 건설할 국가는",
+    "slice_position": [
+      94,
+      104
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 49,
+    "filename": "0049_93-103.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0049_93-103.wav",
+    "artist_name": "Jerry Paper",
+    "album_name": "Like A Baby",
+    "track_name": "Losing The Game",
+    "slice_position": [
+      93,
+      103
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 50,
+    "filename": "0050_88-98.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0050_88-98.wav",
+    "artist_name": "백예린",
+    "album_name": "Every letter I sent you.",
+    "track_name": "can i b u",
+    "slice_position": [
+      88,
+      98
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 51,
+    "filename": "0051_75-85.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0051_75-85.wav",
+    "artist_name": "데일리 스케치",
+    "album_name": "위로가 되었으면",
+    "track_name": "위로가 되었으면",
+    "slice_position": [
+      75,
+      85
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 52,
+    "filename": "0052_2-12.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0052_2-12.wav",
+    "artist_name": "Glee Cast",
+    "album_name": "Movin' Out",
+    "track_name": "Honesty (Glee Cast Version)",
+    "slice_position": [
+      2,
+      12
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 53,
+    "filename": "0053_61-71.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0053_61-71.wav",
+    "artist_name": "Christopher",
+    "album_name": "Closer ... And More Hits",
+    "track_name": "Tulips",
+    "slice_position": [
+      61,
+      71
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 54,
+    "filename": "0054_146-156.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0054_146-156.wav",
+    "artist_name": "대인 (DAEIN)",
+    "album_name": "작은 기억",
+    "track_name": "작은 기억",
+    "slice_position": [
+      146,
+      156
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 55,
+    "filename": "0055_108-118.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0055_108-118.wav",
+    "artist_name": "뉴클리어스",
+    "album_name": "Baby Love",
+    "track_name": "Baby Love (Eng.)",
+    "slice_position": [
+      108,
+      118
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 56,
+    "filename": "0056_71-81.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0056_71-81.wav",
+    "artist_name": "Message To Bears",
+    "album_name": "Folding Leaves",
+    "track_name": "At A Glance",
+    "slice_position": [
+      71,
+      81
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 57,
+    "filename": "0057_378-388.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0057_378-388.wav",
+    "artist_name": "GACKT",
+    "album_name": "Gackt & Tokyo Philharmonic Orchestra \"A Splendid Evening Of Classic\"",
+    "track_name": "Lost Angels ",
+    "slice_position": [
+      378,
+      388
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 58,
+    "filename": "0058_108-118.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0058_108-118.wav",
+    "artist_name": "NxWorries",
+    "album_name": "Yes Lawd! Remixes",
+    "track_name": "H.A.N. (Remix)",
+    "slice_position": [
+      108,
+      118
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 59,
+    "filename": "0059_72-82.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0059_72-82.wav",
+    "artist_name": "Chris Brown",
+    "album_name": "Indigo",
+    "track_name": "Cheetah",
+    "slice_position": [
+      72,
+      82
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 60,
+    "filename": "0060_32-42.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0060_32-42.wav",
+    "artist_name": "Maisha",
+    "album_name": "There Is A Place",
+    "track_name": "There Is A Place",
+    "slice_position": [
+      32,
+      42
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 61,
+    "filename": "0061_182-192.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0061_182-192.wav",
+    "artist_name": "Louie Austen",
+    "album_name": "Iguana",
+    "track_name": "Rain",
+    "slice_position": [
+      182,
+      192
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 62,
+    "filename": "0062_10-20.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0062_10-20.wav",
+    "artist_name": "Takako Nishizaki",
+    "album_name": "Korea's Most Beloved Classics (한국인이 가장 사랑하는 클래식)",
+    "track_name": "Vivaldi: The 4 Seasons Concerto In E Major Op.8 No.1 'Spring' - I. Allegro (비발디: 사계 협주곡 마장조 Op.8 1번 '봄' - 1악장)",
+    "slice_position": [
+      10,
+      20
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 63,
+    "filename": "0063_164-174.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0063_164-174.wav",
+    "artist_name": "Humbert Humbert",
+    "album_name": "Work",
+    "track_name": "おじさんと酒 (아저씨와 술, Ojisan To Sake)",
+    "slice_position": [
+      164,
+      174
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 64,
+    "filename": "0064_194-204.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0064_194-204.wav",
+    "artist_name": "담담구구",
+    "album_name": "Common Cold",
+    "track_name": "늦은여름",
+    "slice_position": [
+      194,
+      204
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 65,
+    "filename": "0065_0-10.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0065_0-10.wav",
+    "artist_name": "The Idea Of North",
+    "album_name": "Evidence",
+    "track_name": "After All",
+    "slice_position": [
+      0,
+      10
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 66,
+    "filename": "0066_95-105.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0066_95-105.wav",
+    "artist_name": "AFK",
+    "album_name": "Excision 2014 Mix Compilation",
+    "track_name": "On The Floor (feat. Messinian) (Dion Timmer Remix)",
+    "slice_position": [
+      95,
+      105
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 67,
+    "filename": "0067_105-115.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0067_105-115.wav",
+    "artist_name": "Royal Blood",
+    "album_name": "Rat Picasso",
+    "track_name": "Rat Picasso (Crazy Daylight Remix)",
+    "slice_position": [
+      105,
+      115
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 68,
+    "filename": "0068_8-18.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0068_8-18.wav",
+    "artist_name": "Wilhelm Backhaus",
+    "album_name": "Brahms: Solo Piano Works [1932-1936 Recordings] (브람스의 피아노 독주곡 모음집 [1932-36년 레코딩])",
+    "track_name": "Brahms: Variations On An Original Theme In D Major, Op.21, No.1 - Variation 3 (브람스: 주제에 의한 변주곡 D장조, 작품번호 21, 1번 - 제3변주)",
+    "slice_position": [
+      8,
+      18
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 69,
+    "filename": "0069_285-295.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0069_285-295.wav",
+    "artist_name": "Steve Kuhn Trio",
+    "album_name": "Venus Jazz Wine Bar",
+    "track_name": "What Are You Doing The Rest Of My Life",
+    "slice_position": [
+      285,
+      295
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 70,
+    "filename": "0070_126-136.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0070_126-136.wav",
+    "artist_name": "Rush Week",
+    "album_name": "Feels",
+    "track_name": "Stranger Danger",
+    "slice_position": [
+      126,
+      136
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 71,
+    "filename": "0071_104-114.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0071_104-114.wav",
+    "artist_name": "Stephen Malkmus",
+    "album_name": "Xian Man",
+    "track_name": "Xian Man",
+    "slice_position": [
+      104,
+      114
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 72,
+    "filename": "0072_103-113.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0072_103-113.wav",
+    "artist_name": "WOLFKOOKY",
+    "album_name": "DATURA TESTTAPE",
+    "track_name": "DA=TYPE1",
+    "slice_position": [
+      103,
+      113
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 73,
+    "filename": "0073_106-116.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0073_106-116.wav",
+    "artist_name": "Mayer Hawthorne",
+    "album_name": "A Strange Arrangement",
+    "track_name": "I Wish It Would Rain",
+    "slice_position": [
+      106,
+      116
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 74,
+    "filename": "0074_48-58.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0074_48-58.wav",
+    "artist_name": "Lucy Dacus",
+    "album_name": "Fool's Gold",
+    "track_name": "Fool`s Gold",
+    "slice_position": [
+      48,
+      58
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 75,
+    "filename": "0075_108-118.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0075_108-118.wav",
+    "artist_name": "Felix Samuel",
+    "album_name": "Tried To Love",
+    "track_name": "Tried To Love",
+    "slice_position": [
+      108,
+      118
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 76,
+    "filename": "0076_149-159.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0076_149-159.wav",
+    "artist_name": "Nicki Parrott",
+    "album_name": "Yesterday Once More",
+    "track_name": "Top Of The World",
+    "slice_position": [
+      149,
+      159
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 77,
+    "filename": "0077_37-47.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0077_37-47.wav",
+    "artist_name": "Starart",
+    "album_name": "반짝 반짝 작은별",
+    "track_name": "반짝 반짝 작은별",
+    "slice_position": [
+      37,
+      47
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 78,
+    "filename": "0078_178-188.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0078_178-188.wav",
+    "artist_name": "Soon",
+    "album_name": "River and Cruise",
+    "track_name": "River and Cruise",
+    "slice_position": [
+      178,
+      188
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 79,
+    "filename": "0079_11-21.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0079_11-21.wav",
+    "artist_name": "Chet Baker",
+    "album_name": "The American Songbook",
+    "track_name": "Stella by Starlight",
+    "slice_position": [
+      11,
+      21
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 80,
+    "filename": "0080_669-679.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0080_669-679.wav",
+    "artist_name": "Wilhelm Furtwangler",
+    "album_name": "Schubert: Symphonies Nos. 8, \"Unfinished\" & 9 \"Great\" (Furtwangler) [1950-1951] (슈베르트의 교향곡 8-9번 [푸르트뱅글러 지휘, 1950-51년])",
+    "track_name": "Schubert: Symphony No.9 In C Major, D.944, \"Great\" - II. Andante Con Moto (슈베르트: 교향곡 9번 C장조, 작품번호 944, \"그레이트\" - 2악장)",
+    "slice_position": [
+      669,
+      679
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 81,
+    "filename": "0081_33-43.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0081_33-43.wav",
+    "artist_name": "Mndsgn",
+    "album_name": "Snaxx",
+    "track_name": "Papayaberry",
+    "slice_position": [
+      33,
+      43
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 82,
+    "filename": "0082_102-112.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0082_102-112.wav",
+    "artist_name": "나영이",
+    "album_name": "앗싸 디스코 관광 메들리",
+    "track_name": "화난여자",
+    "slice_position": [
+      102,
+      112
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 83,
+    "filename": "0083_32-42.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0083_32-42.wav",
+    "artist_name": "Arturo Toscanini",
+    "album_name": "Arturo Toscanini Conducts Beethoven",
+    "track_name": "Symphony No. 6 in F Major, Op. 68 \"Pastorale\": IV. Gewitter, Sturm. Allegro",
+    "slice_position": [
+      32,
+      42
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 84,
+    "filename": "0084_139-149.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0084_139-149.wav",
+    "artist_name": "errday",
+    "album_name": "살아 (SARA)",
+    "track_name": "겁쟁이 (Coward)",
+    "slice_position": [
+      139,
+      149
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 85,
+    "filename": "0085_242-252.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0085_242-252.wav",
+    "artist_name": "Kaitlyn Aurelia Smith",
+    "album_name": "Tides: Music for Meditation and Yoga (명상과 요가를 위한 음악)",
+    "track_name": "Tides I",
+    "slice_position": [
+      242,
+      252
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 86,
+    "filename": "0086_62-72.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0086_62-72.wav",
+    "artist_name": "림하라",
+    "album_name": "2019 인디스땅스",
+    "track_name": "Travellers",
+    "slice_position": [
+      62,
+      72
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 87,
+    "filename": "0087_165-175.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0087_165-175.wav",
+    "artist_name": "Parov Stelar",
+    "album_name": "Seven And Storm",
+    "track_name": "Powder",
+    "slice_position": [
+      165,
+      175
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 88,
+    "filename": "0088_150-160.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0088_150-160.wav",
+    "artist_name": "에픽 (Epiik)",
+    "album_name": "Pikma Records Compilation vol.1",
+    "track_name": "Tonight",
+    "slice_position": [
+      150,
+      160
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 89,
+    "filename": "0089_449-459.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0089_449-459.wav",
+    "artist_name": "Takako Nishizaki",
+    "album_name": "Classical Music In Literature (문학 속 클래식)",
+    "track_name": "Beethoven: Violin Sonata No.9 'Kreutzer Sonata' In A Major Op.47 - II. Andante Con Variazioni (Leo Tolstoy: 'The Kreutzer Sonata' (1889) (베토벤: 바이올린 소나타 9번 '크로이처 소나타' 가장조 Op.47 - 2악장) (레오 톨스토이: 크로이처 소나타) (1889)",
+    "slice_position": [
+      449,
+      459
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 90,
+    "filename": "0090_129-139.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0090_129-139.wav",
+    "artist_name": "Letting Up Despite Great Faults",
+    "album_name": "Untogether",
+    "track_name": "The Best Part",
+    "slice_position": [
+      129,
+      139
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 91,
+    "filename": "0091_32-42.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0091_32-42.wav",
+    "artist_name": "레모니쉬 메디슨(Lemonish Medicine)",
+    "album_name": "RED",
+    "track_name": "Dance of the Butterflies",
+    "slice_position": [
+      32,
+      42
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 92,
+    "filename": "0092_48-58.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0092_48-58.wav",
+    "artist_name": "Coldplay",
+    "album_name": "Everyday Life",
+    "track_name": "Arabesque",
+    "slice_position": [
+      48,
+      58
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 93,
+    "filename": "0093_2-12.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0093_2-12.wav",
+    "artist_name": "선명 (先命)",
+    "album_name": "다시, 처음",
+    "track_name": "위안",
+    "slice_position": [
+      2,
+      12
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 94,
+    "filename": "0094_185-195.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0094_185-195.wav",
+    "artist_name": "Gary",
+    "album_name": "Hey Turtle, Stop Running",
+    "track_name": "Epitaph",
+    "slice_position": [
+      185,
+      195
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 95,
+    "filename": "0095_98-108.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0095_98-108.wav",
+    "artist_name": "Goaleever",
+    "album_name": "일어나라 용사여",
+    "track_name": "혼돈과 질서 (욕망과 컨셔스)",
+    "slice_position": [
+      98,
+      108
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 96,
+    "filename": "0096_178-188.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0096_178-188.wav",
+    "artist_name": "Kana Wakareno",
+    "album_name": "Seaside Florist",
+    "track_name": "A Garden In The Rain",
+    "slice_position": [
+      178,
+      188
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 97,
+    "filename": "0097_45-55.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0097_45-55.wav",
+    "artist_name": "Polaris",
+    "album_name": "光 (빛, Hikari)",
+    "track_name": "Moment",
+    "slice_position": [
+      45,
+      55
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 98,
+    "filename": "0098_160-170.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0098_160-170.wav",
+    "artist_name": "웅산",
+    "album_name": "그날들",
+    "track_name": "그날들",
+    "slice_position": [
+      160,
+      170
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  },
+  {
+    "index": 99,
+    "filename": "0099_163-173.wav",
+    "filepath": "/Users/apple/Desktop/linguistic-bridges-mas/FA_project/dataset/audio/0099_163-173.wav",
+    "artist_name": "Bensh",
+    "album_name": "Clues",
+    "track_name": "Juice!",
+    "slice_position": [
+      163,
+      173
+    ],
+    "duration_seconds": 10.0,
+    "sample_rate": 16000,
+    "num_samples": 160000
+  }
+]

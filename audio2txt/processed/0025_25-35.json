@@ -1,0 +1,36 @@
+{
+  "wav_path": "audio2txt/audio/0025_25-35.wav",
+  "perception": "1. The genre is a fusion of pop and electronic, with a touch of experimental and ambient elements. It's characterized by its synthesized sounds and a focus on mood over traditional song structures.\n2. The instrumental arrangement consists primarily of synthesizers, creating a textured soundscape that feels both warm and enveloping. There's also the presence of a distorted electric guitar, adding a raw, edgy quality to the mix. A smooth jazz trumpet contributes to the laid-back, chill vibe of the piece.\n3. The vocals are provided by a male singer whose voice has a smooth, velvety texture. His singing style is reflective and introspective, often conveying a sense of longing or nostalgia. The lyrics explore themes of love, loss, and personal growth, making the music deeply emotive and resonant with listeners.\n4. The atmosphere of the track is dreamy and ethereal, evoking a sense of wonder and introspection. The music paints vivid mental images of serene landscapes or introspective moments, making it ideal background music for reflective or meditative activities. The color associated with this track would be a soft, pastel shade, perhaps light blue or pink, reflecting the dreamy and calming nature of the music.\n5. Structurally, the track starts off with",
+  "metrics": {
+    "tempo": 78.125,
+    "key": "D",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1712.1603685714153,
+    "spectral_bandwidth": 1590.080715077667,
+    "zero_crossing_rate": 0.12737432607827476,
+    "rmse": 0.13214287161827087,
+    "harmonic_content": 0.7885544300079346,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      64,
+      88,
+      112,
+      135,
+      158,
+      181,
+      205,
+      228,
+      251,
+      269
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.865020751953125,
+    "min": -0.735595703125,
+    "rms": 0.14091916382312775,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

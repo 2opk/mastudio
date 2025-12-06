@@ -1,0 +1,43 @@
+{
+  "wav_path": "audio2txt/audio/0078_178-188.wav",
+  "perception": "1. The genre is jazz, specifically in the style of chill jazz which incorporates elements of smooth jazz and jazz fusion. It has a relaxed and soothing vibe that makes it suitable for lounges and easy listening environments.\n2. The instrumentation includes a piano playing the main melody with a jazz acoustic guitar providing accompaniment. There's also a groovy bassline played on an e-bass, contributing to the laid-back feel of the track. The piano and guitar have warm tones while the e-bass adds a slightly gritty texture to the mix.\n3. There are no vocals in this track, making it instrumental only. However, the combination of instruments creates a harmonious blend that is both relaxing and engaging.\n4. The atmosphere of the track is reminiscent of a sunny day at the beach, evoking feelings of calmness and tranquility. The warm tones and soft melodies create a serene environment that is perfect for unwinding and relaxing.\n5. The structure of the track starts off with a slow and gentle introduction, setting a calm and soothing tone. As the track progresses, it builds up gradually into a more dynamic and upbeat section, creating a sense of movement and progression.\n6. The energy level of the track is relatively low, maintaining a steady and relaxed pace throughout",
+  "metrics": {
+    "tempo": 110.29411764705883,
+    "key": "C",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 832.3596893257134,
+    "spectral_bandwidth": 1340.3974176188772,
+    "zero_crossing_rate": 0.040446223542332266,
+    "rmse": 0.1770174503326416,
+    "harmonic_content": 0.7891169190406799,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      41,
+      58,
+      76,
+      92,
+      108,
+      124,
+      141,
+      159,
+      176,
+      192,
+      208,
+      225,
+      242,
+      258,
+      273,
+      289,
+      306
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.954986572265625,
+    "min": -0.816497802734375,
+    "rms": 0.18825803697109222,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

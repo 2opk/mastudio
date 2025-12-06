@@ -1,0 +1,42 @@
+{
+  "wav_path": "audio2txt/audio/0093_2-12.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and acoustic elements, possibly influenced by Korean pop culture. It features synthesized sounds alongside traditional string instruments, creating a unique blend.\n2. The instrumental arrangement includes synthesizers, strings, and acoustic guitar, contributing to a warm and lush texture. The synthesizer adds a modern, digital feel, while the strings provide a classic touch, and the acoustic guitar introduces a more organic, intimate quality.\n3. The vocals are performed by a male singer, who delivers them in a gentle and soothing manner. His voice complements the warm instrumental backdrop, enhancing the overall emotive quality of the piece.\n4. The atmosphere created by this track is one of tranquility and introspection. It's easy to imagine this music playing in a serene setting, such as during a reflective afternoon tea or a quiet evening at home. The color yellow comes to mind, symbolizing happiness and clarity.\n5. The structure of the track starts with a slow and gentle introduction using synthesizers and strings, gradually building up to a more dynamic and intense section where the acoustic guitar becomes prominent. This progression creates a sense of escalation and tension before returning to a calmer, reflective close.\n6. The energy level of the track is relatively consistent, maintaining a",
+  "metrics": {
+    "tempo": 104.16666666666667,
+    "key": "F",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1164.955086613742,
+    "spectral_bandwidth": 1565.4950381230167,
+    "zero_crossing_rate": 0.048828125,
+    "rmse": 0.09405748546123505,
+    "harmonic_content": 0.835297703742981,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      19,
+      38,
+      55,
+      73,
+      91,
+      108,
+      127,
+      145,
+      161,
+      179,
+      198,
+      217,
+      236,
+      254,
+      271,
+      290
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.52069091796875,
+    "min": -0.58349609375,
+    "rms": 0.11616674810647964,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

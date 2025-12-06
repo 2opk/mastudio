@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0095_98-108.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and traditional Korean music, incorporating elements of hip hop and experimental genres.\n2. The instrumental composition includes synthesized sounds that give it a futuristic, digital feel, complemented by traditional Korean instruments such as the pansori, which adds a unique cultural twist.\n3. The vocals feature a male voice rapping in a dynamic and rhythmic manner, contributing to the energetic and modern vibe of the piece.\n4. The track has a hypnotic quality, drawing listeners into its own sonic world. It evokes a feeling of innovation and technology, akin to a neon-lit city at night.\n5. Structurally, the piece starts with a sparse arrangement, setting a reflective tone before gradually building up to a more complex and layered structure towards the climax. This progression creates a sense of tension and release, enhancing the overall listening experience.\n6. The energy level is high, maintaining a dynamic and engaging rhythm throughout the track. There's a noticeable shift in dynamics towards the end, adding a sense of climax and resolution to the piece.",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "G#",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1691.0948562881729,
+    "spectral_bandwidth": 1834.435126126543,
+    "zero_crossing_rate": 0.0915675544129393,
+    "rmse": 0.30091920495033264,
+    "harmonic_content": 0.5825564861297607,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      21,
+      35,
+      50,
+      65,
+      80,
+      96,
+      110,
+      124,
+      138,
+      154,
+      169,
+      183,
+      197,
+      210,
+      223,
+      236,
+      250,
+      265,
+      279,
+      294,
+      309
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -0.996612548828125,
+    "rms": 0.3158603608608246,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

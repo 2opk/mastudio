@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0084_139-149.wav",
+  "perception": "1. The genre appears to be a blend of electronic and classical music, incorporating elements of ambient and experimental music as well. It has a unique, eclectic style that seems to draw inspiration from various cultures around the world.\n2. The instrumental composition includes both traditional instruments like piano and synthesizers, as well as digital and electronic effects. There's a noticeable use of reverb and delay which contribute to the track's spacious feel. The timbre is rich and complex, creating a layered texture that feels both modern and timeless.\n3. The vocals are sparse but impactful, featuring a haunting female voice that floats over the instrumental landscape. The vocal style is introspective and emotive, conveying a sense of longing and mystery. The lyrics seem to reflect themes of love, loss, and longing, adding depth and complexity to the overall mood of the track.\n4. The atmosphere of the track is mysterious and alluring, evoking a sense of wonder and intrigue. The sound palette is rich and diverse, with a touch of darkness and melancholy. I would associate the track with deep, rich colors like purple or navy blue, reflecting its complex emotional landscape.\n5. The structure of the track is unconventional, starting off with a sparse and intimate section before gradually building into a more complex",
+  "metrics": {
+    "tempo": 93.75,
+    "key": "A#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1162.6243766771768,
+    "spectral_bandwidth": 1515.476236872685,
+    "zero_crossing_rate": 0.06061863518370607,
+    "rmse": 0.25543516874313354,
+    "harmonic_content": 0.7740891575813293,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      18,
+      39,
+      59,
+      80,
+      101,
+      122,
+      142,
+      164,
+      185,
+      206,
+      226,
+      247,
+      267,
+      289,
+      309
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.983642578125,
+    "min": -0.977569580078125,
+    "rms": 0.26843395829200745,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

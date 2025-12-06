@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0079_11-21.wav",
+  "perception": "1. The genre is jazz with elements of improvisation and swing. It has a smooth and mellow feel with influences from bebop and free jazz.\n2. The instrumentation includes a saxophone playing the main melody, a double bass providing a walking bassline, and acoustic drums playing a laid-back swing beat. The sound is warm and analog, contributing to the nostalgic atmosphere of the piece.\n3. There are no vocals in this track. The saxophone carries the melody with its smooth and expressive tone.\n4. The track evokes a feeling of relaxation and introspection. It's easy listening and could be associated with a sunny afternoon at a café.\n5. The structure of the track starts with a soft and intimate introduction and gradually builds up into a more complex and energetic section towards the end. This creates a dynamic and engaging listening experience.\n6. The energy level of the track is moderate, neither too high nor too low. It maintains a consistent and soothing tempo throughout, which contributes to its laid-back vibe.",
+  "metrics": {
+    "tempo": 98.6842105263158,
+    "key": "B",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1122.543558201448,
+    "spectral_bandwidth": 1289.1123783592705,
+    "zero_crossing_rate": 0.07575379392971246,
+    "rmse": 0.13621433079242706,
+    "harmonic_content": 0.8399544954299927,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      32,
+      51,
+      70,
+      89,
+      108,
+      127,
+      147,
+      165,
+      184,
+      203,
+      222,
+      240,
+      257,
+      275,
+      294
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.579132080078125,
+    "min": -0.64947509765625,
+    "rms": 0.1427326202392578,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,46 @@
+{
+  "wav_path": "audio2txt/audio/0031_15-25.wav",
+  "perception": "1. The genre is a fusion of classical and electronic music, with elements of ambient and soundtrack genres. It has a unique blend of acoustic violin, synthesizer, electric guitar, and drums which contribute to its distinct sound.\n2. The acoustic violin provides a warm and emotive tone, while the synthesizer adds a layer of depth and texture. The electric guitar introduces a hint of aggression and energy, and the drums provide a rhythmic foundation that drives the piece forward.\n3. There are no vocals in this track, but the instrumental arrangement conveys a range of emotions from melancholy to joy, reflecting a versatile and dynamic soundscape.\n4. The music creates a serene yet slightly eerie atmosphere, evoking imagery of peaceful landscapes tinged with mystery. It could be associated with colors such as deep blues or purples, representing a sense of calmness and contemplation.\n5. The track starts off with a quiet and intimate introduction, gradually building up to a more complex and layered arrangement towards the climax. This progression creates a dynamic and engaging listening experience.\n6. The energy level of the track is dynamic, starting off slow and introspective before escalating into a more vibrant and intense section. This variation in energy keeps the listener engaged and interested throughout the piece.",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "D",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1286.9927490715193,
+    "spectral_bandwidth": 1465.5830833011341,
+    "zero_crossing_rate": 0.08934454872204473,
+    "rmse": 0.04155061021447182,
+    "harmonic_content": 0.9069547653198242,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      21,
+      38,
+      53,
+      68,
+      82,
+      97,
+      111,
+      126,
+      140,
+      154,
+      169,
+      184,
+      198,
+      212,
+      226,
+      241,
+      256,
+      271,
+      286,
+      300
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.2120361328125,
+    "min": -0.21630859375,
+    "rms": 0.04488987848162651,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

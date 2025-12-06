@@ -1,0 +1,45 @@
+{
+  "wav_path": "audio2txt/audio/0073_106-116.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and folk music, drawing from both worlds to create a unique auditory experience. It has a distinctively urban feel, possibly influenced by city life and its associated rhythms and moods.\n2. The instrumental composition includes a variety of sounds such as synthesizers, drums, and possibly acoustic elements that contribute to its distinctive texture. The synthesizer adds a warm, analog vibe, while the drums provide a steady rhythm that drives the piece forward. The presence of distorted guitars suggests a raw, edgy quality to the music, which might be indicative of the artist's personal style.\n3. The vocals are performed in a way that feels both passionate and heartfelt, indicating a strong connection to the lyrics and the overall theme of the song. There is a noticeable melancholy component to the vocals, suggesting that the song deals with introspective or deeply emotional themes.\n4. This track evokes a sense of nostalgia and longing, perhaps due to the melancholic vocals and the overall urban atmosphere. One could imagine this song playing in a dimly lit coffee shop, adding to the mood of introspection and contemplation.\n5. The structure of the track starts off relatively subdued and intimate, gradually building up to a more complex and layered arrangement.",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "C",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 991.090777446121,
+    "spectral_bandwidth": 1298.95957522696,
+    "zero_crossing_rate": 0.059815233126996804,
+    "rmse": 0.18478336930274963,
+    "harmonic_content": 0.728570818901062,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      29,
+      45,
+      59,
+      75,
+      90,
+      106,
+      121,
+      136,
+      152,
+      167,
+      182,
+      198,
+      214,
+      229,
+      244,
+      260,
+      275,
+      291,
+      306
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.861328125,
+    "min": -0.892608642578125,
+    "rms": 0.19445545971393585,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

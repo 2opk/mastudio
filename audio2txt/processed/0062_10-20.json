@@ -1,0 +1,53 @@
+{
+  "wav_path": "audio2txt/audio/0062_10-20.wav",
+  "perception": "1. The genre is a fusion between classical and electronic music, drawing inspiration from both worlds. It has a unique blend of traditional orchestral instruments like violins, cellos, and pianos, combined with modern synthesizers and drum machines.\n2. The timbre of the music is rich and layered, with a wide range of frequencies creating a textured soundscape. The strings add a warm, emotional depth while the synthesizers lend a futuristic, ambient feel. The drums provide a steady rhythm that drives the piece forward.\n3. There are no vocals in this track, focusing solely on the instrumental elements. The melody is carried by the strings, with the synthesizers adding harmonic support. The overall mood is uplifting and positive, evoking feelings of joy and wonder.\n4. The atmosphere of the track is light and airy, almost ethereal. It feels as though one is floating in a dreamy landscape. The imagery associated with this track is that of a beautiful sunset over a serene ocean.\n5. The structure of the track starts off slow and gentle, building up gradually into a more complex arrangement. This creates a sense of anticipation and excitement as the piece progresses towards its climax. The dynamic feel of the track is constantly shifting, moving from soft and soothing to bright and",
+  "metrics": {
+    "tempo": 187.5,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1884.3613430449832,
+    "spectral_bandwidth": 1593.2870966046137,
+    "zero_crossing_rate": 0.1604588907747604,
+    "rmse": 0.04163502901792526,
+    "harmonic_content": 0.8362974524497986,
+    "melody_contour": "Falling",
+    "beat_frames": [
+      24,
+      34,
+      43,
+      53,
+      63,
+      73,
+      83,
+      93,
+      103,
+      113,
+      123,
+      133,
+      142,
+      152,
+      162,
+      172,
+      182,
+      191,
+      202,
+      212,
+      222,
+      232,
+      242,
+      252,
+      262,
+      272,
+      282
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.46368408203125,
+    "min": -0.48486328125,
+    "rms": 0.05377895385026932,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

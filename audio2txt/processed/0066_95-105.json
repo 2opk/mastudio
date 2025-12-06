@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0066_95-105.wav",
+  "perception": "1. The genre is dubstep, which is a sub-genre of electronic dance music known for its heavy use of wobble basslines, syncopated drum patterns, and clipped samples. Dubstep also incorporates elements of reggae and dancehall music.\n2. The instrumental consists primarily of a distorted digital bass, electronic drums, and a synthesizer. The bassline is complex and repetitive, often featuring long notes that create a hypnotic effect. The drums have a strong presence in the mix, using heavy kick and snare hits and syncopated hi-hat patterns. The synthesizer adds texture and atmosphere, playing both melodic and harmonic parts.\n3. There are sparse vocals in the form of male rapping, which adds a dynamic element to the track. The vocal delivery is aggressive and assertive, reflecting the overall mood of the piece.\n4. The track has a dark and intense atmosphere, evoking feelings of aggression and rebellion. It's easy to imagine this song being played at rave sets or in the soundtrack of a violent video game.\n5. The structure of the track is typical of dubstep, starting off with a sparse and minimalistic section before gradually building into a more complex and frenzied section. This creates a sense of tension and",
+  "metrics": {
+    "tempo": 89.28571428571429,
+    "key": "F",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 2873.1306575035583,
+    "spectral_bandwidth": 2424.6040666823046,
+    "zero_crossing_rate": 0.15654484075479233,
+    "rmse": 0.38417959213256836,
+    "harmonic_content": 0.7003151178359985,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      9,
+      33,
+      56,
+      78,
+      99,
+      120,
+      142,
+      163,
+      184,
+      206,
+      228,
+      249,
+      270,
+      292
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.3951835036277771,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

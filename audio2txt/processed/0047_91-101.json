@@ -1,0 +1,39 @@
+{
+  "wav_path": "audio2txt/audio/0047_91-101.wav",
+  "perception": "1. The genre of the music is pop rock, which is known for its catchy melodies and upbeat tempo. It has elements of alternative rock, which gives it a more experimental edge, and features a prominent piano that adds a melodic layer to the composition.\n2. The instrumental arrangement includes a piano playing the main tune, a distorted electric guitar providing accompaniment, and a bass guitar that underpins the rhythm section. The overall sound is warm and analog, suggesting a vintage aesthetic that complements the pop-rock genre.\n3. The vocals in the song are performed by a female singer with a powerful and emotive voice. Her singing style is expressive and passionate, conveying a sense of longing and heartache. The lyrics are heartfelt and introspective, reflecting themes of love and loss.\n4. The atmosphere created by the song is one of nostalgia and longing. The imagery evoked by the lyrics and melody is that of a rainy day, perhaps sitting alone in a room, looking out the window at the raindrops falling down. The color associated with this song would be a somber gray or a cool blue, reflecting the mood of sadness and longing.\n5. The structure of the song starts off with a quiet and intimate piano intro, setting a reflective tone. As the",
+  "metrics": {
+    "tempo": 81.52173913043478,
+    "key": "A#",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1148.7746938678752,
+    "spectral_bandwidth": 1226.294018896084,
+    "zero_crossing_rate": 0.08798110523162939,
+    "rmse": 0.17066478729248047,
+    "harmonic_content": 0.7614844441413879,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      9,
+      30,
+      53,
+      76,
+      99,
+      123,
+      147,
+      167,
+      190,
+      212,
+      234,
+      257,
+      284
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.829681396484375,
+    "min": -0.73602294921875,
+    "rms": 0.17802663147449493,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

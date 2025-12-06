@@ -1,0 +1,50 @@
+{
+  "wav_path": "audio2txt/audio/0086_62-72.wav",
+  "perception": "1. The genre is a fusion between electronic and Indian music, incorporating elements of both worlds.\n2. The instrumentation includes traditional Indian instruments such as the sitar alongside synthesized sounds, creating a unique auditory landscape.\n3. There are sparse vocals, featuring a haunting female voice that adds depth to the piece.\n4. The atmosphere is atmospheric and enveloping, evoking a sense of calmness and introspection.\n5. The structure of the song starts with a slow build-up before transitioning into a more complex and layered arrangement.\n6. The energy level is dynamic, starting off quiet and gradually intensifying towards a climax.",
+  "metrics": {
+    "tempo": 156.25,
+    "key": "C#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1409.7581564300312,
+    "spectral_bandwidth": 1605.6569002220729,
+    "zero_crossing_rate": 0.08872210712859425,
+    "rmse": 0.1808316558599472,
+    "harmonic_content": 0.7368224859237671,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      17,
+      30,
+      43,
+      55,
+      67,
+      80,
+      92,
+      104,
+      114,
+      124,
+      136,
+      148,
+      161,
+      173,
+      186,
+      199,
+      211,
+      224,
+      236,
+      248,
+      261,
+      273,
+      285,
+      297
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.913299560546875,
+    "min": -0.9224853515625,
+    "rms": 0.19640237092971802,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

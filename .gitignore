@@ -12,3 +12,5 @@ __pycache__/
 # Outputs / caches
 output/
 .DS_Store
+
+sandbox/

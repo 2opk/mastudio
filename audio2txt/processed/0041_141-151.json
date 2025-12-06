@@ -1,0 +1,45 @@
+{
+  "wav_path": "audio2txt/audio/0041_141-151.wav",
+  "perception": "This track is a blend of several genres and styles, including jazz, rock, and electronic. It has a distinctively funky feel that is heavily influenced by the use of synthesizers, particularly the warm analog variety. The guitar in the track adds a distorted and aggressive texture, contrasting with the smoothness of the jazz trumpet. There are no vocals in this track, but its instrumental nature allows the listener to focus on the complex interplay between the different instruments.\n\nThe atmosphere created by this track is vibrant and energetic, evoking images of bustling cities and lively social gatherings. Its upbeat tempo and dynamic range make it suitable for settings that require a boost in energy levels. Overall, the track's structure is well-structured, starting off quietly and intimate before gradually building up to a chaotic climax. This progression creates a sense of anticipation and excitement, making the listener feel as though they're part of a thrilling journey.",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "D#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1500.4244489137584,
+    "spectral_bandwidth": 1782.1547541870307,
+    "zero_crossing_rate": 0.08742730381389777,
+    "rmse": 0.22873373329639435,
+    "harmonic_content": 0.6360495686531067,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      24,
+      41,
+      56,
+      72,
+      88,
+      104,
+      119,
+      135,
+      150,
+      166,
+      182,
+      197,
+      213,
+      228,
+      244,
+      260,
+      275,
+      291,
+      306
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.2346864491701126,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,35 @@
+{
+  "wav_path": "audio2txt/audio/0087_165-175.wav",
+  "perception": "1. The genre appears to be a blend of electronic and classical music, drawing inspiration from both worlds. It has a slow tempo that contributes to its relaxing and ambient nature.\n2. The primary instrument used is a piano which provides a soothing and melodic backdrop. There's also the presence of a synthesizer, adding depth and texture to the overall sound. A violin can be heard playing a gentle solo, enhancing the emotive quality of the piece.\n3. The vocals are sparse but impactful, sung in a haunting manner by a female vocalist. The lyrics convey a sense of longing and introspection, making the piece deeply emotional and poignant.\n4. The atmosphere created by the music is dreamy and ethereal, evoking images of serene landscapes or introspective moments. The use of minor keys adds a touch of melancholy, making the piece resonate with listeners on an emotional level.\n5. The structure of the piece is simple yet effective, starting with a soft piano introduction that gradually builds into a more complex arrangement. The inclusion of a violin solo adds another layer of depth and emotion to the piece.\n6. The energy level of the piece is low, creating a tranquil and soothing ambiance. The dynamics remain relatively constant throughout, maintaining a gentle flow that draws listeners into the",
+  "metrics": {
+    "tempo": 156.25,
+    "key": "B",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1216.7613864450173,
+    "spectral_bandwidth": 1489.9803685427314,
+    "zero_crossing_rate": 0.07414542981230032,
+    "rmse": 0.15005764365196228,
+    "harmonic_content": 0.7669534087181091,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      20,
+      32,
+      45,
+      58,
+      71,
+      83,
+      96,
+      108,
+      120
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.9085693359375,
+    "min": -0.845428466796875,
+    "rms": 0.15779590606689453,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

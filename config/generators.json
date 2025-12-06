@@ -1,17 +1,5 @@
 [
   {
-    "id": "generator_texture",
-    "name": "Texture Synthesizer",
-    "prompt": "prompts/generators/texture.md"
-  },
-  {
-    "id": "generator_light",
-    "name": "Lighting Designer",
-    "prompt": "prompts/generators/light.md"
-  },
-  {
-    "id": "generator_concept",
-    "name": "Concept Illustrator",
-    "prompt": "prompts/generators/concept.md"
+    "note": "config/generators.json is unused; generator pool auto-loads from prompts/generators/**."
   }
 ]

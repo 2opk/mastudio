@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0043_170-180.wav",
+  "perception": "This music can be best described as a fusion between electronic and acoustic elements, creating a unique auditory experience that feels both modern and organic. The genre appears to be influenced by pop and ambient styles, incorporating a blend of synthesized sounds with natural instrument tones.\n\nThe instrumental arrangement includes a variety of elements such as synthesizers, drums, and acoustic guitars, each contributing distinctively to the texture of the sound. The synthesizer brings a futuristic, almost ethereal quality, while the drums add a rhythmic backbone that propels the piece forward. The acoustic guitar introduces a more grounded, intimate feel, bridging the gap between the digital and the organic.\n\nThe vocals in this track are sparse yet impactful, featuring a male voice that conveys a sense of longing or introspection. The lyrics appear to explore themes of love and longing, which adds a layer of emotional depth to the piece.\n\nThe atmosphere created by this track is one of contemplation and introspection. It's easy to imagine this music playing in the background at a coffee shop, providing a calming backdrop while still engaging the listener. The color associated with this track might be a cool, muted gray, reflecting the reflective mood it sets.\n\nThe structure of the track unfolds gradually, starting with a quiet, introspective section before gradually",
+  "metrics": {
+    "tempo": 104.16666666666667,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1402.1492669208526,
+    "spectral_bandwidth": 1760.843658038818,
+    "zero_crossing_rate": 0.0717009035543131,
+    "rmse": 0.3215481638908386,
+    "harmonic_content": 0.6961803436279297,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      56,
+      74,
+      91,
+      108,
+      127,
+      145,
+      162,
+      180,
+      198,
+      216,
+      234,
+      252,
+      270,
+      287
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -0.99853515625,
+    "rms": 0.3319881856441498,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

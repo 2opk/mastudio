@@ -1,0 +1,36 @@
+{
+  "wav_path": "audio2txt/audio/0038_178-188.wav",
+  "perception": "1. The genre is a blend of electronic and ambient music, drawing inspiration from chillout and downtempo genres.\n2. The instrumental composition includes a synthesizer, creating a warm and soothing soundscape. There's also a bass that adds depth to the music.\n3. Vocals are sparse but impactful, featuring a haunting female voice that enhances the dreamy atmosphere of the piece.\n4. The music conjures up images of serene landscapes and introspective moments, evoking a sense of calmness and tranquility. A soft, muted color palette comes to mind.\n5. The structure of the piece starts with a slow and gentle introduction, gradually building into a more complex arrangement towards the middle section. It then returns to a quieter, more introspective phase before concluding on a high note.\n6. The energy level of the music is dynamic, starting off softly and gradually intensifying towards a climax. This creates a sense of tension and release that makes the piece emotionally engaging.",
+  "metrics": {
+    "tempo": 69.44444444444444,
+    "key": "C",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 428.68301504419316,
+    "spectral_bandwidth": 406.9781511149147,
+    "zero_crossing_rate": 0.04103746505591054,
+    "rmse": 0.12307093292474747,
+    "harmonic_content": 0.9200277924537659,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      39,
+      66,
+      95,
+      124,
+      153,
+      181,
+      209,
+      234,
+      259,
+      284
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.871551513671875,
+    "min": -0.65106201171875,
+    "rms": 0.136726975440979,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

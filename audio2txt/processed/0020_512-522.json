@@ -1,0 +1,44 @@
+{
+  "wav_path": "audio2txt/audio/0020_512-522.wav",
+  "perception": "1. The genre appears to be a fusion between classical and electronic music, possibly incorporating elements of ambient or alternative genres as well.\n2. The instrumental composition includes both acoustic and digital elements, such as strings, piano, synthesizers, and drums. The timbres range from warm and soft to distorted and aggressive, contributing to a rich and complex texture.\n3. There are sparse vocals in the form of a single sustained note played on a violin, which adds a haunting quality to the piece. The vocals convey a sense of longing or introspection.\n4. The atmosphere is moody and atmospheric, evoking feelings of nostalgia and longing. It's easy to imagine this track playing in a dimly lit room, providing a soundtrack to reflective moments.\n5. The structure of the track starts with a quiet and intimate section, featuring a solo violin and piano. This is gradually joined by strings and synthesizers, building up to a more dynamic and chaotic section towards the end.\n6. The energy level of the track is dynamic, shifting between moments of calmness and intensity. The use of both acoustic and electronic instruments contributes to a layered and textured sound experience.",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "G",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1414.700609294784,
+    "spectral_bandwidth": 1464.0040843574602,
+    "zero_crossing_rate": 0.09741600938498403,
+    "rmse": 0.045258529484272,
+    "harmonic_content": 0.8069831728935242,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      7,
+      23,
+      40,
+      56,
+      71,
+      87,
+      103,
+      120,
+      137,
+      154,
+      170,
+      186,
+      204,
+      222,
+      238,
+      253,
+      270,
+      284
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.3441162109375,
+    "min": -0.337677001953125,
+    "rms": 0.05028490722179413,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

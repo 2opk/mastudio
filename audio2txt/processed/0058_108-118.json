@@ -1,0 +1,44 @@
+{
+  "wav_path": "audio2txt/audio/0058_108-118.wav",
+  "perception": "1. The genre is hiphop/rap with electronic and experimental influences. It has a unique and experimental feel, incorporating elements that don't fit neatly into traditional hip-hop.\n2. The instrumental consists of a synthesizer, drums, bass, piano, and guitar. The synthesizer adds a warm texture to the sound, while the drums provide a steady beat. The bass gives depth to the music, and the piano and guitar add melodic complexity.\n3. There are no vocals in this track. It's purely instrumental, allowing the various sounds to take center stage and create a layered, rich atmosphere.\n4. This track doesn't evoke any specific visual scenes or emotions. Instead, it creates a mood that is open to interpretation. I would associate a cool, futuristic color palette with it due to its electronic and experimental nature.\n5. The structure of the track starts with a sparse introduction using synthesizers and drums, building up gradually. As the song progresses, more instruments join in, culminating in a dynamic and energetic climax.\n6. The energy level of the track is high, creating a sense of excitement and anticipation. It's not static but rather fluctuates throughout, adding to the overall experimental feel of the piece.",
+  "metrics": {
+    "tempo": 104.16666666666667,
+    "key": "G#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1936.610261418889,
+    "spectral_bandwidth": 1746.7270048079438,
+    "zero_crossing_rate": 0.13764071236022365,
+    "rmse": 0.2090873420238495,
+    "harmonic_content": 0.6491482853889465,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      21,
+      39,
+      57,
+      75,
+      93,
+      112,
+      130,
+      146,
+      165,
+      186,
+      204,
+      222,
+      239,
+      256,
+      274,
+      293,
+      312
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -0.925262451171875,
+    "rms": 0.21163414418697357,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

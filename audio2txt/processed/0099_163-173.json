@@ -1,0 +1,52 @@
+{
+  "wav_path": "audio2txt/audio/0099_163-173.wav",
+  "perception": "This music is a fusion of several genres and styles, including electronic, pop, rock, and hip-hop. It has a distinctively urban feel with heavy use of synthesizers, bass, and drums. The vocals are sparse but impactful, featuring a strong female lead who delivers her lines with confidence and emotion.\n\nThe instrumental arrangement is complex and layered, with each element contributing to a rich, textured sound. The synthesizer adds a warm, analog vibe, while the distorted guitar injects aggression and energy into the mix. The smooth jazz trumpet introduces a touch of sophistication and elegance, contrasting with the more aggressive elements.\n\nThe lyrics convey a sense of rebellion and defiance, reflecting the mood of the track. The overall atmosphere is dynamic and intense, shifting between moments of tranquility and chaos. The music's structure is well-structured, starting off with a quiet and intimate introduction before escalating into a powerful climax.\n\nIn terms of energy, the track maintains a high level of intensity throughout, with a steady build-up that keeps the listener engaged. There are no lulls in the energy levels, making it a thrilling ride from start to finish. Overall, the music creates a vibrant and immersive experience that transports the listener to a world of urban grit and rebellion.",
+  "metrics": {
+    "tempo": 170.45454545454547,
+    "key": "F",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1957.9976577777961,
+    "spectral_bandwidth": 1979.7035945511893,
+    "zero_crossing_rate": 0.14111952126597443,
+    "rmse": 0.26865941286087036,
+    "harmonic_content": 0.598781168460846,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      17,
+      28,
+      39,
+      50,
+      61,
+      72,
+      82,
+      93,
+      104,
+      115,
+      126,
+      137,
+      147,
+      158,
+      169,
+      180,
+      191,
+      202,
+      212,
+      223,
+      234,
+      244,
+      255,
+      266,
+      276,
+      287
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.2830112874507904,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

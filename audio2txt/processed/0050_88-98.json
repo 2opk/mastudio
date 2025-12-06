@@ -1,0 +1,51 @@
+{
+  "wav_path": "audio2txt/audio/0050_88-98.wav",
+  "perception": "1. The genre is a fusion of electronic and acoustic elements, drawing from ambient, downtempo, IDM, and experimental genres. It has a unique blend of synthesized sounds with organic instruments.\n2. The instrumentation includes a variety of synthesizers, bass, drums, and occasional guitar riffs. The sounds are atmospheric and textural, creating a rich tapestry of sound. There's also a distinct use of reverb and delay to create depth and space within the composition.\n3. Vocals are sparse but impactful, featuring a haunting female lead who conveys a sense of longing and introspection. The lyrics are introspective and poetic, reflecting themes of love, loss, and longing.\n4. The track creates a somber yet captivating atmosphere, evoking a range of emotions from melancholy to contemplation. It's easy to lose oneself in the intricate layers of soundscapes and textures. I would associate a deep, dark blue with this track, symbolizing the introspective mood.\n5. Structurally, the track starts off with a slow, ambient build-up that gradually leads into a more complex arrangement. There's a shift from a sparse, intimate feel to a more layered, dynamic texture as the track progresses. This progression adds depth and complexity to the piece.",
+  "metrics": {
+    "tempo": 170.45454545454547,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1579.686941455471,
+    "spectral_bandwidth": 1589.6387793904094,
+    "zero_crossing_rate": 0.08743666383785942,
+    "rmse": 0.06439293175935745,
+    "harmonic_content": 0.8497777581214905,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      13,
+      24,
+      34,
+      45,
+      55,
+      66,
+      76,
+      87,
+      98,
+      110,
+      122,
+      134,
+      146,
+      158,
+      170,
+      181,
+      192,
+      203,
+      214,
+      226,
+      237,
+      248,
+      258,
+      268
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.374420166015625,
+    "min": -0.403289794921875,
+    "rms": 0.08257949352264404,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0037_207-217.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and acoustic elements, drawing from pop and possibly hip-hop due to the rhythmic delivery.\n2. A variety of instruments contribute to the texture including synthesizers, drums, bass, and possibly brass instruments. The synthesizer adds a warm, digital quality while the drums provide a steady rhythm, the bass offers depth, and the brass could add a bold, energetic flair.\n3. The vocals feature a male voice singing in a melodic manner, suggesting a smooth and flowing vocal line that complements the upbeat tempo of the track. The lyrics appear to convey a sense of longing or emotion, fitting into the melancholic theme of the song.\n4. The track has a vibrant and lively atmosphere, evoking images of bustling cities or dance clubs. It might be associated with bright colors such as neon or fuchsia, reflecting its energetic and dynamic feel.\n5. The structure of the track starts off with a quieter section, possibly setting a reflective tone before transitioning into a more upbeat and chaotic section, akin to a build-up or climax. This suggests a dynamic progression that keeps the listener engaged.\n6. The energy level of the track is quite high, indicating a lively and engaging listening experience. There's a noticeable shift in dynamics",
+  "metrics": {
+    "tempo": 89.28571428571429,
+    "key": "F#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1892.9219547971677,
+    "spectral_bandwidth": 2055.1385506729653,
+    "zero_crossing_rate": 0.10921899960063898,
+    "rmse": 0.26607051491737366,
+    "harmonic_content": 0.6863037347793579,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      17,
+      37,
+      57,
+      78,
+      99,
+      120,
+      140,
+      161,
+      181,
+      202,
+      222,
+      243,
+      264,
+      284,
+      305
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -0.990692138671875,
+    "rms": 0.27245375514030457,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,49 @@
+{
+  "wav_path": "audio2txt/audio/0044_123-133.wav",
+  "perception": "1. The genre of the music is soft pop, which is characterized by its mellow tunes, soothing vocals, and romantic lyrics. It draws inspiration from various sub-genres such as adult contemporary, easy listening, and pop ballads.\n2. The instrumentation consists of a piano playing the main tune, accompanied by a string section that provides harmonic support. A guitar strums chords in the background, adding texture to the sound. There's also a glockenspiel or xylophone playing a melody line that complements the main tune. The overall timbre of the music is warm and gentle, creating a comforting atmosphere.\n3. The vocals are performed by a female singer with a smooth and soothing voice. She sings in a romantic manner, conveying feelings of love and longing. The lyrics of the song are heartfelt and emotional, reflecting the theme of romance.\n4. The music evokes a sense of peace and tranquility, akin to a dreamy landscape. It has a calming effect, making listeners feel relaxed and content. I would associate the music with the color blue, which symbolizes calmness and serenity.\n5. The structure of the song starts off with a soft and intimate introduction, featuring only the piano and strings. As the song progresses, the tempo",
+  "metrics": {
+    "tempo": 144.23076923076923,
+    "key": "G#",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1006.0121229200776,
+    "spectral_bandwidth": 1279.2944556007521,
+    "zero_crossing_rate": 0.0503241688298722,
+    "rmse": 0.11710623651742935,
+    "harmonic_content": 0.9019119143486023,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      20,
+      33,
+      46,
+      59,
+      72,
+      85,
+      98,
+      111,
+      124,
+      138,
+      151,
+      163,
+      176,
+      189,
+      202,
+      215,
+      228,
+      241,
+      254,
+      267,
+      281,
+      294,
+      307
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.566741943359375,
+    "min": -0.64935302734375,
+    "rms": 0.12211841344833374,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

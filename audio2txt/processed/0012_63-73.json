@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0012_63-73.wav",
+  "perception": "This music is a blend of several genres and styles, including jazz, folk, and world music. It features an acoustic drum set playing a complex beat, which provides a rhythmic foundation. An upright bass plays a groovy melody along with an accordion, contributing to the rich texture of the piece. A saxophone and a clarinet play the main melody, adding a layer of complexity and character. The vocals are sparse but impactful, featuring a haunting melody that enhances the overall mood of the song. The atmosphere of the song is atmospheric and evokes a sense of mystery and intrigue. The melody has a dynamic feel that starts off quiet and intimate before escalating into a more chaotic climax. Overall, the song has a high energy level and creates a vibrant and engaging auditory experience.",
+  "metrics": {
+    "tempo": 144.23076923076923,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1276.2212499754376,
+    "spectral_bandwidth": 1715.8620172369535,
+    "zero_crossing_rate": 0.05862651008386582,
+    "rmse": 0.11448042094707489,
+    "harmonic_content": 0.6969069838523865,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      13,
+      25,
+      39,
+      53,
+      67,
+      81,
+      95,
+      109,
+      123,
+      136,
+      149,
+      163,
+      177,
+      191,
+      206,
+      218,
+      231,
+      244,
+      258,
+      272,
+      286
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.65545654296875,
+    "min": -0.786590576171875,
+    "rms": 0.1214691773056984,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

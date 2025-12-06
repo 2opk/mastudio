@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0015_209-219.wav",
+  "perception": "1. The genre appears to be a fusion between classical and electronic music, incorporating elements of both styles. It's characterized by the use of a piano which adds a classical touch, coupled with electronic beats and synthesizers that give it a modern feel.\n2. The instrumental arrangement is dominated by a piano which plays the melody, accompanied by electronic beats and synthesizers. The piano has a warm and rich tone, while the synthesizers add a layer of depth and texture to the sound. The overall timbre can be described as a blend of classical elegance and contemporary electronic vibes.\n3. There are no vocals in this piece; it's purely instrumental. The piano leads the melody, conveying a range of emotions through its notes. The music has a melancholic feel to it, drawing listeners into a reflective state.\n4. This track creates a somber and introspective atmosphere, evoking imagery of a dark and stormy night. The mood is contemplative, prompting listeners to reflect on their thoughts and feelings. I would associate the track with shades of gray and cool blues, reflecting its melancholic mood.\n5. The structure of the track starts off with a quiet and intimate melody played on the piano, setting a reflective tone. As the song progresses, electronic beats and synthesizers",
+  "metrics": {
+    "tempo": 156.25,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 628.5023837547232,
+    "spectral_bandwidth": 654.8607524180479,
+    "zero_crossing_rate": 0.054838820387380194,
+    "rmse": 0.019275320693850517,
+    "harmonic_content": 0.8606669306755066,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      58,
+      70,
+      82,
+      92,
+      104,
+      118,
+      130,
+      142,
+      154,
+      166,
+      178,
+      190,
+      202,
+      215,
+      227,
+      239,
+      251,
+      263,
+      274,
+      285,
+      297
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.114990234375,
+    "min": -0.11285400390625,
+    "rms": 0.020393183454871178,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

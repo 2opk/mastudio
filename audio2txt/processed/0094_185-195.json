@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0094_185-195.wav",
+  "perception": "This music can be categorized under the alternative rock genre, known for its diverse range of styles and influences. It incorporates elements of electronic music, evident from the synthesizer used which gives it a warm, analog texture. The distorted aggressive guitar adds a raw, edgy vibe to the track, typical of alternative rock. Vocals are sparse but impactful, contributing to the melancholic tone of the piece. The lyrics seem to convey feelings of longing and introspection. Overall, the atmosphere created is one of contemplation and introspection, evoking a sense of melancholy. The use of a drum kit provides a steady rhythm that drives the piece forward, maintaining a consistent dynamic feel. The energy level remains fairly constant throughout, maintaining a medium pace that keeps listeners engaged without feeling overwhelmed.",
+  "metrics": {
+    "tempo": 85.22727272727273,
+    "key": "C#",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1719.6571657797808,
+    "spectral_bandwidth": 1794.2458728142149,
+    "zero_crossing_rate": 0.10770579572683706,
+    "rmse": 0.30363380908966064,
+    "harmonic_content": 0.6852593421936035,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      25,
+      46,
+      69,
+      91,
+      113,
+      135,
+      156,
+      178,
+      200,
+      222,
+      244,
+      265,
+      287
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.30668702721595764,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

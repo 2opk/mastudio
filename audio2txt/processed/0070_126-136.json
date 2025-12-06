@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0070_126-136.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and acoustic elements, drawing inspiration from both worlds. It has a unique, experimental feel that blends synthesized sounds with traditional instruments.\n2. The instrumental composition includes a variety of elements such as synthesizers, drums, and possibly acoustic instruments. The synthesizer provides a warm, digital texture, while the drums add a rhythmic backbone to the piece. Acoustic elements might contribute to a more organic, human touch to the overall sound.\n3. Vocals, if present, likely play a supportive role in enhancing the mood of the track. They could range from soft and melodic to harsh and aggressive, contributing to the experimental nature of the song.\n4. The atmosphere created by this track is one of complexity and depth. It might evoke scenes of tension and resolution, or it could transport listeners into a world of mystery and intrigue. The imagery painted by the music could be dark and moody, or bright and vibrant, depending on its mood.\n5. The structure of the track seems to be dynamic and layered. It may start with a quiet, introspective section before escalating into a more intense, energetic phase. This progression could create a sense of anticipation and excitement for the listener.\n6. The energy level of the track",
+  "metrics": {
+    "tempo": 133.92857142857142,
+    "key": "C#",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1001.8706154014363,
+    "spectral_bandwidth": 1276.2836577322928,
+    "zero_crossing_rate": 0.06117399660543131,
+    "rmse": 0.2971471846103668,
+    "harmonic_content": 0.7130028605461121,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      11,
+      25,
+      39,
+      54,
+      68,
+      82,
+      96,
+      110,
+      124,
+      139,
+      153,
+      167,
+      181,
+      195,
+      209,
+      224,
+      238,
+      252,
+      266,
+      281,
+      295
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.30695492029190063,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,50 @@
+{
+  "wav_path": "audio2txt/audio/0082_102-112.wav",
+  "perception": "1. The genre appears to be a fusion between pop and rock, with a distinct reggae influence. It's characterized by a catchy melody and a rhythmic groove that makes it easy to dance to.\n2. The instrumentation includes a variety of elements such as a synthesizer, drums, bass, and guitars. The synthesizer adds a warm texture to the sound, while the drums provide a steady rhythm. The bass offers a groovy undertone, and the guitars add a touch of aggression to the overall sound.\n3. The vocals feature a harmonizing male and female duet, which contributes to the song's uplifting feel. The lyrics convey a sense of joy and positivity, making the song feel light-hearted and carefree.\n4. The song creates an atmosphere of happiness and excitement. The bright colors associated with this track could be yellow or orange, reflecting the sunny and vibrant mood.\n5. The structure of the song is simple yet effective. It starts off with a quiet and intimate introduction before gradually building up into a loud and chaotic climax. This dynamic shift in energy keeps the listener engaged throughout the song.\n6. The overall energy level of the song is high, making it perfect for dancing. It has a dynamic feel that shifts from soft to loud, creating a",
+  "metrics": {
+    "tempo": 170.45454545454547,
+    "key": "F#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1941.7977778802563,
+    "spectral_bandwidth": 1933.0578570352932,
+    "zero_crossing_rate": 0.131559816793131,
+    "rmse": 0.20798508822917938,
+    "harmonic_content": 0.5124013423919678,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      9,
+      20,
+      31,
+      42,
+      52,
+      63,
+      74,
+      85,
+      96,
+      107,
+      118,
+      129,
+      140,
+      151,
+      162,
+      172,
+      183,
+      194,
+      205,
+      216,
+      227,
+      238,
+      249,
+      260
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.992889404296875,
+    "min": -0.965972900390625,
+    "rms": 0.21553023159503937,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0056_71-81.wav",
+  "perception": "1. The genre is a fusion of several styles including pop, electronic, rock, and alternative. It has a distinct electronic feel with heavy use of synthesizers and drum machines, coupled with the raw and gritty tones of electric guitars and bass. There's also a touch of classical influence evident from the orchestral arrangements.\n\n2. The instrumental composition comprises a variety of sounds. A prominent feature is the synthesizer, which adds a textured layer of sound. There's also a distorted electric guitar that contributes to the aggressive undertone of the piece. A bass guitar provides depth and rhythm, while the drums drive the pulse forward with a dynamic beat. Additionally, there are strings and brass instruments used in the background, enhancing the richness of the sound.\n\n3. The vocals are sparse but impactful. There are male and female voices singing together, creating a harmonious blend. Their vocals range from soft and melodic to powerful and emotive, reflecting a wide range of moods such as love, anger, and passion.\n\n4. The atmosphere of the track is both intense and uplifting. It starts off with a calm and intimate vibe, drawing listeners into its sonic world. As the song progresses, it becomes more complex and layered, culminating in a powerful climax that leaves a lasting impression",
+  "metrics": {
+    "tempo": 89.28571428571429,
+    "key": "C",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1055.2111143710201,
+    "spectral_bandwidth": 1493.3121916639805,
+    "zero_crossing_rate": 0.05416957867412141,
+    "rmse": 0.22374916076660156,
+    "harmonic_content": 0.8323044180870056,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      18,
+      36,
+      56,
+      77,
+      98,
+      119,
+      140,
+      161,
+      181,
+      202,
+      223,
+      244,
+      265,
+      286,
+      307
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.95361328125,
+    "min": -0.976287841796875,
+    "rms": 0.228984996676445,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,51 @@
+{
+  "wav_path": "audio2txt/audio/0029_25-35.wav",
+  "perception": "1. The genre appears to be a fusion between traditional country music and modern electronic elements, drawing upon the storytelling and instrumentation typical of country music while incorporating synthesized beats and electronic effects.\n2. The instrumental mix includes acoustic and electric guitars, which add a raw, gritty texture to the music. A synthesizer provides a modern twist, adding a layer of electronic sound that enhances the country feel. Additionally, there is a drum machine providing a steady rhythm, contributing to the overall danceable quality of the piece.\n3. The vocals feature a male voice singing in a storytelling manner, which is characteristic of many country songs. The mood conveyed through the lyrics seems to be reflective and somewhat introspective, aligning well with the narrative often found in country music.\n4. The music evokes a sense of nostalgia and longing, reminiscent of classic country ballads. It also has a modern, urban edge due to the inclusion of electronic elements and a danceable beat. The color yellow comes to mind when imagining this track, symbolizing both warmth and brightness.\n5. The structure of the song starts off with a sparse arrangement, possibly featuring only the drums and a few acoustic guitar strums. As the song progresses, layers of sound are added, culminating in a dynamic build-up that could",
+  "metrics": {
+    "tempo": 170.45454545454547,
+    "key": "G#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 2024.7607838503775,
+    "spectral_bandwidth": 1925.9352779791218,
+    "zero_crossing_rate": 0.15347007288338657,
+    "rmse": 0.20630194246768951,
+    "harmonic_content": 0.49509626626968384,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      42,
+      53,
+      64,
+      75,
+      86,
+      96,
+      107,
+      118,
+      129,
+      140,
+      151,
+      162,
+      173,
+      184,
+      195,
+      206,
+      217,
+      228,
+      239,
+      249,
+      260,
+      271,
+      282,
+      293,
+      303
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.98663330078125,
+    "min": -0.9822998046875,
+    "rms": 0.21390020847320557,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0010_102-112.wav",
+  "perception": "The audio track possesses a unique blend of genres and styles that suggest a fusion of various musical traditions. It likely draws from rock, blues, and jazz, evident from the presence of electric guitars, bass, drums, and possibly keyboards. The instrumental timbres range from warm analog synths to distorted aggressive guitars, contributing to a rich, textured soundscape.\n\nThe vocals, if present, could be expressive and dynamic, reflecting the emotive depth typical of rock and blues. They might convey feelings of rebellion or melancholy, aligning with the song's overall mood.\n\nThe atmosphere created by the track is vibrant yet introspective, evoking imagery of bustling city streets at night or serene landscapes under the moonlight. Its color palette could range from cool blues to warm oranges, capturing the contrasting moods it aims to portray.\n\nThe structure of the track seems to follow a traditional rock pattern, starting off quiet and intimate before gradually intensifying into a more chaotic climax. This progression likely serves to build tension and engage listeners, mirroring the journey of a story or narrative within the song.\n\nThe energy level of the track appears to be high, maintaining a steady dynamic throughout. There's a sense of movement and excitement in the way the instruments interact, suggesting a lively performance or recording environment",
+  "metrics": {
+    "tempo": 144.23076923076923,
+    "key": "F",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1314.4584029852447,
+    "spectral_bandwidth": 1407.4495049787051,
+    "zero_crossing_rate": 0.09435372154552715,
+    "rmse": 0.0983007624745369,
+    "harmonic_content": 0.5360408425331116,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      31,
+      44,
+      57,
+      70,
+      83,
+      96,
+      108,
+      121,
+      134,
+      146,
+      159,
+      173,
+      185,
+      198,
+      211,
+      224,
+      237,
+      250,
+      263,
+      276,
+      288
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.57366943359375,
+    "min": -0.602142333984375,
+    "rms": 0.1041041687130928,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,38 @@
+{
+  "wav_path": "audio2txt/audio/0063_164-174.wav",
+  "perception": "1. The genre is a blend of electronic, rock, and shoegaze. It has a unique sound that combines the ethereal quality of shoegaze with the driving beats and distorted guitars typical of rock.\n2. The instrumental composition includes a synthesizer, drums, and electric guitar. The synthesizer provides a warm, ambient texture, while the drums add a rhythmic foundation. The electric guitar introduces a distorted, aggressive edge to the sound.\n3. The vocals are provided by a male singer who sings in a melancholic manner. His voice floats over the instrumental, adding to the overall dreamy atmosphere of the track.\n4. The track evokes a sense of introspection and melancholy. It's the kind of music that might be associated with a rainy day, reflecting on past memories. The color I would associate with this track is gray, representing the somber mood.\n5. The structure of the track starts off slow and quiet, featuring only the synthesizer and drums. As the song progresses, the distorted guitar comes in, gradually building up the intensity. There's a shift from a mellow, introspective feel to a more chaotic, energetic climax.\n6. The energy level of the track is dynamic, starting off quiet and building up to a",
+  "metrics": {
+    "tempo": 78.125,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1094.0361749251615,
+    "spectral_bandwidth": 1286.7328274418826,
+    "zero_crossing_rate": 0.06368560303514377,
+    "rmse": 0.11708930134773254,
+    "harmonic_content": 0.8534513711929321,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      39,
+      63,
+      87,
+      111,
+      135,
+      159,
+      184,
+      207,
+      233,
+      257,
+      281,
+      305
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.540283203125,
+    "min": -0.578643798828125,
+    "rms": 0.12207367271184921,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

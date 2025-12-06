@@ -1,0 +1,46 @@
+{
+  "wav_path": "audio2txt/audio/0002_98-108.wav",
+  "perception": "1. The genre is electro house, which is a subgenre of electronic dance music known for its repetitive instrumental music and high energy. It draws heavily from house music and incorporates elements of trance, techno, and drum and bass.\n2. The instrumentation consists primarily of synthesizers, drum machines, and turntables. The sound is futuristic and digital, characterized by crisp, distorted basslines, high-pitched melodic hooks, and heavy use of electronic effects. There may also be occasional live instrument samples or vocals used as hooks or fills.\n3. Vocals are not prominent in electro house music, but when they do appear, they tend to be processed and synthesized, often with autotune or vocoder effects. The vocals are usually sparse, serving mainly as a rhythmic element or to enhance the hook.\n4. Electro house music creates a vibrant, energetic atmosphere that is perfect for dancing. Its bright, pulsating beats and distorted basslines evoke feelings of excitement and rebellion. The music's futuristic soundscapes could be associated with neon-lit cityscapes or futuristic worlds.\n5. The structure of electro house music typically follows a repetitive four-on-the-floor beat pattern common in dance music. It starts off with a quiet build-up period, often featuring a simple melody",
+  "metrics": {
+    "tempo": 125.0,
+    "key": "F",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 2865.9382372057535,
+    "spectral_bandwidth": 2296.087524036581,
+    "zero_crossing_rate": 0.15687088158945686,
+    "rmse": 0.3851828873157501,
+    "harmonic_content": 0.6198063492774963,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      23,
+      38,
+      53,
+      68,
+      83,
+      97,
+      111,
+      126,
+      141,
+      156,
+      171,
+      185,
+      200,
+      214,
+      228,
+      243,
+      258,
+      272,
+      285,
+      299
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.999969482421875,
+    "min": -1.0,
+    "rms": 0.39168569445610046,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0039_39-49.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and traditional elements, drawing inspiration from both worlds. It has a unique, experimental feel that blends synthesized sounds with acoustic instruments.\n2. The instrumental composition includes a variety of elements such as synthesizers, drums, and possibly strings or brass instruments. The synthesizer adds a textured, atmospheric quality, while the drums provide a steady rhythmic foundation. The inclusion of acoustic instruments suggests a blend of digital and organic sounds, contributing to the experimental nature of the track.\n3. The vocals are sparse but impactful, featuring a haunting female lead that enhances the track's emotive depth. Her voice is characterized by a melancholy tone, adding to the overall introspective feel of the piece.\n4. The track creates a somber, dreamy atmosphere, evoking imagery of serene yet desolate landscapes. Its mood is contemplative, prompting listeners to reflect introspectively. A muted, cool color palette would aptly represent the mood of this track.\n5. Structurally, the track starts off with a sparse arrangement, setting a reflective tone. As it progresses, layers of sound build upon each other, culminating in a dynamic and intense climax. This progression adds complexity and keeps the listener engaged.\n6. The energy level of",
+  "metrics": {
+    "tempo": 93.75,
+    "key": "G#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1142.9247520574813,
+    "spectral_bandwidth": 1711.8553887846647,
+    "zero_crossing_rate": 0.02929375499201278,
+    "rmse": 0.37695664167404175,
+    "harmonic_content": 0.8306471109390259,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      19,
+      39,
+      59,
+      79,
+      99,
+      119,
+      139,
+      160,
+      180,
+      200,
+      220,
+      237,
+      255,
+      274,
+      292
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.989532470703125,
+    "min": -0.984649658203125,
+    "rms": 0.3819580376148224,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,37 @@
+{
+  "wav_path": "audio2txt/audio/0006_127-137.wav",
+  "perception": "1. The genre of the music is classical music with improvisational elements. It has a jazz feel and is influenced by Indian classical music.\n2. The primary instrument used in the music is the piano, which plays a free improvisational style. There's also a use of a synthesizer that adds texture to the piece.\n3. There are no vocals in this piece. The piano creates a soothing and calming atmosphere, evoking feelings of tranquility and peace.\n4. The music is soft and mellow, with a gentle flow that creates a sense of calmness. It could be associated with colors such as blues or greens, representing tranquility and serenity.\n5. The structure of the music starts with a slow and quiet introduction and gradually builds up into a more complex and energetic section. This creates a dynamic and engaging listening experience.\n6. The energy level of the music is dynamic and fluctuating. It starts off slowly and gently and then builds up into a more intense and energetic section. This creates a sense of excitement and anticipation in the listener.",
+  "metrics": {
+    "tempo": 81.52173913043478,
+    "key": "A#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 761.4322271237103,
+    "spectral_bandwidth": 681.8646013750794,
+    "zero_crossing_rate": 0.08282841204073482,
+    "rmse": 0.03875758498907089,
+    "harmonic_content": 0.8927240967750549,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      41,
+      64,
+      87,
+      111,
+      134,
+      158,
+      181,
+      205,
+      228,
+      251,
+      275
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.322052001953125,
+    "min": -0.33465576171875,
+    "rms": 0.045991200953722,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,39 @@
+{
+  "wav_path": "audio2txt/audio/0026_159-169.wav",
+  "perception": "1. The genre is rock, specifically alternative rock. It has a raw and energetic feel with elements of electronic pop and alternative rock. The song is sung in English with a male voice that sounds passionate and emotional.\n\n2. The song features a variety of instruments including drums, bass, synthesizers, and electric guitars. The drums have a simple beat which provides a solid foundation for the other instruments. The bass adds depth to the song while the synthesizer gives it a futuristic feel. The electric guitars play a distorted sound, adding a raw and edgy touch to the song. Overall, the song has a mix of analog and digital sounds, contributing to its unique texture.\n\n3. The vocals are performed by a male singer who sings in English. His voice is passionate and emotional, adding to the intensity of the song. The lyrics of the song are about love and relationships, making it a relatable and heartfelt piece.\n\n4. The song creates a dark and moody atmosphere, evoking feelings of sadness and longing. The imagery of the song is that of a person standing alone in a crowded room, feeling lost and disconnected. The song's color would be black or gray, reflecting the somber mood.\n\n5. The song starts off with a sparse arrangement, featuring only",
+  "metrics": {
+    "tempo": 75.0,
+    "key": "B",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 2311.401431959099,
+    "spectral_bandwidth": 1589.5787056847767,
+    "zero_crossing_rate": 0.22841422474041534,
+    "rmse": 0.28970950841903687,
+    "harmonic_content": 0.6634696125984192,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      27,
+      53,
+      79,
+      105,
+      128,
+      154,
+      180,
+      205,
+      230,
+      254,
+      279,
+      304
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.99072265625,
+    "min": -1.0,
+    "rms": 0.29677316546440125,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

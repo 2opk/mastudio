@@ -1,0 +1,42 @@
+{
+  "wav_path": "audio2txt/audio/0080_669-679.wav",
+  "perception": "1. The genre of the track is classical music with a mix of electronic elements. It has a cinematic feel and appears to be influenced by both Western and Eastern music traditions.\n2. The instrumental composition includes a wide range of sounds such as strings, brass, piano, synthesizers, and percussion. The timbre of each instrument contributes to a rich, layered texture that enhances the dramatic quality of the piece.\n3. There are no vocals in this track, but the absence of lyrics allows the instrumental arrangement to shine brightly. The melody lines are complex and dynamic, showcasing the virtuosity of the musicians involved.\n4. The atmosphere created by the track is one of tension and suspense, drawing listeners into a state of anticipation. The imagery evoked is that of a grand adventure or a tense confrontation. A deep, dark blue could be associated with this track due to its mysterious undertones.\n5. The structure of the track is well-organized, starting with a quiet and intimate introduction that gradually leads up to a powerful climax. This progression creates a sense of building tension and drama, making the listener feel engaged and invested in the unfolding story.\n6. The energy level of the track is dynamic and intense, peaking at the climax. There are moments of calm and reflection",
+  "metrics": {
+    "tempo": 98.6842105263158,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1186.899041469325,
+    "spectral_bandwidth": 1194.5310441411932,
+    "zero_crossing_rate": 0.11436545277555911,
+    "rmse": 0.027716444805264473,
+    "harmonic_content": 0.9190143942832947,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      25,
+      43,
+      61,
+      79,
+      97,
+      115,
+      132,
+      150,
+      169,
+      189,
+      208,
+      227,
+      246,
+      265,
+      286,
+      310
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.17242431640625,
+    "min": -0.177581787109375,
+    "rms": 0.03332385793328285,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

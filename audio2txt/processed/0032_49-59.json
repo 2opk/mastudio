@@ -1,0 +1,51 @@
+{
+  "wav_path": "audio2txt/audio/0032_49-59.wav",
+  "perception": "1. The genre appears to be a blend of several styles including classical, rock, and electronic. It has elements reminiscent of both traditional classical music and modern rock, as well as synthesized tones that suggest an electronic influence.\n2. The instrumental arrangement seems to feature a piano playing in the lower-to-medium range, which is often associated with classical music. There's also a mention of a distorted aggressive guitar, which points towards a more rock-oriented sound. A synthesizer could add texture and depth to the overall composition.\n3. The presence of vocals suggests a potential narrative element within the piece. The style and character of these vocals will depend on the genre and mood of the track. Without further information, it's difficult to determine specifics about the vocals.\n4. The imagery evoked by the track may vary based on its various elements. For instance, the classical piano might conjure up images of serene landscapes or grand performances, while the distorted guitar could bring to mind rebellion or intensity. The synthesizer could contribute to a futuristic or otherworldly atmosphere.\n5. The structure of the track can be inferred as dynamic and possibly complex, given the mention of a build-up to a chaotic climax. This suggests a progression from quieter or calmer sections to a more intense or energetic conclusion",
+  "metrics": {
+    "tempo": 156.25,
+    "key": "C",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 770.6585606186053,
+    "spectral_bandwidth": 738.148439700352,
+    "zero_crossing_rate": 0.07285218650159744,
+    "rmse": 0.14692196249961853,
+    "harmonic_content": 0.8545781970024109,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      5,
+      17,
+      28,
+      41,
+      54,
+      66,
+      78,
+      92,
+      105,
+      118,
+      132,
+      146,
+      158,
+      170,
+      182,
+      194,
+      205,
+      218,
+      229,
+      241,
+      253,
+      266,
+      278,
+      290,
+      301
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.92523193359375,
+    "min": -0.897979736328125,
+    "rms": 0.1591143012046814,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

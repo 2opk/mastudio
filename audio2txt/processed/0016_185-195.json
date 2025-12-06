@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0016_185-195.wav",
+  "perception": "1. The genre is a blend of classical and electronic music, drawing from both traditional classical instrumentation and modern electronic production techniques.\n2. The track features a piano as the primary instrument, producing soft and melodic tones that have a warm analog quality. There's also a distorted electric guitar playing in the background, adding a gritty texture to the sound.\n3. The vocals are sparse, featuring only a single line sung by a male voice. The lyrics convey a sense of longing and introspection, creating a melancholic mood.\n4. The track has a dreamy and atmospheric quality, evoking images of serene landscapes or introspective moments. It could be associated with a cool, pastel color palette.\n5. The structure of the track starts off slow and intimate, gradually building up to a more complex and chaotic arrangement towards the climax. This creates a dynamic and engaging listening experience.\n6. The energy level of the track is relatively low, maintaining a calm and measured pace throughout. However, there are moments where the intensity increases, particularly during the build-up to the climax. Overall, the track maintains a soothing yet emotionally charged atmosphere.",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "A",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 440.560956078578,
+    "spectral_bandwidth": 440.8338800279041,
+    "zero_crossing_rate": 0.045018595247603835,
+    "rmse": 0.0738629624247551,
+    "harmonic_content": 0.8962004780769348,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      71,
+      87,
+      101,
+      116,
+      131,
+      146,
+      161,
+      176,
+      192,
+      208,
+      224,
+      240,
+      255,
+      270
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.503387451171875,
+    "min": -0.412445068359375,
+    "rms": 0.08135582506656647,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

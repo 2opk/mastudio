@@ -1,0 +1,43 @@
+{
+  "wav_path": "audio2txt/audio/0098_160-170.wav",
+  "perception": "1. The genre of the music is soft pop, which is known for its mellow tunes and light lyrics. It has a mix of various styles including R&B, pop, and jazz, giving it a unique feel.\n2. The instrumentation consists of acoustic and electric guitars, which add a warm and smooth texture to the music. A keyboard is also used, adding depth to the sound. The percussion is subtle, contributing to the overall soothing atmosphere of the song.\n3. The vocals in the song are soft and gentle, sung by a female vocalist. The lyrics are heartfelt and emotional, conveying feelings of love and longing. The vocal delivery is passionate and emotional, making the listener connect with the song.\n4. The song creates a warm and comforting atmosphere, evoking feelings of peace and tranquility. The imagery associated with the song is that of a peaceful evening at home, surrounded by loved ones. The color yellow comes to mind, representing warmth and happiness.\n5. The structure of the song starts off with a slow and intimate introduction, setting the mood for the rest of the song. As the song progresses, it builds up gradually, leading to a climax that is both powerful and emotional. The song has a dynamic feel, shifting between soft and loud sections.\n6",
+  "metrics": {
+    "tempo": 117.1875,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1446.7704864499897,
+    "spectral_bandwidth": 1531.8740634627925,
+    "zero_crossing_rate": 0.08054144618610223,
+    "rmse": 0.1391030251979828,
+    "harmonic_content": 0.7909833788871765,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      22,
+      37,
+      52,
+      67,
+      85,
+      102,
+      118,
+      133,
+      148,
+      164,
+      180,
+      197,
+      214,
+      230,
+      246,
+      261,
+      279
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.806671142578125,
+    "min": -0.83477783203125,
+    "rms": 0.16408084332942963,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

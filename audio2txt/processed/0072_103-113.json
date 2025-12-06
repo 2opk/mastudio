@@ -1,0 +1,47 @@
+{
+  "wav_path": "audio2txt/audio/0072_103-113.wav",
+  "perception": "1. The genre appears to be a fusion between electronic and traditional music, possibly influenced by hip-hop due to the presence of rapping. It also has elements of experimental and ambient music.\n2. The instrumental mix includes both digital and analog sounds, likely synthesizers and drum machines for the electronic elements, combined with traditional instruments such as guitars or drums for a more organic feel. The timbre is complex, combining both crisp, synthetic tones with warm, natural sounds from live instruments.\n3. There are sparse vocals in the form of rapping, which adds a dynamic and rhythmic element to the track. The vocal style is confident and assertive, reflecting themes of rebellion or individuality common in hip-hop culture. The lyrics convey a strong sense of emotion, often conveying themes of struggle, perseverance, or triumph.\n4. The atmosphere of the track is intense and vibrant, drawing on the power of electronic beats and the expressiveness of rap. It evokes images of urban landscapes, gritty streets, and bold, confident individuals. The color associated with this track might be bright, bold, and energetic.\n5. The structure of the track starts with a sparse, introspective section that sets the tone for the rest of the piece. As the track progresses, it builds into",
+  "metrics": {
+    "tempo": 156.25,
+    "key": "D",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1813.9161863203433,
+    "spectral_bandwidth": 1915.0495995683223,
+    "zero_crossing_rate": 0.07736839806309904,
+    "rmse": 0.3043113350868225,
+    "harmonic_content": 0.6819776892662048,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      69,
+      80,
+      92,
+      104,
+      115,
+      127,
+      139,
+      151,
+      162,
+      174,
+      186,
+      197,
+      209,
+      221,
+      232,
+      243,
+      255,
+      267,
+      279,
+      290,
+      302
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.912139892578125,
+    "min": -0.9482421875,
+    "rms": 0.3111253082752228,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

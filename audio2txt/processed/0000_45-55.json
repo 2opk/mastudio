@@ -1,0 +1,42 @@
+{
+  "wav_path": "audio2txt/audio/0000_45-55.wav",
+  "perception": "1. The genre of the music is pop with a k-pop influence. It has a slow tempo and features a soft keyboard harmony, a female vocalist singing in a sad mood, and a distorted electric guitar playing a groovy bass line.\n2. The instrumentation includes a soft keyboard, a distorted electric guitar, and a groovy bass line. The keyboard provides a soft and mellow sound, while the electric guitar adds a little bit of aggression and energy to the mix. The bass line contributes to the groovy feel of the song.\n3. The vocalist's voice is soft and gentle, and she sings in a sad mood. Her voice is accompanied by a synthesizer that adds to the overall sad atmosphere of the song.\n4. The song evokes a feeling of sadness and longing. It could be associated with a rainy day or a long-distance relationship. The song's color would be gray or dark blue, reflecting the somber mood.\n5. The song starts off with a soft keyboard harmony and a slow tempo, building up gradually into a more upbeat section where the distorted electric guitar comes in and plays a groovy bass line. The song then slows down again towards the end, creating a sense of resolution.\n6. The song has a low energy level and is",
+  "metrics": {
+    "tempo": 125.0,
+    "key": "F",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1080.5178577369693,
+    "spectral_bandwidth": 1214.7819473569525,
+    "zero_crossing_rate": 0.07083978134984026,
+    "rmse": 0.09451953321695328,
+    "harmonic_content": 0.8430421948432922,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      15,
+      30,
+      45,
+      60,
+      76,
+      90,
+      105,
+      118,
+      131,
+      146,
+      160,
+      175,
+      190,
+      204,
+      218,
+      232
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.67626953125,
+    "min": -0.673828125,
+    "rms": 0.11190556734800339,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0004_189-199.wav",
+  "perception": "1. The genre appears to be a fusion between classical and electronic music, drawing upon both traditional orchestral instrumentation and modern synthesizer technology.\n2. A violin is prominently featured, playing in a melancholic manner that enhances the emotional depth of the piece. Accompanying the violin are possibly strings or piano, contributing to the overall texture of the sound.\n3. There are no vocals in this track, focusing solely on the instrumental performance.\n4. The atmosphere created by the music is somber and reflective, evoking feelings of nostalgia and longing. The music could be associated with a cool, dark color palette.\n5. The structure of the piece starts off slow and intimate, gradually building up tension before descending back into a more introspective state. This creates a dynamic and engaging listening experience.\n6. The energy level of the track is relatively low, maintaining a steady and contemplative pace throughout. There's a sense of tension and unresolved emotion that gives the piece its depth and complexity.",
+  "metrics": {
+    "tempo": 110.29411764705883,
+    "key": "D",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1615.0662985433526,
+    "spectral_bandwidth": 1314.3840595477989,
+    "zero_crossing_rate": 0.13178601737220447,
+    "rmse": 0.048160701990127563,
+    "harmonic_content": 0.93467116355896,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      75,
+      92,
+      110,
+      127,
+      144,
+      160,
+      176,
+      193,
+      208,
+      225,
+      241,
+      260,
+      279,
+      296
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.326019287109375,
+    "min": -0.2874755859375,
+    "rms": 0.05655734986066818,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

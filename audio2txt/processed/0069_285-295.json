@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0069_285-295.wav",
+  "perception": "The genre is jazz, specifically in the style of bebop. The instrumentation includes piano, double bass, and drums, creating a warm and smooth atmosphere. There are no vocals but the instrumental composition evokes a feeling of relaxation and intimacy. The piece has a slow tempo and builds up gradually, creating a sense of tension before returning to a state of calmness.",
+  "metrics": {
+    "tempo": 98.6842105263158,
+    "key": "E",
+    "tonality": "Major",
+    "time_signature": "4/4",
+    "spectral_centroid": 1334.194121179825,
+    "spectral_bandwidth": 1703.067872170418,
+    "zero_crossing_rate": 0.08622454073482429,
+    "rmse": 0.22364309430122375,
+    "harmonic_content": 0.85286945104599,
+    "melody_contour": "Rising",
+    "beat_frames": [
+      43,
+      62,
+      82,
+      99,
+      115,
+      134,
+      154,
+      173,
+      191,
+      210,
+      230,
+      250,
+      269,
+      290,
+      312
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.76202392578125,
+    "min": -0.749542236328125,
+    "rms": 0.22864633798599243,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

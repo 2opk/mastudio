@@ -1,0 +1,37 @@
+{
+  "wav_path": "audio2txt/audio/0064_194-204.wav",
+  "perception": "1. The genre appears to be a blend of several styles including pop, electronic, rock, and possibly hip hop due to the presence of synthesized beats and drums. It has a modern production value with elements that could appeal to a wide audience.\n2. The instrumental arrangement includes synthesizers, drums, bass, and possibly electric guitars. The synthesizer provides a groovy undercurrent while the drums add a rhythmic foundation. The bass contributes to the depth of the sound, and the electric guitar injects some aggression into the mix. The overall timbre is slick and polished, indicative of contemporary production techniques.\n3. There are sparse vocals in the form of male rap, which adds a dynamic layer to the texture of the music. The vocals convey a confident mood, reflecting the theme of self-assurance prevalent in the lyrics.\n4. The track creates an atmosphere of cool confidence and laid-back swagger. It's easy listening but also has a gritty undertone due to the distorted guitar and heavy bass. The music paints vivid images of city streets at night or a stylish party scene.\n5. The structure of the song follows a typical verse-chorus format, starting off with a quiet and intimate section before escalating into a more dynamic and energetic chorus. This progression creates a sense",
+  "metrics": {
+    "tempo": 75.0,
+    "key": "B",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1318.0131283831856,
+    "spectral_bandwidth": 1615.0344952179396,
+    "zero_crossing_rate": 0.07966472394169329,
+    "rmse": 0.2366628646850586,
+    "harmonic_content": 0.8254575729370117,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      21,
+      46,
+      71,
+      96,
+      121,
+      146,
+      171,
+      196,
+      221,
+      246,
+      270
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.898590087890625,
+    "min": -0.936920166015625,
+    "rms": 0.2393832951784134,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

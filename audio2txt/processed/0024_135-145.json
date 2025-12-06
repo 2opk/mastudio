@@ -1,0 +1,40 @@
+{
+  "wav_path": "audio2txt/audio/0024_135-145.wav",
+  "perception": "1. The genre is a fusion between classical and electronic music, incorporating elements of both styles. It has a cinematic feel, suggesting influences from film scores or soundtrack production.\n2. The instrumentation includes a piano which provides a melodic foundation, likely contributing to the classical aspect of the genre. Additionally, there is a synthesizer that adds texture and depth, enhancing the electronic component. A violin may be playing a solo role, adding a layer of emotive expression typical in classical music.\n3. The vocals, if present, could range from sparse and subtle to more prominent, contributing to the dynamic nature of the piece. Depending on the lyrics and delivery, they could convey a variety of emotions such as joy, sadness, or intensity.\n4. The atmosphere created by this track is likely vibrant yet somber, drawing on the contrasting elements of classical and electronic music. The imagery evoked could be that of a bustling city at night, juxtaposing the bright lights with the darkness of the streets.\n5. The structure of the track starts with a quieter, possibly introspective section, leading into a more complex and energetic segment. This progression could mirror a journey or narrative, building tension and excitement towards a climactic point.\n6. The energy level of the track is dynamic, shifting",
+  "metrics": {
+    "tempo": 81.52173913043478,
+    "key": "F#",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 1448.5396851294208,
+    "spectral_bandwidth": 1477.0808547573147,
+    "zero_crossing_rate": 0.13004349291134185,
+    "rmse": 0.12544231116771698,
+    "harmonic_content": 0.9097262620925903,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      8,
+      32,
+      54,
+      77,
+      100,
+      123,
+      145,
+      168,
+      191,
+      214,
+      237,
+      260,
+      283,
+      306
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.7401123046875,
+    "min": -0.612548828125,
+    "rms": 0.13129092752933502,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

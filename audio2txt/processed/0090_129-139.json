@@ -1,0 +1,41 @@
+{
+  "wav_path": "audio2txt/audio/0090_129-139.wav",
+  "perception": "This track has a blend of electronic and rock elements, creating a unique fusion genre. The instrumentation includes synthesizers, drums, and electric guitars, contributing to a textured, atmospheric sound that's both heavy and groovy. The vocals feature a distorted male voice over, adding a rebellious edge to the track. The lyrics convey a sense of longing and introspection, enhancing the emotional depth of the piece. The track starts off with a quiet, introspective tone before gradually building into a loud, energetic climax. This dynamic progression creates a compelling auditory experience that's both engaging and thought-provoking. Overall, the track exudes a moody, intense vibe that's perfect for late-night listening or as background music in a dynamic scene.",
+  "metrics": {
+    "tempo": 98.6842105263158,
+    "key": "G",
+    "tonality": "Minor",
+    "time_signature": "4/4",
+    "spectral_centroid": 2140.498956837474,
+    "spectral_bandwidth": 2061.0981932910163,
+    "zero_crossing_rate": 0.12069906898961662,
+    "rmse": 0.3066244423389435,
+    "harmonic_content": 0.739088773727417,
+    "melody_contour": "Undulating",
+    "beat_frames": [
+      3,
+      22,
+      41,
+      59,
+      75,
+      91,
+      110,
+      129,
+      147,
+      166,
+      185,
+      203,
+      222,
+      241,
+      261
+    ]
+  },
+  "audio_stats": {
+    "sr": 16000,
+    "peak": 0.98388671875,
+    "min": -0.98431396484375,
+    "rms": 0.3138331174850464,
+    "duration_s": 10.0
+  },
+  "model": "Qwen/Qwen2-Audio-7B-Instruct"
+}

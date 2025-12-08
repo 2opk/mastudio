@@ -225,12 +225,11 @@ def ensure_output_dir(path: str) -> Path:
     return target
 
 
-def prepare_run_dirs(base_output_dir: str) -> Tuple[Path, Path, str]:
-    """Create a timestamped run dir and intms subdir under the base output dir, without clearing prior runs."""
+def prepare_run_dirs(base_output_dir: str, use_as_run_dir: bool = False) -> Tuple[Path, Path, str]:
     base = Path(base_output_dir)
     base.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-    run_dir = base / f"output_{timestamp}"
+    run_dir = base if use_as_run_dir else base / f"output_{timestamp}"
     run_dir.mkdir(parents=True, exist_ok=True)
     intms_dir = run_dir / "intms"
     intms_dir.mkdir(parents=True, exist_ok=True)

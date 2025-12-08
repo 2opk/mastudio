@@ -1,12 +1,11 @@
 import base64
 import json
 import os
-import random
 import re
+import time
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, List, Optional, TypedDict, Union
-import time
 
 import litellm
 from rich.console import Console
@@ -20,7 +19,6 @@ from .utils import (
     load_directors_auto,
     load_generator_pool,
     load_prompt,
-    stable_seed,
 )
 
 
@@ -41,6 +39,8 @@ class MASState(TypedDict, total=False):
     history: List[Dict[str, str]]
     critic_results: List[Dict[str, Any]]
     creative_index_avg: float
+    squad_ci_avg: Dict[str, float]
+    squad_status: Dict[str, str]
     critic_feedback: str
     t0: float
 
@@ -51,7 +51,7 @@ class ModelRouter:
         self.console = Console()
         self._logged_models = set()
 
-    def _preview(self, text: Any, limit: int = 1000) -> str:
+    def _preview(self, text: Any, limit: Optional[int] = None) -> str:
         if text is None:
             return ""
         if isinstance(text, list):
@@ -64,9 +64,11 @@ class ModelRouter:
             return self._sanitize_preview(combined, limit)
         return self._sanitize_preview(str(text), limit)
 
-    def _sanitize_preview(self, raw: str, limit: int) -> str:
+    def _sanitize_preview(self, raw: str, limit: Optional[int]) -> str:
         s = raw.replace("\\n", "\n").replace('\\"', '"')
-        return s if len(s) <= limit else s[: limit - 3] + "..."
+        if limit is None:
+            return s
+        return s if len(s) <= limit else s[: max(limit - 3, 0)] + "..."
 
     def _api_base_for_model(self, model: str) -> Optional[str]:
         if model.startswith("gemini/"):
@@ -124,7 +126,9 @@ class ModelRouter:
         self.console.print(line)
 
     def _print_chat_line(self, agent_label: str, direction: str, text: str) -> None:
-        header = Text(f"[{agent_label}] {direction}", style="bold cyan" if direction == "→" else "bold magenta")
+        lower_label = agent_label.lower()
+        is_generator = "squad" in lower_label or "generator" in lower_label
+        header = Text(f"[{agent_label}] {direction}", style="bold magenta" if is_generator else "bold cyan")
         body = Text(f"{text}", style="grey70")
         self.console.print(header)
         self.console.print(body)
@@ -135,122 +139,18 @@ def _safe_json_parse(raw: str) -> Dict[str, Any]:
     try:
         return json.loads(raw)
     except json.JSONDecodeError:
+        cleaned = raw.strip()
+        if cleaned.startswith("```"):
+            cleaned = re.sub(r"^```[a-zA-Z0-9_-]*", "", cleaned).strip("` \n")
+        start = cleaned.find("{")
+        end = cleaned.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            snippet = cleaned[start : end + 1]
+            try:
+                return json.loads(snippet)
+            except Exception:
+                pass
         return {"raw": raw.strip()}
-
-
-def _normalize_keywords(keywords: List[str]) -> List[str]:
-    normalized: List[str] = []
-    for kw in keywords:
-        if not kw:
-            continue
-        clean = kw.lower().strip()
-        if not clean:
-            continue
-        normalized.append(clean)
-        normalized.extend([token for token in clean.split() if len(token) > 2])
-    return normalized
-
-
-def _text_keywords(text: str, limit: int = 12) -> List[str]:
-    tokens = re.findall(r"[a-zA-Z]+", text.lower())
-    filtered: List[str] = []
-    for token in tokens:
-        if len(filtered) >= limit:
-            break
-        if len(token) < 3:
-            continue
-        filtered.append(token)
-    return filtered
-
-
-def _score_agent(agent: GeneratorAgentMeta, targets: List[str]) -> int:
-    if not targets:
-        return 0
-    agent_kw = _normalize_keywords(agent.keywords)
-    if not agent_kw:
-        return 0
-    score = 0
-    for t in targets:
-        for ak in agent_kw:
-            if t in ak or ak in t:
-                score += 1
-                break
-    return score
-
-
-def _select_by_score(pool: List[GeneratorAgentMeta], targets: List[str], reverse: bool = True, k: int = 3) -> List[GeneratorAgentMeta]:
-    scored = sorted(pool, key=lambda a: _score_agent(a, targets), reverse=reverse)
-    return scored[:k] if scored else []
-
-
-def _fallback_random(pool: List[GeneratorAgentMeta], seed_text: str, k: int = 3) -> List[GeneratorAgentMeta]:
-    rng = random.Random(stable_seed(seed_text))
-    shuffled = pool.copy()
-    rng.shuffle(shuffled)
-    return shuffled[:k]
-
-
-def select_squad_agents(
-    base_prompt: str,
-    final_draft: Dict[str, Any],
-    instructions: Dict[str, Any],
-    pool: List[GeneratorAgentMeta],
-) -> Dict[str, List[GeneratorAgentMeta]]:
-    main_prompt = ""
-    if isinstance(final_draft, dict):
-        main_prompt = final_draft.get("main_prompt", "") or json.dumps(final_draft, ensure_ascii=False)
-    base_targets = _text_keywords(main_prompt or base_prompt)
-    harmonic_targets = instructions.get("squad_a_harmonic", {}).get("target_keywords") or base_targets
-    conflict_targets = instructions.get("squad_b_conflict", {}).get("target_keywords") or base_targets
-    categories = [
-        "category1_time",
-        "category2_cognitive",
-        "category3_emotional",
-        "category4_cultural",
-        "category5_medium",
-    ]
-    grouped: Dict[str, List[GeneratorAgentMeta]] = defaultdict(list)
-    for agent in pool:
-        grouped[agent.category or "uncategorized"].append(agent)
-
-    def _pick_by_strategy(cat: str, targets: List[str], reverse: bool, seed_suffix: str) -> Optional[GeneratorAgentMeta]:
-        agents = grouped.get(cat, [])
-        if not agents:
-            return None
-        norm_targets = _normalize_keywords(targets)
-        if not norm_targets:
-            rng = random.Random(stable_seed(base_prompt + main_prompt + seed_suffix + cat))
-            return rng.choice(agents)
-        scored = sorted(
-            agents,
-            key=lambda a: (_score_agent(a, norm_targets), a.id),
-            reverse=reverse,
-        )
-        return scored[0] if scored else None
-
-    harmonic_agents: List[GeneratorAgentMeta] = []
-    conflict_agents: List[GeneratorAgentMeta] = []
-    random_agents: List[GeneratorAgentMeta] = []
-
-    for cat in categories:
-        chosen_h = _pick_by_strategy(cat, harmonic_targets, True, "harmonic") or _fallback_random(
-            pool, base_prompt + "harmonic" + cat, k=1
-        )[0]
-        chosen_c = _pick_by_strategy(cat, conflict_targets, False, "conflict") or _fallback_random(
-            pool, base_prompt + "conflict" + cat, k=1
-        )[0]
-        rng = random.Random(stable_seed(base_prompt + main_prompt + "random" + cat))
-        cat_agents = grouped.get(cat) or pool
-        chosen_r = rng.choice(cat_agents)
-        harmonic_agents.append(chosen_h)
-        conflict_agents.append(chosen_c)
-        random_agents.append(chosen_r)
-
-    return {
-        "harmonic": harmonic_agents,
-        "conflict": conflict_agents,
-        "random": random_agents,
-    }
 
 
 def _clean_prompt_text(raw: str) -> str:
@@ -273,8 +173,9 @@ def _clean_prompt_text(raw: str) -> str:
 def _finalize_prompt_text(raw: str, max_len: int = 77) -> str:
     text = _clean_prompt_text(raw)
     text = re.sub(r"\s+", " ", text).strip()
-    if len(text) > max_len:
-        text = text[: max_len - 1].rstrip(",;") + "…"
+    tokens = text.split()
+    if len(tokens) > max_len:
+        text = " ".join(tokens[:max_len])
     return text
 
 
@@ -294,6 +195,18 @@ def creation_director_phase(state: MASState, config: SystemConfig, router: Model
 
     base_prompt = state.get("user_prompt", "")
     prior_feedback = state.get("critic_feedback", "none")
+    pool = load_generator_pool()
+    agent_catalog: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    for meta in pool:
+        agent_catalog[meta.category or "uncategorized"].append(
+            {
+                "id": meta.id,
+                "name": meta.name,
+                "display_name": meta.display_name,
+                "keywords": meta.keywords,
+                "category": meta.category,
+            }
+        )
 
     def _call_director(meta: DirectorMeta, payload: str) -> str:
         persona = load_prompt(meta.creation_prompt)
@@ -343,7 +256,17 @@ def creation_director_phase(state: MASState, config: SystemConfig, router: Model
         f"Mood Report JSON: {json.dumps(mi_output, ensure_ascii=False)}\n"
         f"Visual Blueprint JSON: {json.dumps(vd_output, ensure_ascii=False)}\n"
         f"Conceptual Elements JSON: {json.dumps(ca_output, ensure_ascii=False)}\n"
-        "Synthesize into final_draft and squad_selection_instructions JSON."
+        f"Agent Catalog JSON (grouped by category): {json.dumps(agent_catalog, ensure_ascii=False)}\n"
+        "Synthesize into final_draft AND squad_selection_instructions AND squad_assignments JSON.\n"
+        "For squad_selection_instructions, derive target_keywords FRESH from the current Final Draft + Mood/Visual/Concept data (no hardcoded lists). Each list should be 10-20 concise cues:\n"
+        "  - squad_a_harmonic: detailed perceptual/visual/music cues that best align with the current draft (mood, instrumentation, lighting, framing, texture, tempo, key, energy).\n"
+        "  - squad_b_conflict: CLEAR opposites of the current draft (brightness vs darkness, energetic vs calm, fast vs slow, major vs minor, harsh vs soft, chaotic vs composed, vivid vs muted, aggressive vs gentle). Conflict should intentionally disagree with the prompt mood.\n"
+        "For squad_assignments:\n"
+        "- Each squad must contain exactly one agent per category present in the catalog.\n"
+        "- squad_a_harmonic: pick the closest agent per category to the harmonic target_keywords.\n"
+        "- squad_b_conflict: pick the closest agent per category to the conflict target_keywords, avoiding all harmonic picks, and avoid agents whose keywords overlap with harmonic cues (melancholic/soft/diffused/etc.).\n"
+        "- squad_c_random: pick randomly per category, excluding any agent already used in harmonic or conflict.\n"
+        "- Return only agent ids in each squad list (category order does not matter)."
     )
     orchestrator_raw = _call_director(directors[3], orch_payload)
     orchestrator_json = _safe_json_parse(orchestrator_raw)
@@ -351,9 +274,23 @@ def creation_director_phase(state: MASState, config: SystemConfig, router: Model
 
     final_draft = orchestrator_json.get("final_draft", {}) if isinstance(orchestrator_json, dict) else {}
     squad_instructions = orchestrator_json.get("squad_selection_instructions", {}) if isinstance(orchestrator_json, dict) else {}
+    provided_assignments = orchestrator_json.get("squad_assignments", {}) if isinstance(orchestrator_json, dict) else {}
 
-    pool = load_generator_pool()
-    squad_assignments = select_squad_agents(base_prompt, final_draft, squad_instructions, pool)
+    id_map = {m.id: m for m in pool}
+    squad_assignments: Dict[str, List[GeneratorAgentMeta]] = {}
+    for squad_name in ["harmonic", "conflict", "random"]:
+        metas: List[GeneratorAgentMeta] = []
+        seen_ids: set = set()
+        for aid in provided_assignments.get(squad_name, []) or []:
+            meta = id_map.get(aid)
+            if meta and meta.id not in seen_ids:
+                metas.append(meta)
+                seen_ids.add(meta.id)
+        squad_assignments[squad_name] = metas
+
+    used_orchestrator = all(squad_assignments.get(k) for k in ["harmonic", "conflict", "random"])
+    if not used_orchestrator:
+        raise ValueError("Orchestrator must return complete squad_assignments with agent ids per category.")
 
     # Convert to plain dicts for state storage.
     squad_assignments_dict: Dict[str, List[Dict[str, Any]]] = {}
@@ -370,6 +307,19 @@ def creation_director_phase(state: MASState, config: SystemConfig, router: Model
             for m in metas
         ]
 
+    selection_record = {
+        "instructions": squad_instructions,
+        "orchestrator_assignments": provided_assignments,
+        "assignments": squad_assignments_dict,
+        "used_orchestrator_assignments": used_orchestrator,
+    }
+    history_entries.append(
+        {
+            "role": "Squad Selector",
+            "content": json.dumps(selection_record, ensure_ascii=False, indent=2),
+        }
+    )
+
     return {
         **state,
         "mood_report": mi_output,
@@ -378,6 +328,8 @@ def creation_director_phase(state: MASState, config: SystemConfig, router: Model
         "final_draft": final_draft,
         "squad_selection_instructions": squad_instructions,
         "squad_assignments": squad_assignments_dict,
+        "squad_selection": selection_record,
+        "squad_status": state.get("squad_status") or {"harmonic": "active", "conflict": "active", "random": "active"},
         "history": history_entries,
         "feedback": orchestrator_raw,
     }
@@ -398,7 +350,7 @@ def _aggregate_squad_prompt(
     config: SystemConfig,
 ) -> str:
     system_prompt = (
-        "You are the Squad Synthesizer. Merge the dialogue into ONE SDXL-ready prompt, <=77 characters. "
+        "You are the Squad Synthesizer. Merge the dialogue into ONE SDXL-ready prompt, <=77  tokens"
         "Preserve Final Draft intent, include camera/lighting/color/style, and bake in feedback."
         "Return ONLY the prompt as plain text (no JSON, no labels, no code fences)."
     )
@@ -408,7 +360,7 @@ def _aggregate_squad_prompt(
         f"Final Draft: {json.dumps(final_draft, ensure_ascii=False)}\n"
         f"Feedback to apply: {feedback}\n"
         f"Dialogue:\n{convo_text}\n"
-        "Return one plain-text prompt <=77 chars."
+        "Return one plain-text prompt <=77 tokens"
     )
     raw = router.call(
         model=config.generator_model,
@@ -427,30 +379,16 @@ def generator_phase(state: MASState, config: SystemConfig, router: ModelRouter) 
     final_draft = state.get("final_draft", {})
     feedback = state.get("critic_feedback", "")
     base_prompt = state.get("user_prompt", "")
+    squad_status = state.get("squad_status") or {"harmonic": "active", "conflict": "active", "random": "active"}
+    router.console.print(Text(f"squad_status: {squad_status}", style="dim"))
 
     squad_assignments_raw = state.get("squad_assignments") or {}
     if not squad_assignments_raw:
-        # Safety fallback if state was missing assignments.
-        pool = load_generator_pool()
-        instructions = state.get("squad_selection_instructions", {})
-        squad_assignments = select_squad_agents(base_prompt, final_draft, instructions, pool)
-        squad_assignments_raw = {
-            squad: [
-                {
-                    "id": m.id,
-                    "name": m.name,
-                    "prompt": m.prompt,
-                    "display_name": m.display_name,
-                    "keywords": m.keywords,
-                    "category": m.category,
-                }
-                for m in metas
-            ]
-            for squad, metas in squad_assignments.items()
-        }
+        raise ValueError("Missing squad_assignments in state; orchestrator must supply them.")
 
     prompts_out: List[str] = []
     squad_prompt_map: Dict[str, str] = {}
+    prompt_squad_sequence: List[str] = []
 
     # Display a compact, fixed-height squad overview with elapsed time.
     iteration_label = state.get("iteration", 0)
@@ -465,7 +403,18 @@ def generator_phase(state: MASState, config: SystemConfig, router: ModelRouter) 
         router.console.print(Text(line, style="cyan"))
     router.console.print(Text(f"Iteration: {iteration_label} | Elapsed: {elapsed:.1f}s", style="dim"))
 
-    for squad_name in ["harmonic", "conflict", "random"]:
+    active_squads = [s for s in ["harmonic", "conflict", "random"] if squad_status.get(s, "active") != "done"]
+    if not active_squads:
+        router.console.print(Text("All squads completed. Skipping generation.", style="green"))
+        return {
+            **state,
+            "generator_prompts": [],
+            "squad_prompt_map": {},
+            "history": history_entries,
+            "prompt_squad_sequence": [],
+        }
+
+    for squad_name in active_squads:
         agent_entries = squad_assignments_raw.get(squad_name, [])
         contributions: List[Dict[str, str]] = []
         for agent_data in agent_entries:
@@ -492,6 +441,7 @@ def generator_phase(state: MASState, config: SystemConfig, router: ModelRouter) 
         prompt_text = _aggregate_squad_prompt(squad_name, final_draft, contributions, feedback, router, config)
         prompts_out.append(prompt_text)
         squad_prompt_map[squad_name] = prompt_text
+        prompt_squad_sequence.append(squad_name)
         history_entries.append({"role": f"{squad_name.title()} Squad Prompt", "content": prompt_text})
 
     history = history_entries
@@ -499,6 +449,7 @@ def generator_phase(state: MASState, config: SystemConfig, router: ModelRouter) 
         **state,
         "generator_prompts": prompts_out,
         "squad_prompt_map": squad_prompt_map,
+        "prompt_squad_sequence": prompt_squad_sequence,
         "history": history,
     }
 
@@ -517,8 +468,22 @@ def critic_phase(state: MASState, config: SystemConfig, router: ModelRouter) -> 
     critic_metas = [d for d in directors if d.id != orchestrator_meta.id]
 
     results: List[Dict[str, Any]] = []
+    prompt_squad_sequence = state.get("prompt_squad_sequence", []) or []
+    images = state.get("images", []) or []
+    squad_prompt_map = state.get("squad_prompt_map", {}) or {}
+    squad_last_image: Dict[str, str] = state.get("squad_last_image", {}) or {}
+    prev_squad_status = state.get("squad_status") or {"harmonic": "active", "conflict": "active", "random": "active"}
 
-    for idx, img_path in enumerate(state.get("images", [])):
+    # Ensure mapping length matches image count; if not, fall back to insertion order from squad_prompt_map.
+    if len(prompt_squad_sequence) != len(images):
+        fallback_seq = list(squad_prompt_map.keys())
+        if not fallback_seq:
+            fallback_seq = ["harmonic"] * len(images)
+        prompt_squad_sequence = []
+        for idx in range(len(images)):
+            prompt_squad_sequence.append(fallback_seq[idx % len(fallback_seq)])
+
+    for idx, img_path in enumerate(images):
         content_parts: List[Dict[str, Any]] = []
         text_body = (
             f"Image index: {idx+1}\n"
@@ -579,10 +544,14 @@ def critic_phase(state: MASState, config: SystemConfig, router: ModelRouter) -> 
 
     ci_scores: List[float] = []
     feedback_blocks: List[str] = []
+    squad_ci: Dict[str, List[float]] = {"harmonic": [], "conflict": [], "random": []}
     for idx, item in enumerate(results):
         orch = item.get("orchestrator", {})
         ci_score = orch.get("ci_score", 0) if isinstance(orch, dict) else 0
         ci_scores.append(ci_score)
+        squad_name = prompt_squad_sequence[idx] if idx < len(prompt_squad_sequence) else None
+        if squad_name in squad_ci:
+            squad_ci[squad_name].append(ci_score)
         refinement = orch.get("refinement_instruction") if isinstance(orch, dict) else None
         if refinement and isinstance(refinement, dict) and refinement.get("required"):
             bullets = refinement.get("bullet_points") or []
@@ -592,6 +561,20 @@ def critic_phase(state: MASState, config: SystemConfig, router: ModelRouter) -> 
                 block += "\n- " + "\n- ".join(bullets)
             feedback_blocks.append(block)
     creative_index_avg = sum(ci_scores) / len(ci_scores) if ci_scores else 0.0
+    squad_ci_avg = {s: (sum(vals) / len(vals) if vals else 0.0) for s, vals in squad_ci.items()}
+    squad_status = state.get("squad_status") or {"harmonic": "active", "conflict": "active", "random": "active"}
+    # track last image per squad from this iteration
+    for idx, squad in enumerate(prompt_squad_sequence):
+        if idx < len(images):
+            squad_last_image[squad] = images[idx]
+    for squad, avg in squad_ci_avg.items():
+        if avg >= config.creative_index_threshold:
+            squad_status[squad] = "done"
+    # final images: latest per squad (order fixed)
+    final_images: List[str] = []
+    for sq in ["harmonic", "conflict", "random"]:
+        if sq in squad_last_image:
+            final_images.append(squad_last_image[sq])
     critic_feedback = "\n\n".join(feedback_blocks) if feedback_blocks else "Approved."
 
     history = history_entries
@@ -599,6 +582,10 @@ def critic_phase(state: MASState, config: SystemConfig, router: ModelRouter) -> 
         **state,
         "critic_results": results,
         "creative_index_avg": creative_index_avg,
+        "squad_ci_avg": squad_ci_avg,
+        "squad_status": squad_status,
+        "squad_last_image": squad_last_image,
+        "final_images": final_images,
         "critic_feedback": critic_feedback,
         "history": history,
     }

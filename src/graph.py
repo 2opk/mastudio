@@ -41,7 +41,9 @@ def build_app(config: SystemConfig):
     graph.add_edge("sdxl_execution", "critic_phase")
 
     def decide_next(state: MASState) -> str:
-        if state.get("creative_index_avg", 0) >= config.creative_index_threshold:
+        squad_status = state.get("squad_status") or {}
+        all_done = all(v == "done" for v in squad_status.values()) if squad_status else False
+        if all_done:
             return "end"
         if state.get("iteration", 0) >= config.max_loops:
             return "end"

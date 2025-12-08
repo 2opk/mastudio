@@ -1,5 +1,0 @@
-[
-  {
-    "note": "config/directors.json is no longer used; directors are auto-loaded from prompts/directors/*."
-  }
-]

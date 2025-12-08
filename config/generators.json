@@ -1,5 +1,0 @@
-[
-  {
-    "note": "config/generators.json is unused; generator pool auto-loads from prompts/generators/**."
-  }
-]

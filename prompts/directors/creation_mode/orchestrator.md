@@ -23,16 +23,18 @@ Synthesize all inputs (Mood Report + Visual Blueprint + Conceptual Elements + Re
   },
   "squad_selection_instructions": {
     "squad_a_harmonic": {
-      "strategy": "Cosine Similarity (Find closest matches)",
       "target_keywords": ["List", "of", "5-10", "keywords", "from", "draft"]
     },
     "squad_b_conflict": {
-      "strategy": "Maximum Distance (Find opposing traits)",
       "target_keywords": ["List", "of", "5-10", "opposing", "keywords"]
     },
     "squad_c_random": {
-      "strategy": "Random Selection",
       "target_keywords": []
     }
+  },
+  "squad_assignments": {
+    "harmonic": ["agent_id_per_category (5 total, closest to squad_a_harmonic keywords)"],
+    "conflict": ["agent_id_per_category (5 total, closest to squad_b_conflict keywords, no overlap with harmonic)"],
+    "random": ["agent_id_per_category (5 total, random)"]
   }
 }

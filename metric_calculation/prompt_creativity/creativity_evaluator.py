@@ -291,4 +291,115 @@ class MusicToImageCreativityEvaluator:
         response = await self.llm_client.analyze(eval_prompt)
         return self._parse_llm_response(response)
 
-    # ... (_build_llm_eval_prompt와 _parse_llm_response 메서드는 기존 코드 유지) ...
+    def _build_llm_eval_prompt(self, prompt: str, musical_features: Dict[str, Any]) -> str:
+        """
+        Builds a theoretically grounded system prompt for the LLM Judge.
+        It injects Kandinsky/Arnheim's theories as evaluation criteria.
+        """
+        
+        # 1. Format Musical Features for the LLM
+        feature_desc = "\n".join([f"- {k}: {v}" for k, v in musical_features.items()])
+        
+        # 2. Define Theoretical Rubric (Evaluation Criteria)
+        rubric = """
+        EVALUATION RUBRIC (Rate 1-5 for each dimension):
+
+        1. SEMANTIC ALIGNMENT (Structural Isomorphism):
+           * Criteria: Does the visual form structurally correspond to the musical features based on Kandinsky & Arnheim's theory?
+           * Check for:
+             - Rhythm (Staccato/Fast) -> Visual Form (Dots, Points, Scattered, Sharp)
+             - Melody (Legato/Flowing) -> Visual Form (Lines, Curves, Woven, Stream)
+             - Pitch (High/Major) -> Visual Space (Top, Vertical, Bright, Light)
+             - Pitch (Low/Minor) -> Visual Space (Bottom, Horizontal, Heavy, Dark)
+             - Harmony (Dissonant) -> Visual Tension (Diagonal, Asymmetric, Clashing)
+           * Score 5: Perfect structural translation (e.g., Staccato music described as 'scattered geometric points').
+           * Score 1: Complete mismatch (e.g., Fast/Staccato music described as 'calm flowing river').
+
+        2. ORIGINALITY (Theoretical Depth):
+           * Criteria: Does the prompt use sophisticated artistic vocabulary instead of clichés?
+           * Penalize: Common associations (Sad='Rain', Happy='Sun', Love='Heart').
+           * Reward: Theoretical terms (Chiaroscuro, Kinetic, Equilibrium, Resonance, Tessellation).
+           * Score 5: Novel synthesis using art-theory terminology.
+           * Score 1: Relying entirely on emotional clichés.
+
+        3. ELABORATION (Sensory Richness):
+           * Criteria: Does the prompt evoke multiple senses (Synesthesia)?
+           * Check for: Visual + Tactile (Rough/Smooth) + Kinetic (Floating/Rushing) + Atmospheric (Glow/Dim).
+           * Score 5: Multisensory, vivid, and highly detailed.
+
+        4. COHERENCE (Artistic Unity):
+           * Criteria: Do the elements form a unified artistic vision?
+           * Score 5: Syntactically complex yet unified composition.
+        """
+
+        # 3. Construct the Final Prompt
+        llm_prompt = f"""
+        You are an expert Art Critic and Cognitive Scientist specializing in Cross-modal Perception.
+        Your task is to evaluate a 'Visual Prompt' generated from a music track, based on strict Art Theory criteria.
+
+        [MUSICAL FEATURES]
+        {feature_desc}
+
+        [GENERATED VISUAL PROMPT]
+        '{prompt}'
+
+        {rubric}
+
+        [OUTPUT FORMAT]
+        Provide the scores and a brief reasoning in JSON format:
+        {{
+            "originality": <float 1-5>,
+            "elaboration": <float 1-5>,
+            "alignment": <float 1-5>,
+            "coherence": <float 1-5>,
+            "overall": <float 1-5>,
+            "reasoning": "<brief explanation based on theory>"
+        }}
+        """
+        return llm_prompt.strip()
+
+
+    def _parse_llm_response(self, response: str) -> CreativityMetrics:
+        """
+        Parses the LLM's JSON response. Handles potential formatting errors robustly.
+        """
+        import json
+        import re
+
+        try:
+            # 1. Try direct JSON parsing
+            data = json.loads(response)
+        except json.JSONDecodeError:
+            # 2. If failed, try to find JSON block within text (e.g., if LLM adds chatty text)
+            try:
+                json_match = re.search(r'\{.*\}', response, re.DOTALL)
+                if json_match:
+                    data = json.loads(json_match.group())
+                else:
+                    raise ValueError("No JSON found")
+            except Exception:
+                # 3. Fallback: Regex for keys if JSON parsing fails completely
+                scores = {}
+                for key in ['originality', 'elaboration', 'alignment', 'coherence', 'overall']:
+                    match = re.search(fr'"{key}"\s*:\s*([\d\.]+)', response, re.IGNORECASE)
+                    if match:
+                        scores[key] = float(match.group(1))
+                    else:
+                        scores[key] = 3.0 # Default fallback
+                
+                return CreativityMetrics(
+                    originality=scores['originality'],
+                    elaboration=scores['elaboration'],
+                    alignment=scores['alignment'],
+                    coherence=scores['coherence'],
+                    overall=scores['overall']
+                )
+
+        # Map JSON data to Metrics object
+        return CreativityMetrics(
+            originality=float(data.get('originality', 3.0)),
+            elaboration=float(data.get('elaboration', 3.0)),
+            alignment=float(data.get('alignment', 3.0)),
+            coherence=float(data.get('coherence', 3.0)),
+            overall=float(data.get('overall', 3.0))
+        )

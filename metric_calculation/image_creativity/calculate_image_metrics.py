@@ -27,7 +27,7 @@ try:
     from torchvision.models import inception_v3, Inception_V3_Weights
     from torchvision import transforms
     from transformers import CLIPProcessor, CLIPModel
-    
+
     TORCH_AVAILABLE = True
 except ImportError as e:
     print(f"Error: Missing dependencies. {e}")
@@ -50,14 +50,14 @@ logger = logging.getLogger(__name__)
 
 
 class ImageMetricsCalculator:
-    def __init__(self, images_dir: str, prompts_file: str, device: str = "cuda"):
+    def __init__(self, images_dir: str, prompts_file: str, device: str = "cuda:2"):
         if not TORCH_AVAILABLE:
             raise ImportError("PyTorch libraries are missing.")
 
         self.images_dir = Path(images_dir)
         self.prompts_file = Path(prompts_file)
         self.device = device if torch.cuda.is_available() else "cpu"
-        
+
         # Models
         self.lpips_fn = None
         self.inception_model = None
@@ -83,7 +83,7 @@ class ImageMetricsCalculator:
     # --- 1. LPIPS (Diversity) ---
     def calculate_lpips(self):
         logger.info("Starting LPIPS Calculation...")
-        
+
         # Initialize LPIPS
         if self.lpips_fn is None:
             self._fix_ssl()
@@ -112,7 +112,7 @@ class ImageMetricsCalculator:
             for i in range(len(tensors)):
                 for j in range(i + 1, len(tensors)):
                     scores.append(self.lpips_fn(tensors[i], tensors[j]).item())
-        
+
         if scores:
             self.metrics["lpips_stats"] = {
                 "mean": float(np.mean(scores)),
@@ -125,7 +125,7 @@ class ImageMetricsCalculator:
     # --- 2. Vendi Score (Diversity) ---
     def calculate_vendi(self):
         logger.info("Starting Vendi Score Calculation...")
-        
+
         # Initialize Inception
         if self.inception_model is None:
             weights = Inception_V3_Weights.DEFAULT
@@ -147,7 +147,7 @@ class ImageMetricsCalculator:
                 img = Image.open(f).convert('RGB')
                 inp = self.inception_preprocess(img).unsqueeze(0).to(self.device)
                 feats.append(self.inception_model(inp).cpu())
-        
+
         X = torch.cat(feats, dim=0).to(self.device)
         X = F.normalize(X, p=2, dim=1)
         K = torch.mm(X, X.t()) / len(files)
@@ -155,14 +155,14 @@ class ImageMetricsCalculator:
         evals = evals[evals > 1e-10]
         entropy = -torch.sum(evals * torch.log(evals))
         score = torch.exp(entropy).item()
-        
+
         self.metrics["vendi_score"] = score
         logger.info(f"Vendi Score: {score:.4f}")
 
     # --- 3. CLIP Score (Alignment) ---
     def calculate_clip_score(self):
         logger.info("Starting CLIP Score Calculation...")
-        
+
         # Load Prompts JSON
         try:
             with open(self.prompts_file, 'r', encoding='utf-8') as f:
@@ -177,46 +177,46 @@ class ImageMetricsCalculator:
             self.clip_model = CLIPModel.from_pretrained(model_id).to(self.device)
             self.clip_processor = CLIPProcessor.from_pretrained(model_id)
             self.clip_model.eval()
-        
+
         files = sorted(list(self.images_dir.glob("*.png")))
         scores = []
-        
+
         logger.info(f"Processing {len(files)} images for CLIP Score...")
-        
+
         with torch.no_grad():
             for f_path in files:
                 f_name = f_path.name # e.g., "sample0.png"
-                
+
                 # Check if this image has a corresponding prompt
                 if f_name not in prompt_map:
                     logger.debug(f"Skipping {f_name}: No prompt found in JSON.")
                     continue
-                
+
                 text_prompt = prompt_map[f_name]
-                
+
                 # Load Image
                 image = Image.open(f_path).convert('RGB')
-                
+
                 # Process Inputs
                 # truncation=True handles very long prompts by cutting them off
                 inputs = self.clip_processor(
-                    text=[text_prompt], 
-                    images=image, 
-                    return_tensors="pt", 
+                    text=[text_prompt],
+                    images=image,
+                    return_tensors="pt",
                     padding=True,
-                    truncation=True, 
-                    max_length=77 
+                    truncation=True,
+                    max_length=77
                 ).to(self.device)
-                
+
                 # Get Embeddings
                 outputs = self.clip_model(**inputs)
                 img_embeds = outputs.image_embeds
                 text_embeds = outputs.text_embeds
-                
+
                 # Normalize
                 img_embeds = img_embeds / img_embeds.norm(p=2, dim=-1, keepdim=True)
                 text_embeds = text_embeds / text_embeds.norm(p=2, dim=-1, keepdim=True)
-                
+
                 # Cosine Similarity
                 similarity = (text_embeds @ img_embeds.T).item()
                 scores.append(max(similarity, 0.0))
@@ -241,10 +241,10 @@ class ImageMetricsCalculator:
     def save_results(self, output_dir: str):
         out = Path(output_dir)
         out.mkdir(exist_ok=True, parents=True)
-        
+
         with open(out / "final_metrics.json", 'w') as f:
             json.dump(self.metrics, f, indent=2)
-        
+
         # Simple Report
         with open(out / "report.txt", 'w') as f:
             f.write(f"METRICS REPORT\n{'='*30}\n")
@@ -262,12 +262,12 @@ async def main(args):
         images_dir=args.images_dir,
         prompts_file=args.prompts_file
     )
-    
+
     # Run Calculations
     calc.calculate_lpips()
     calc.calculate_vendi()
     calc.calculate_clip_score()
-    
+
     calc.save_results(args.output_dir)
 
 if __name__ == "__main__":
@@ -275,9 +275,9 @@ if __name__ == "__main__":
     parser.add_argument("--images_dir", type=str, required=True, help="Path to image directory")
     parser.add_argument("--prompts_file", type=str, required=True, help="Path to visual_prompt.json")
     parser.add_argument("--output_dir", type=str, default="metrics_result", help="Output directory")
-    
+
     args = parser.parse_args()
-    
+
     # Check & Install Transformers if needed
     try:
         import transformers

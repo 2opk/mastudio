@@ -45,6 +45,8 @@ class SDXLConfig(BaseModel):
     mode: str = "mock"  # mock | api | local
     output_dir: str = "output"
     device: str = "cuda:0"
+    api_base: Optional[str] = Field(default_factory=lambda: os.getenv("SDXL_API_BASE", "") or "")
+    failover_mode: str = "none"  # none | mock
 
 
 class SystemConfig(BaseModel):
@@ -216,6 +218,13 @@ def load_system_config(path: str = "config/system_config.yaml") -> SystemConfig:
         env_vllm_base: Optional[str] = os.getenv("VLLM_API_BASE")
         if env_vllm_base:
             data["vllm"]["api_base"] = env_vllm_base
+    # Normalize SDXL api_base to a string.
+    if isinstance(data.get("sdxl"), dict):
+        api_base = data["sdxl"].get("api_base")
+        data["sdxl"]["api_base"] = api_base or os.getenv("SDXL_API_BASE", "") or ""
+        failover_env = os.getenv("SDXL_FAILOVER_MODE")
+        if failover_env:
+            data["sdxl"]["failover_mode"] = failover_env
     return SystemConfig(**data)
 
 

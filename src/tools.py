@@ -1,3 +1,4 @@
+import base64
 import json
 import os
 import struct
@@ -5,7 +6,7 @@ import uuid
 import zlib
 from io import BytesIO
 from pathlib import Path
-from typing import Callable, Dict, List
+from typing import Callable, Dict, List, Optional
 
 import requests
 import torch
@@ -19,7 +20,8 @@ class SDXLWrapper:
         self.config = config
         self.output_dir = ensure_output_dir(config.output_dir)
         self.pipe = None
-        if self.config.mode == "local":
+        # Skip local load if an external server is configured.
+        if self.config.mode == "local" and not (self.config.api_base):
             self.load_model()
 
     def load_model(self):
@@ -35,7 +37,8 @@ class SDXLWrapper:
 
     def generate(self, prompts: List[str], iteration: int) -> List[str]:
         images: List[str] = []
-        if self.config.mode == "local":
+        mode = "server" if self.config.api_base else self.config.mode
+        if mode == "local":
             if self.pipe is None:
                 self.load_model()
             if len(prompts) > 1:
@@ -46,7 +49,23 @@ class SDXLWrapper:
                     images.append(str(filename))
                 return images
             generator: Callable[[str], bytes] = self._generate_sdxl
-        elif self.config.mode == "api":
+        elif mode == "server":
+            batch_bytes: Optional[List[bytes]] = None
+            try:
+                batch_bytes = self._generate_via_server_batch(prompts)
+            except Exception as exc:
+                if self.config.failover_mode == "mock":
+                    print(f"[SDXL] server failed ({exc}); falling back to mock.")
+                    generator = self._generate_mock
+                else:
+                    raise
+            if batch_bytes is not None:
+                for idx, image_bytes in enumerate(batch_bytes):
+                    filename = self.get_image_path(iteration=iteration, prompt_index=idx, suffix=".png")
+                    filename.write_bytes(image_bytes)
+                    images.append(str(filename))
+                return images
+        elif mode == "api":
             generator = self._generate_via_api
         else:
             generator = self._generate_mock
@@ -93,6 +112,33 @@ class SDXLWrapper:
         }
         response = requests.post(url, headers=headers, files=files, data=data)
         return response.content
+
+    def _generate_via_server_batch(self, prompts: List[str]) -> List[bytes]:
+        base = (self.config.api_base or "").rstrip("/")
+        if not base:
+            raise RuntimeError("SDXL api_base is required for HTTP server mode (set SDXL_API_BASE or config.sdxl.api_base)")
+        url = f"{base}/generate"
+        resp = requests.post(url, json={"prompts": prompts}, timeout=300)
+        try:
+            resp.raise_for_status()
+        except requests.HTTPError as exc:
+            detail = ""
+            try:
+                detail = f" body={resp.text}"
+            except Exception:
+                detail = ""
+            raise RuntimeError(f"SDXL server error {resp.status_code}{detail}") from exc
+        data = resp.json()
+        images_b64 = data.get("images") or []
+        if len(images_b64) != len(prompts):
+            raise RuntimeError("SDXL server returned unexpected number of images")
+        decoded: List[bytes] = []
+        for item in images_b64:
+            try:
+                decoded.append(base64.b64decode(item))
+            except Exception as exc:
+                raise RuntimeError("Failed to decode SDXL server image payload") from exc
+        return decoded
 
     def _generate_mock(self, prompt: str) -> bytes:
         """Fallback when API key is missing. Writes simple placeholder PNGs and prompt metadata."""

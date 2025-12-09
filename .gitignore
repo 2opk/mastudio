@@ -12,6 +12,8 @@ __pycache__/
 # Outputs / caches
 output/
 output_qwen/
+output_chatgpt/
+
 .DS_Store
 
 sandbox/

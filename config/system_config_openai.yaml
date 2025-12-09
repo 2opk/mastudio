@@ -29,3 +29,6 @@ sdxl:
   mode: local
   output_dir: output
   device: cuda:1
+  # For HTTP server mode: set mode=api and point api_base to your SDXL server.
+  api_base:
+  failover_mode: none

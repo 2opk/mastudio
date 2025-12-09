@@ -1,0 +1,5402 @@
+[
+  {
+    "sample_idx": 0,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 0,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 0,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 1,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 1,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 1,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 2,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:F \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 2,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:F \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 2,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:F \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 3,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 3,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 3,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 4,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:D \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 4,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:D \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 4,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:D \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 5,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 5,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 5,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 6,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 6,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 6,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 7,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 7,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 7,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 8,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 8,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 8,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 9,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 9,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 9,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 10,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 10,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 10,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 11,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 11,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 11,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 12,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 12,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 12,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 13,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 13,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 13,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 14,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 14,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 14,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 15,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 15,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 15,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 16,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 16,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 16,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 17,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 17,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 17,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 18,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^D \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 18,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^D \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 18,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^D \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 19,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 19,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 19,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 20,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 20,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 20,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 21,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 21,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 21,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 22,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:^F \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 22,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:^F \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 22,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:^F \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 23,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:^F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 23,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:^F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 23,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:^F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 24,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:^F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 24,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:^F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 24,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "major",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:^F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 25,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 25,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 25,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 26,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:B \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 26,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:B \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 26,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:B \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 27,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 27,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 27,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 28,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 28,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 28,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 29,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 29,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 29,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 30,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 187.5,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:187\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 30,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 187.5,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:187\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 30,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 187.5,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:187\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 31,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 31,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 31,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 32,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 32,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 32,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 33,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^G \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 33,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^G \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 33,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^G \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 34,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 34,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 34,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 35,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Bm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 35,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Bm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 35,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Bm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 36,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 36,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 36,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 37,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 37,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 37,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 38,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 38,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 38,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 39,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 93.75,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:93\nK:^Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 39,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 93.75,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:93\nK:^Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 39,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 93.75,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:93\nK:^Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 40,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 40,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 40,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 41,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 41,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 41,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 42,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:B \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 42,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:B \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 42,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:B \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 43,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 43,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 43,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 44,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 44,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 44,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 45,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 45,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 45,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 46,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 187.5,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:187\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 46,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 187.5,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:187\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 46,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 187.5,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:187\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 47,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 47,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 47,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 48,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 48,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 48,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 110.29411764705883,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 49,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 49,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 49,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:F \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 50,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 50,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 50,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 51,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 51,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 51,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 52,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 52,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 52,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 53,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 53,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 53,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 54,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 54,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 54,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 55,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 55,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 55,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 56,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 56,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 56,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 89.28571428571429,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:89\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 57,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 57,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 57,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Em\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 58,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "major",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^G \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 58,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "major",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^G \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 58,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "major",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^G \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 59,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 93.75,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:93\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 59,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 93.75,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:93\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 59,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 93.75,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:93\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 60,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 60,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 60,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 61,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 61,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 61,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:Dm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 62,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:E \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 62,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:E \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 62,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:E \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 63,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 78.125,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:78\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 63,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 78.125,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:78\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 63,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 78.125,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:78\nK:Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 64,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Bm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 64,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Bm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 64,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Bm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 65,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 65,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 65,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 66,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 66,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 66,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Fm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 67,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "soft"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 67,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "soft"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 67,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "soft"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 68,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 68,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 68,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 69,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 69,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 69,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 70,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 70,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 70,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 71,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 71,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 71,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:^Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 72,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 72,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 72,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 73,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 73,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 73,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Cm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 74,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 74,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 74,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 75,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 75,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 75,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 76,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 76,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 76,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "D#",
+      "tonality": "minor",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Dm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 77,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 77,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 77,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 78,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "major",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:C \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 78,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "major",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:C \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 78,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "major",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:C \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 79,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:B \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 79,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:B \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 79,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:B \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 80,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:E \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 80,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:E \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 80,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "major",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:E \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 81,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 81,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 81,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 82,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 82,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 82,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F#",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:^Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 83,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "major",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:G \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 83,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "major",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:G \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 83,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "major",
+      "tempo": 117.1875,
+      "time_signature": "4/4",
+      "mood": "upbeat, bright, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:117\nK:G \nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 84,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 84,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 84,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A#",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:^Am\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 85,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "soft"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 85,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "soft"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 85,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 81.52173913043478,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "soft"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 86,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 86,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 86,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 156.25,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:156\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 87,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:B \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 87,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:B \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 87,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "major",
+      "tempo": 144.23076923076923,
+      "time_signature": "4/4",
+      "mood": "energetic, bright",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:B \nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 88,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 88,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 88,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "A",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Am\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 89,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 89,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 89,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 90,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 90,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 90,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G",
+      "tonality": "minor",
+      "tempo": 98.6842105263158,
+      "time_signature": "4/4",
+      "mood": "moderate, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:98\nK:Gm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 91,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 91,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 91,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 92,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Bm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 92,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Bm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 92,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "B",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Bm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 93,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 93,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 93,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 104.16666666666667,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:104\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 94,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 94,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 94,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "C#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Cm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 95,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 95,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 95,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "G#",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "descending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:^Gm\nG2 F2 E2 D2 C2 |"
+  },
+  {
+    "sample_idx": 96,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 96,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 96,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 133.92857142857142,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 97,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 62.5,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:62\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 97,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 62.5,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:62\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 97,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 62.5,
+      "time_signature": "4/4",
+      "mood": "moderate, dark",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "moderate"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:62\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 98,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 98,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 98,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "E",
+      "tonality": "minor",
+      "tempo": 125.0,
+      "time_signature": "4/4",
+      "mood": "upbeat, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Em\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 99,
+    "prompt_id": 0,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 99,
+    "prompt_id": 1,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Fm\nC2 D2 E2 F2 G2 |"
+  },
+  {
+    "sample_idx": 99,
+    "prompt_id": 2,
+    "mode": "convergent",
+    "temperature": 0.4,
+    "visual_prompt": "",
+    "features": {
+      "key": "F",
+      "tonality": "minor",
+      "tempo": 170.45454545454547,
+      "time_signature": "4/4",
+      "mood": "energetic, dark, dramatic",
+      "melody_contour": "ascending",
+      "harmonic_progression": "complex_progression",
+      "dynamic_intensity": "very_intense"
+    },
+    "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Fm\nC2 D2 E2 F2 G2 |"
+  }
+]

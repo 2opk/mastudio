@@ -1,19 +1,25 @@
 """
 Calculate Creativity Scores for Batch-Generated Visual Prompts (Lite Version)
-Compatible with flat-list JSON structure.
+Compatible with flat-list JSON structure. Also supports aggregation of existing
+score files by prompt_id (0/1/2 => harmonic/conflict/random).
 """
 
 import asyncio
 import json
 import logging
+from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any, Optional, Tuple
 from dataclasses import dataclass, asdict
 
-from creativity_evaluator import (
-    MusicToImageCreativityEvaluator,
-    CreativityMetrics
-)
+try:
+    from creativity_evaluator import (
+        MusicToImageCreativityEvaluator,
+        CreativityMetrics,
+    )
+except ModuleNotFoundError:
+    MusicToImageCreativityEvaluator = None  # type: ignore
+    CreativityMetrics = None  # type: ignore
 
 # Configure logging
 logging.basicConfig(
@@ -59,6 +65,9 @@ class BatchCreativityCalculator:
         self.prompts_file = Path(prompts_file)
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
+
+        if MusicToImageCreativityEvaluator is None:
+            raise ImportError("creativity_evaluator is required for scoring but is not installed.")
 
         # Load prompts
         logger.info(f"Loading prompts from {prompts_file}")
@@ -139,6 +148,50 @@ class BatchCreativityCalculator:
         return filepath
 
 
+PROMPT_ID_LABELS = {0: "harmonic", 1: "conflict", 2: "random"}
+METRIC_KEYS = ["originality", "elaboration", "alignment", "coherence", "overall"]
+
+
+def load_scores(path: Path) -> List[Dict[str, Any]]:
+    if not path.exists():
+        raise FileNotFoundError(f"Score file not found: {path}")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise ValueError(f"Expected list in {path}, got {type(data)}")
+    return data
+
+
+def aggregate_by_prompt_id(items: List[Dict[str, Any]]) -> Dict[str, Dict[str, float]]:
+    """Return averages grouped by prompt_id label (harmonic/conflict/random)."""
+    grouped: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    for item in items:
+        pid = item.get("prompt_id")
+        label = PROMPT_ID_LABELS.get(pid)
+        if label is None:
+            continue
+        grouped[label].append(item)
+
+    result: Dict[str, Dict[str, float]] = {}
+    for label, rows in grouped.items():
+        result[label] = {}
+        for key in METRIC_KEYS:
+            vals = [float(r.get(key, 0.0)) for r in rows if r.get(key) is not None]
+            result[label][key] = sum(vals) / len(vals) if vals else 0.0
+    return result
+
+
+def aggregate_multiple(label_paths: List[Tuple[str, Path]], output_path: Path) -> Path:
+    """Aggregate multiple score files into one summary JSON."""
+    summary: Dict[str, Dict[str, Dict[str, float]]] = {}
+    for label, path in label_paths:
+        scores = load_scores(path)
+        summary[label] = aggregate_by_prompt_id(scores)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    logger.info(f"Saved aggregated averages to {output_path}")
+    return output_path
+
+
 async def main():
     """Main entry point."""
     import argparse
@@ -156,37 +209,78 @@ async def main():
     )
     parser.add_argument("--use-llm", action="store_true", help="Use GPT-4 as judge")
     parser.add_argument("--api-key", type=str, default=None, help="OpenAI API Key")
+    parser.add_argument(
+        "--aggregate-scores",
+        action="append",
+        default=[],
+        help="Aggregate existing score files as label:path (e.g., qwen:output_qwen/results/prompt_creativity/creativity_prompt_scores.json). Can be given multiple times.",
+    )
+    parser.add_argument(
+        "--aggregate-output",
+        default="results/prompt_creativity/creativity_prompt_group_avgs.json",
+        help="Path to write aggregated averages JSON.",
+    )
+    parser.add_argument(
+        "--aggregate-only",
+        action="store_true",
+        help="Skip scoring and only aggregate existing score files.",
+    )
 
     args = parser.parse_args()
 
-    # Create calculator
-    try:
-        calculator = BatchCreativityCalculator(
-            prompts_file=args.prompts_file,
-            output_dir=args.output_dir,
-            use_llm=args.use_llm,
-            api_key=args.api_key
-        )
-    except Exception as e:
-        logger.error(f"Initialization Error: {e}")
-        return 1
+    # Optional: run scoring
+    if not args.aggregate_only:
+        try:
+            calculator = BatchCreativityCalculator(
+                prompts_file=args.prompts_file,
+                output_dir=args.output_dir,
+                use_llm=args.use_llm,
+                api_key=args.api_key
+            )
+        except Exception as e:
+            logger.error(f"Initialization Error: {e}")
+            return 1
 
-    # Run evaluation
-    try:
-        await calculator.calculate_prompt_scores()
-        calculator.save_prompt_scores()
-        
-        print("\n" + "=" * 70)
-        print("EVALUATION COMPLETE")
-        print(f"Total prompts scored: {len(calculator.prompt_scores)}")
-        print(f"Results saved to: {args.output_dir}")
-        print("=" * 70 + "\n")
+        try:
+            await calculator.calculate_prompt_scores()
+            calculator.save_prompt_scores()
+            
+            print("\n" + "=" * 70)
+            print("EVALUATION COMPLETE")
+            print(f"Total prompts scored: {len(calculator.prompt_scores)}")
+            print(f"Results saved to: {args.output_dir}")
+            print("=" * 70 + "\n")
 
-    except Exception as e:
-        logger.error(f"Error during evaluation: {e}")
-        import traceback
-        traceback.print_exc()
-        return 1
+        except Exception as e:
+            logger.error(f"Error during evaluation: {e}")
+            import traceback
+            traceback.print_exc()
+            return 1
+
+    # Aggregation step (defaults to qwen/chatgpt if available)
+    label_paths: List[Tuple[str, Path]] = []
+    if args.aggregate_scores:
+        for entry in args.aggregate_scores:
+            if ":" not in entry:
+                logger.error(f"Invalid aggregate-scores entry (expected label:path): {entry}")
+                return 1
+            lbl, path_str = entry.split(":", 1)
+            label_paths.append((lbl.strip(), Path(path_str.strip())))
+    else:
+        defaults = [
+            ("qwen", Path("output_qwen/results/prompt_creativity/creativity_prompt_scores.json")),
+            ("gpt", Path("output_chatgpt/results/prompt_creativity/creativity_prompt_scores.json")),
+        ]
+        for lbl, p in defaults:
+            if p.exists():
+                label_paths.append((lbl, p))
+
+    if label_paths:
+        try:
+            aggregate_multiple(label_paths, Path(args.aggregate_output))
+        except Exception as e:
+            logger.error(f"Aggregation failed: {e}")
+            return 1
 
     return 0
 

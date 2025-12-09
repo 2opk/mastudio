@@ -1,16 +1,38 @@
 import argparse
+import re
 import shutil
 import time
 from pathlib import Path
+from typing import Dict
 
 from .graph import build_app
 from .tools import save_json_report
 from .utils import load_env, load_system_config, prepare_run_dirs
 
 
-def run(base_prompt: str, max_loops: int = None, output_dir: str = None):
+_PROMPT_IMAGE_RE = re.compile(r"r(\d+)_p(\d+)_", re.IGNORECASE)
+
+
+def _latest_prompt_images(intms_dir: Path) -> Dict[int, Path]:
+    """
+    Return mapping: prompt_index (1-based) -> latest image path across iterations.
+    """
+    latest: Dict[int, tuple[int, Path]] = {}
+    for path in intms_dir.glob("r*_p*.png"):
+        match = _PROMPT_IMAGE_RE.match(path.stem)
+        if not match:
+            continue
+        iteration = int(match.group(1))
+        prompt_idx = int(match.group(2))
+        prev = latest.get(prompt_idx)
+        if prev is None or iteration >= prev[0]:
+            latest[prompt_idx] = (iteration, path)
+    return {idx: p for idx, (_, p) in latest.items()}
+
+
+def run(base_prompt: str, max_loops: int = None, output_dir: str = None, config_path: str = None):
     load_env()
-    config = load_system_config()
+    config = load_system_config(config_path or "config/system_config.yaml")
     if max_loops is not None:
         config.max_loops = max_loops
     # Reset and prepare run directories.
@@ -46,6 +68,24 @@ def run(base_prompt: str, max_loops: int = None, output_dir: str = None):
         shutil.copy2(src, dest)
         final_images_out.append(str(dest))
 
+    # Ensure we keep the latest image per prompt index (p1/p2/p3) as squad outputs.
+    latest_by_prompt = _latest_prompt_images(intms_dir)
+    idx_to_squad = {1: "harmonic", 2: "conflict", 3: "random"}
+    for idx, src in latest_by_prompt.items():
+        squad = idx_to_squad.get(idx)
+        if not squad or not src.exists():
+            continue
+        dest_names = [f"squad_{squad}.png"]
+        if squad == "harmonic":
+            dest_names.append("squad_harmony.png")  # backward-compatible alias
+        for dest_name in dest_names:
+            dest = run_dir / dest_name
+            shutil.copy2(src, dest)
+            final_images_out.append(str(dest))
+
+    # Deduplicate while preserving order.
+    final_images_out = list(dict.fromkeys(final_images_out))
+
     report_path = run_dir / "mas_report.json"
     save_json_report(
         {
@@ -72,6 +112,7 @@ def main():
     )
     parser.add_argument(
         "--max-iterations",
+        "--max-iteration",
         type=int,
         dest="max_iterations",
         help="Override max loop iterations (default comes from config).",
@@ -80,6 +121,12 @@ def main():
         "--output-dir",
         dest="output_dir",
         help="Root directory for outputs (will create timestamped run dir inside).",
+    )
+    parser.add_argument(
+        "--config",
+        dest="config_path",
+        default=None,
+        help="Path to system config YAML (default: config/system_config.yaml).",
     )
     args = parser.parse_args()
 
@@ -91,7 +138,12 @@ def main():
     else:
         parser.error("Provide a prompt string or a file via -f/--prompt-file.")
 
-    result, report_path = run(base_prompt, max_loops=args.max_iterations, output_dir=args.output_dir)
+    result, report_path = run(
+        base_prompt,
+        max_loops=args.max_iterations,
+        output_dir=args.output_dir,
+        config_path=args.config_path,
+    )
     print(f"Run complete. Final iteration: {result.get('iteration')}. Report saved to: {report_path}")
 
 

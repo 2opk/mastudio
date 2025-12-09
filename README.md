@@ -1,5 +1,5 @@
 ## Overview
-Director–Generator MAS for image prompt iteration. Uses LiteLLM for chat models and an SDXL stub for image generation. Currently wired to a local vLLM server running Qwen2.5-VL-7B-Instruct.
+Director–Generator MAS for image prompt iteration. Uses LiteLLM for chat models and an SDXL stub for image generation. Defaults to a local vLLM server running Qwen2.5-VL-7B-Instruct, but a ChatGPT preset is available via `config/system_config_openai.yaml`.
 
 ## Prereqs
 - Python 3.13 (conda env recommended)
@@ -23,6 +23,7 @@ Director–Generator MAS for image prompt iteration. Uses LiteLLM for chat model
    ```bash
    python -m src.main "sample prompt"
    ```
+   - Use a different config with `--config config/system_config_openai.yaml` to hit the ChatGPT API (requires `OPENAI_API_KEY`).
    - Progress logs print each phase and LLM call (system/user previews and replies).
    - Output JSON and mock images land in `output/`.
 
@@ -30,6 +31,18 @@ Director–Generator MAS for image prompt iteration. Uses LiteLLM for chat model
 - `config/system_config.yaml` controls model aliases, vLLM endpoint, SDXL mode, loop limits, and recursion limit (defaults: `max_loops=10`, `recursion_limit=1000`, SDXL `mode=mock`).
 - `config/directors.json` and `config/generators.json` define agent personas; prompts live under `prompts/`.
 - For SDXL: `sdxl.mode` can be `mock` (placeholder PNGs), `api` (Stability API; requires `STABILITY_API_KEY`), or `local` (loads the SDXL base pipeline to `sdxl.device`).
+- CLI accepts `--config` to point at an alternate system config and `--max-iteration/--max-iterations` to override loop count.
+
+## ChatGPT API preset
+- Set `OPENAI_API_KEY` in your environment (no `VLLM_API_BASE` needed).
+- Use `config/system_config_openai.yaml` to map roles to `gpt-4o` / `gpt-4o-mini`.
+- Example with a prompt file:
+  ```bash
+  python -m src.main -f audio2txt/processed/0000_45-55.json \
+    --max-iterations 5 \
+    --output-dir output_chatgpt/test_0000_45-55 \
+    --config config/system_config_openai.yaml
+  ```
 
 ## Notes
 - Local vLLM must advertise a model id matching the alias in `config/system_config.yaml` (case-sensitive).
